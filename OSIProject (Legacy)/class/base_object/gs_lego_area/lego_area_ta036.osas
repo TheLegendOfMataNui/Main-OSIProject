@@ -2,7 +2,7 @@ begin class "lego_area_ta036", "gs_lego_area"
 	property "puzzle"
 
 	begin method "lego_area_ta036"
-		; address: 0xade44
+		; address: 0xa75e1
 		; source: 209 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta09.vbo" 20:22
 		MemberFunctionArgumentCheck 2
 		LineNumber                  12254, 4
@@ -38,7 +38,7 @@ begin class "lego_area_ta036", "gs_lego_area"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xade9c
+		; address: 0xa7639
 		; source: 209 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta09.vbo" 30:32
 		MemberFunctionArgumentCheck 1
 		LineNumber                  12264, 4
@@ -71,7 +71,7 @@ begin class "lego_area_ta036", "gs_lego_area"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xadef0
+		; address: 0xa768d
 		; source: 209 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta09.vbo" 37:38
 		MemberFunctionArgumentCheck 1
 		LineNumber                  12271, 4
@@ -92,7 +92,7 @@ begin class "lego_area_ta036", "gs_lego_area"
 	end ; method
 
 	begin method "process"
-		; address: 0xadf1b
+		; address: 0xa76b8
 		; source: 209 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta09.vbo" 43:43
 		MemberFunctionArgumentCheck 2
 		LineNumber                  12277, 4
@@ -108,7 +108,7 @@ begin class "lego_area_ta036", "gs_lego_area"
 	end ; method
 
 	begin method "onevent"
-		; address: 0xadf37
+		; address: 0xa76d4
 		; source: 209 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta09.vbo" 48:48
 		MemberFunctionArgumentCheck 2
 		LineNumber                  12282, 4
@@ -124,7 +124,7 @@ begin class "lego_area_ta036", "gs_lego_area"
 	end ; method
 
 	begin method "input"
-		; address: 0xadf53
+		; address: 0xa76f0
 		; source: 209 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta09.vbo" 53:53
 		MemberFunctionArgumentCheck 2
 		LineNumber                  12287, 4
@@ -140,7 +140,7 @@ begin class "lego_area_ta036", "gs_lego_area"
 	end ; method
 
 	begin method "exit"
-		; address: 0xadf6f
+		; address: 0xa770c
 		; source: 209 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta09.vbo" 58:58
 		MemberFunctionArgumentCheck 1
 		LineNumber                  12292, 4

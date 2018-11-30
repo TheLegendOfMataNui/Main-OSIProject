@@ -6,7 +6,7 @@ begin class "switchandblock"
 	property "switchhit"
 
 	begin method "switchandblock"
-		; address: 0x96797
+		; address: 0x78c20
 		; source: 172 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_swrd.vbo" 388:400
 		MemberFunctionArgumentCheck   4
 		LineNumber                    1651, 4
@@ -89,7 +89,7 @@ begin class "switchandblock"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x9686d
+		; address: 0x78cf6
 		; source: 172 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_swrd.vbo" 411:412
 		MemberFunctionArgumentCheck 1
 		LineNumber                  1674, 4
@@ -105,7 +105,7 @@ begin class "switchandblock"
 	end ; method
 
 	begin method "process"
-		; address: 0x9688d
+		; address: 0x78d16
 		; source: 172 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_swrd.vbo" 418:421
 		MemberFunctionArgumentCheck   2
 		LineNumber                    1681, 4
@@ -142,7 +142,7 @@ begin class "switchandblock"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x968dd
+		; address: 0x78d66
 		; source: 172 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_swrd.vbo" 428:433
 		MemberFunctionArgumentCheck   2
 		LineNumber                    1691, 4
@@ -180,7 +180,7 @@ begin class "switchandblock"
 	end ; method
 
 	begin method "collide"
-		; address: 0x9692a
+		; address: 0x78db3
 		; source: 172 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_swrd.vbo" 443:453
 		MemberFunctionArgumentCheck   2
 		LineNumber                    1706, 4
@@ -244,7 +244,7 @@ begin class "switchandblock"
 	end ; method
 
 	begin method "hitswitch"
-		; address: 0x969d0
+		; address: 0x78e59
 		; source: 172 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_swrd.vbo" 461:464
 		MemberFunctionArgumentCheck   2
 		LineNumber                    1724, 4
@@ -286,7 +286,7 @@ begin class "switchandblock"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x96a2f
+		; address: 0x78eb8
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return

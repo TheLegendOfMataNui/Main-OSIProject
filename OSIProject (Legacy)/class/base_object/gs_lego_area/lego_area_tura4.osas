@@ -2,7 +2,7 @@ begin class "lego_area_tura4", "gs_lego_area"
 	property "parent"
 
 	begin method "lego_area_tura4"
-		; address: 0xa2b03
+		; address: 0xa8f6e
 		; source: 186 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_le04.vbo" 27:29
 		MemberFunctionArgumentCheck 2
 		LineNumber                  7098, 4
@@ -30,7 +30,7 @@ begin class "lego_area_tura4", "gs_lego_area"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xa2b45
+		; address: 0xa8fb0
 		; source: 186 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_le04.vbo" 34:51
 		; source: 123 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefittersounds.h" 56:57
 		MemberFunctionArgumentCheck   1
@@ -117,7 +117,7 @@ begin class "lego_area_tura4", "gs_lego_area"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xa2c4b
+		; address: 0xa90b6
 		; source: 186 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_le04.vbo" 57:58
 		MemberFunctionArgumentCheck 1
 		LineNumber                  7128, 4
@@ -137,28 +137,28 @@ begin class "lego_area_tura4", "gs_lego_area"
 	end ; method
 
 	begin method "process"
-		; address: 0xa2c75
+		; address: 0xa90e0
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "onevent"
-		; address: 0xa2c79
+		; address: 0xa90e4
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "input"
-		; address: 0xa2c7d
+		; address: 0xa90e8
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "exit"
-		; address: 0xa2c81
+		; address: 0xa90ec
 		; source: 186 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_le04.vbo" 84:84
 		MemberFunctionArgumentCheck 1
 		LineNumber                  7155, 4

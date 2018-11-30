@@ -2,14 +2,14 @@ begin class "puzzle_onua7"
 	property "targetarray"
 
 	begin method "puzzle_onua7"
-		; address: 0xb93b8
+		; address: 0x68dc4
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "initfull"
-		; address: 0xb93bc
+		; address: 0x68dc8
 		; source: 229 "C:\\projects\\lego\\Scripting\\VBO\\AreaViewer.vbo" 117:138
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -254,7 +254,7 @@ begin class "puzzle_onua7"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xb9608
+		; address: 0x69014
 		; source: 229 "C:\\projects\\lego\\Scripting\\VBO\\AreaViewer.vbo" 145:149
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -303,7 +303,7 @@ begin class "puzzle_onua7"
 	end ; method
 
 	begin method "onevent"
-		; address: 0xb966a
+		; address: 0x69076
 		; source: 229 "C:\\projects\\lego\\Scripting\\VBO\\AreaViewer.vbo" 154:165
 		MemberFunctionArgumentCheck   2
 		LineNumber                    17971, 4
@@ -359,7 +359,7 @@ begin class "puzzle_onua7"
 	end ; method
 
 	begin method "reseta"
-		; address: 0xb96df
+		; address: 0x690eb
 		; source: 229 "C:\\projects\\lego\\Scripting\\VBO\\AreaViewer.vbo" 172:176
 		MemberFunctionArgumentCheck  1
 		LineNumber                   17989, 4
@@ -407,7 +407,7 @@ begin class "puzzle_onua7"
 	end ; method
 
 	begin method "resetb"
-		; address: 0xb976f
+		; address: 0x6917b
 		; source: 229 "C:\\projects\\lego\\Scripting\\VBO\\AreaViewer.vbo" 182:184
 		MemberFunctionArgumentCheck  1
 		LineNumber                   17999, 4

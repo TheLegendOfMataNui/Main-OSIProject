@@ -5,7 +5,7 @@ begin class "mask"
 	property "selectable"
 
 	begin method "mask"
-		; address: 0x40f40
+		; address: 0x5c40d
 		; source: 53 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_masks.vbo" 436:439
 		MemberFunctionArgumentCheck 3
 		LineNumber                  18349, 4
@@ -32,7 +32,7 @@ begin class "mask"
 	end ; method
 
 	begin method "add"
-		; address: 0x40f94
+		; address: 0x5c461
 		; source: 53 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_masks.vbo" 446:519
 		MemberFunctionArgumentCheck   1
 		LineNumber                    18359, 4
@@ -559,7 +559,7 @@ begin class "mask"
 	end ; method
 
 	begin method "setselectable"
-		; address: 0x41434
+		; address: 0x5c901
 		; source: 53 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_masks.vbo" 527:527
 		MemberFunctionArgumentCheck 2
 		LineNumber                  18440, 4
@@ -571,7 +571,7 @@ begin class "mask"
 	end ; method
 
 	begin method "setdrainrateofmask"
-		; address: 0x41448
+		; address: 0x5c915
 		; source: 53 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_masks.vbo" 532:532
 		MemberFunctionArgumentCheck 2
 		LineNumber                  18445, 4
@@ -583,7 +583,7 @@ begin class "mask"
 	end ; method
 
 	begin method "activate"
-		; address: 0x4145c
+		; address: 0x5c929
 		; source: 53 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_masks.vbo" 539:712
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -1451,7 +1451,7 @@ begin class "mask"
 	end ; method
 
 	begin method "deactivate"
-		; address: 0x41d7f
+		; address: 0x5d24c
 		; source: 53 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_masks.vbo" 721:721
 		MemberFunctionArgumentCheck 1
 		LineNumber                  18634, 4

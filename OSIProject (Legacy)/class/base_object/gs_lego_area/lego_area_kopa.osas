@@ -2,7 +2,7 @@ begin class "lego_area_kopa", "gs_lego_area"
 	property "puzzle"
 
 	begin method "lego_area_kopa"
-		; address: 0xba96a
+		; address: 0xa213f
 		; source: 232 "C:\\projects\\lego\\Scripting\\VBO\\strings/InterfaceStrings.h" 20:20
 		MemberFunctionArgumentCheck 2
 		LineNumber                  18543, 4
@@ -20,7 +20,7 @@ begin class "lego_area_kopa", "gs_lego_area"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xba989
+		; address: 0xa215e
 		; source: 232 "C:\\projects\\lego\\Scripting\\VBO\\strings/InterfaceStrings.h" 27:34
 		MemberFunctionArgumentCheck  1
 		LineNumber                   18550, 4
@@ -80,7 +80,7 @@ begin class "lego_area_kopa", "gs_lego_area"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xbaa2e
+		; address: 0xa2203
 		; source: 232 "C:\\projects\\lego\\Scripting\\VBO\\strings/InterfaceStrings.h" 40:42
 		MemberFunctionArgumentCheck  1
 		LineNumber                   18563, 4
@@ -108,7 +108,7 @@ begin class "lego_area_kopa", "gs_lego_area"
 	end ; method
 
 	begin method "process"
-		; address: 0xbaa6e
+		; address: 0xa2243
 		; source: 232 "C:\\projects\\lego\\Scripting\\VBO\\strings/InterfaceStrings.h" 48:52
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -163,7 +163,7 @@ begin class "lego_area_kopa", "gs_lego_area"
 	end ; method
 
 	begin method "onevent"
-		; address: 0xbab0f
+		; address: 0xa22e4
 		; source: 232 "C:\\projects\\lego\\Scripting\\VBO\\strings/InterfaceStrings.h" 60:67
 		; source: 198 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_boss.vbo" 98:98
 		MemberFunctionArgumentCheck   2
@@ -231,14 +231,14 @@ begin class "lego_area_kopa", "gs_lego_area"
 	end ; method
 
 	begin method "input"
-		; address: 0xbabcb
+		; address: 0xa23a0
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "exit"
-		; address: 0xbabcf
+		; address: 0xa23a4
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return

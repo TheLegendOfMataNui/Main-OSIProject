@@ -10,7 +10,7 @@ begin class "ta01_fireball"
 	property "explodesound"
 
 	begin method "ta01_fireball"
-		; address: 0xaba29
+		; address: 0x79605
 		; source: 207 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta07.vbo" 294:303
 		MemberFunctionArgumentCheck 3
 		LineNumber                  11275, 4
@@ -92,7 +92,7 @@ begin class "ta01_fireball"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xabb27
+		; address: 0x79703
 		; source: 207 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta07.vbo" 309:320
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -155,7 +155,7 @@ begin class "ta01_fireball"
 	end ; method
 
 	begin method "process"
-		; address: 0xabbd0
+		; address: 0x797ac
 		; source: 207 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta07.vbo" 325:329
 		MemberFunctionArgumentCheck   2
 		LineNumber                    11306, 4
@@ -197,7 +197,7 @@ begin class "ta01_fireball"
 	end ; method
 
 	begin method "onevent"
-		; address: 0xabc38
+		; address: 0x79814
 		; source: 207 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta07.vbo" 336:345
 		MemberFunctionArgumentCheck   2
 		LineNumber                    11317, 4
@@ -249,7 +249,7 @@ begin class "ta01_fireball"
 	end ; method
 
 	begin method "detonate"
-		; address: 0xabca4
+		; address: 0x79880
 		; source: 207 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta07.vbo" 356:369
 		MemberFunctionArgumentCheck   5
 		LineNumber                    11337, 4
@@ -332,7 +332,7 @@ begin class "ta01_fireball"
 	end ; method
 
 	begin method "drop"
-		; address: 0xabd7b
+		; address: 0x79957
 		; source: 207 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta07.vbo" 376:387
 		MemberFunctionArgumentCheck  1
 		CreateStackVariables         2
@@ -429,7 +429,7 @@ begin class "ta01_fireball"
 	end ; method
 
 	begin method "dropzone"
-		; address: 0xabea8
+		; address: 0x79a84
 		; source: 207 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta07.vbo" 394:530
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          2
@@ -958,7 +958,7 @@ begin class "ta01_fireball"
 	end ; method
 
 	begin method "ysubtract"
-		; address: 0xac420
+		; address: 0x79ffc
 		; source: 207 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta07.vbo" 536:536
 		MemberFunctionArgumentCheck 3
 		LineNumber                  11517, 4

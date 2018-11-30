@@ -23,7 +23,7 @@ begin class "level1arealoader", "base_object"
 	property "vilpid"
 
 	begin method "level1arealoader"
-		; address: 0x79a90
+		; address: 0x942fe
 		; source: 133 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_tura.vbo" 132:142
 		MemberFunctionArgumentCheck 1
 		LineNumber                  52470, 4
@@ -108,7 +108,7 @@ begin class "level1arealoader", "base_object"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x79bf4
+		; address: 0x94462
 		; source: 133 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_tura.vbo" 148:171
 		MemberFunctionArgumentCheck 1
 		LineNumber                  52486, 4
@@ -242,7 +242,7 @@ begin class "level1arealoader", "base_object"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x79d9c
+		; address: 0x9460a
 		; source: 133 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_tura.vbo" 176:324
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          2
@@ -1072,7 +1072,7 @@ begin class "level1arealoader", "base_object"
 	end ; method
 
 	begin method "show"
-		; address: 0x7a83a
+		; address: 0x950a8
 		; source: 133 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_tura.vbo" 331:334
 		MemberFunctionArgumentCheck   3
 		LineNumber                    52669, 4
@@ -1096,7 +1096,7 @@ begin class "level1arealoader", "base_object"
 	end ; method
 
 	begin method "hide"
-		; address: 0x7a86f
+		; address: 0x950dd
 		; source: 133 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_tura.vbo" 338:341
 		MemberFunctionArgumentCheck   3
 		LineNumber                    52676, 4

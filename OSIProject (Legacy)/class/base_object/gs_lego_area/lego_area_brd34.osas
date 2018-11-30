@@ -2,7 +2,7 @@ begin class "lego_area_brd34", "gs_lego_area"
 	property "puzzle"
 
 	begin method "lego_area_brd34"
-		; address: 0x9c545
+		; address: 0x9f82e
 		; source: 180 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_well.vbo" 28:30
 		MemberFunctionArgumentCheck 2
 		LineNumber                  4322, 4
@@ -38,7 +38,7 @@ begin class "lego_area_brd34", "gs_lego_area"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x9c59d
+		; address: 0x9f886
 		; source: 180 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_well.vbo" 39:45
 		MemberFunctionArgumentCheck  1
 		LineNumber                   4333, 4
@@ -84,7 +84,7 @@ begin class "lego_area_brd34", "gs_lego_area"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x9c611
+		; address: 0x9f8fa
 		; source: 180 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_well.vbo" 51:55
 		MemberFunctionArgumentCheck 1
 		LineNumber                  4345, 4
@@ -116,7 +116,7 @@ begin class "lego_area_brd34", "gs_lego_area"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x9c65e
+		; address: 0x9f947
 		; source: 180 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_well.vbo" 66:66
 		MemberFunctionArgumentCheck 2
 		LineNumber                  4360, 4

@@ -10,7 +10,7 @@ begin class "kopaka7_platform", "base_object"
 	property "y2"
 
 	begin method "kopaka7_platform"
-		; address: 0xbb5ba
+		; address: 0x8f8f1
 		; source: 232 "C:\\projects\\lego\\Scripting\\VBO\\strings/InterfaceStrings.h" 331:340
 		MemberFunctionArgumentCheck 6
 		LineNumber                  18854, 4
@@ -83,7 +83,7 @@ begin class "kopaka7_platform", "base_object"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xbb6cc
+		; address: 0x8fa03
 		; source: 232 "C:\\projects\\lego\\Scripting\\VBO\\strings/InterfaceStrings.h" 346:346
 		MemberFunctionArgumentCheck 1
 		LineNumber                  18869, 4
@@ -95,7 +95,7 @@ begin class "kopaka7_platform", "base_object"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xbb6df
+		; address: 0x8fa16
 		; source: 232 "C:\\projects\\lego\\Scripting\\VBO\\strings/InterfaceStrings.h" 351:351
 		MemberFunctionArgumentCheck 1
 		LineNumber                  18874, 4
@@ -107,7 +107,7 @@ begin class "kopaka7_platform", "base_object"
 	end ; method
 
 	begin method "toggle"
-		; address: 0xbb6f1
+		; address: 0x8fa28
 		; source: 232 "C:\\projects\\lego\\Scripting\\VBO\\strings/InterfaceStrings.h" 356:377
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -229,7 +229,7 @@ begin class "kopaka7_platform", "base_object"
 	end ; method
 
 	begin method "offsety"
-		; address: 0xbb831
+		; address: 0x8fb68
 		; source: 232 "C:\\projects\\lego\\Scripting\\VBO\\strings/InterfaceStrings.h" 383:384
 		MemberFunctionArgumentCheck 2
 		LineNumber                  18906, 4
@@ -252,7 +252,7 @@ begin class "kopaka7_platform", "base_object"
 	end ; method
 
 	begin method "reset"
-		; address: 0xbb86b
+		; address: 0x8fba2
 		; source: 232 "C:\\projects\\lego\\Scripting\\VBO\\strings/InterfaceStrings.h" 389:391
 		MemberFunctionArgumentCheck 1
 		LineNumber                  18912, 4

@@ -7,14 +7,14 @@ begin class "lego_maskcontroller"
 	property "disabled"
 
 	begin method "lego_maskcontroller"
-		; address: 0x3feb3
+		; address: 0x567db
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "initfull"
-		; address: 0x3feb7
+		; address: 0x567df
 		; source: 53 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_masks.vbo" 94:99
 		MemberFunctionArgumentCheck 1
 		LineNumber                  18007, 4
@@ -46,7 +46,7 @@ begin class "lego_maskcontroller"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x3ff0f
+		; address: 0x56837
 		; source: 53 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_masks.vbo" 104:114
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          2
@@ -118,14 +118,14 @@ begin class "lego_maskcontroller"
 	end ; method
 
 	begin method "initshort"
-		; address: 0x3ffb8
+		; address: 0x568e0
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "cleanupshort"
-		; address: 0x3ffbc
+		; address: 0x568e4
 		; source: 53 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_masks.vbo" 124:132
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -191,7 +191,7 @@ begin class "lego_maskcontroller"
 	end ; method
 
 	begin method "usemasks"
-		; address: 0x4004c
+		; address: 0x56974
 		; source: 53 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_masks.vbo" 137:140
 		MemberFunctionArgumentCheck   2
 		LineNumber                    18050, 4
@@ -218,7 +218,7 @@ begin class "lego_maskcontroller"
 	end ; method
 
 	begin method "addallmasks"
-		; address: 0x40080
+		; address: 0x569a8
 		; source: 53 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_masks.vbo" 150:215
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -1013,7 +1013,7 @@ begin class "lego_maskcontroller"
 	end ; method
 
 	begin method "input"
-		; address: 0x40941
+		; address: 0x57269
 		; source: 53 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_masks.vbo" 223:233
 		MemberFunctionArgumentCheck   2
 		LineNumber                    18136, 4
@@ -1088,7 +1088,7 @@ begin class "lego_maskcontroller"
 	end ; method
 
 	begin method "getmask"
-		; address: 0x409e7
+		; address: 0x5730f
 		; source: 53 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_masks.vbo" 244:244
 		MemberFunctionArgumentCheck 1
 		LineNumber                  18157, 4
@@ -1098,7 +1098,7 @@ begin class "lego_maskcontroller"
 	end ; method
 
 	begin method "getdrainrate"
-		; address: 0x409f7
+		; address: 0x5731f
 		; source: 53 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_masks.vbo" 249:252
 		MemberFunctionArgumentCheck   1
 		LineNumber                    18162, 4
@@ -1131,7 +1131,7 @@ begin class "lego_maskcontroller"
 	end ; method
 
 	begin method "isactive"
-		; address: 0x40a32
+		; address: 0x5735a
 		; source: 53 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_masks.vbo" 258:258
 		MemberFunctionArgumentCheck 1
 		LineNumber                  18171, 4
@@ -1141,7 +1141,7 @@ begin class "lego_maskcontroller"
 	end ; method
 
 	begin method "toggleactive"
-		; address: 0x40a42
+		; address: 0x5736a
 		; source: 53 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_masks.vbo" 267:275
 		MemberFunctionArgumentCheck   1
 		LineNumber                    18180, 4
@@ -1220,7 +1220,7 @@ begin class "lego_maskcontroller"
 	end ; method
 
 	begin method "setselectable"
-		; address: 0x40afa
+		; address: 0x57422
 		; source: 53 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_masks.vbo" 282:290
 		MemberFunctionArgumentCheck   3
 		CreateStackVariables          1
@@ -1311,7 +1311,7 @@ begin class "lego_maskcontroller"
 	end ; method
 
 	begin method "isselectable"
-		; address: 0x40bba
+		; address: 0x574e2
 		; source: 53 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_masks.vbo" 299:306
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -1367,7 +1367,7 @@ begin class "lego_maskcontroller"
 	end ; method
 
 	begin method "setdrainrateofmask"
-		; address: 0x40c2d
+		; address: 0x57555
 		; source: 53 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_masks.vbo" 311:314
 		MemberFunctionArgumentCheck   3
 		CreateStackVariables          1
@@ -1431,7 +1431,7 @@ begin class "lego_maskcontroller"
 	end ; method
 
 	begin method "changemask"
-		; address: 0x40ca4
+		; address: 0x575cc
 		; source: 53 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_masks.vbo" 328:351
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -1584,7 +1584,7 @@ begin class "lego_maskcontroller"
 	end ; method
 
 	begin method "nextmask"
-		; address: 0x40e10
+		; address: 0x57738
 		; source: 53 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_masks.vbo" 361:383
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          3

@@ -5,7 +5,7 @@ begin class "ss_gradrect", "ss_basefilledrect"
 	property "bottomrightcolor"
 
 	begin method "ss_gradrect"
-		; address: 0x70bdc
+		; address: 0xb5791
 		; source: 125 "C:\\projects\\lego\\Scripting\\VBO\\artheaders/scrn_shoefitter.h" 276:284
 		MemberFunctionArgumentCheck   10
 		LineNumber                    47722, 4
@@ -110,7 +110,7 @@ begin class "ss_gradrect", "ss_basefilledrect"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x70cda
+		; address: 0xb588f
 		; source: 125 "C:\\projects\\lego\\Scripting\\VBO\\artheaders/scrn_shoefitter.h" 289:295
 		MemberFunctionArgumentCheck 1
 		LineNumber                  47735, 4
@@ -167,7 +167,7 @@ begin class "ss_gradrect", "ss_basefilledrect"
 	end ; method
 
 	begin method "changegrad"
-		; address: 0x70d95
+		; address: 0xb594a
 		; source: 125 "C:\\projects\\lego\\Scripting\\VBO\\artheaders/scrn_shoefitter.h" 299:307
 		MemberFunctionArgumentCheck   3
 		LineNumber                    47745, 4

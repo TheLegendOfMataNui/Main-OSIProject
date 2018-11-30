@@ -1,20 +1,20 @@
 begin class "lego_sounddirector"
 	begin method "lego_sounddirector"
-		; address: 0x621a0
+		; address: 0x59a65
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "initfull"
-		; address: 0x621a4
+		; address: 0x59a69
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "setlistenerposition"
-		; address: 0x621a8
+		; address: 0x59a6d
 		; source: 99 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_3DSoundDirector.vbo" 33:33
 		MemberFunctionArgumentCheck 4
 		LineNumber                  37855, 4
@@ -29,7 +29,7 @@ begin class "lego_sounddirector"
 	end ; method
 
 	begin method "setlistenerorientation"
-		; address: 0x621c6
+		; address: 0x59a8b
 		; source: 99 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_3DSoundDirector.vbo" 38:38
 		MemberFunctionArgumentCheck 7
 		LineNumber                  37860, 4
@@ -47,7 +47,7 @@ begin class "lego_sounddirector"
 	end ; method
 
 	begin method "setlistenervelocity"
-		; address: 0x621ed
+		; address: 0x59ab2
 		; source: 99 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_3DSoundDirector.vbo" 45:45
 		MemberFunctionArgumentCheck 4
 		LineNumber                  37867, 4
@@ -62,7 +62,7 @@ begin class "lego_sounddirector"
 	end ; method
 
 	begin method "setlistenerdistancefactor"
-		; address: 0x6220b
+		; address: 0x59ad0
 		; source: 99 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_3DSoundDirector.vbo" 50:50
 		MemberFunctionArgumentCheck 2
 		LineNumber                  37872, 4
@@ -75,7 +75,7 @@ begin class "lego_sounddirector"
 	end ; method
 
 	begin method "setlistenerdopplerfactor"
-		; address: 0x62223
+		; address: 0x59ae8
 		; source: 99 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_3DSoundDirector.vbo" 55:55
 		MemberFunctionArgumentCheck 2
 		LineNumber                  37877, 4
@@ -88,7 +88,7 @@ begin class "lego_sounddirector"
 	end ; method
 
 	begin method "setlistenerrollofffactor"
-		; address: 0x6223b
+		; address: 0x59b00
 		; source: 99 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_3DSoundDirector.vbo" 60:60
 		MemberFunctionArgumentCheck 2
 		LineNumber                  37882, 4
@@ -101,7 +101,7 @@ begin class "lego_sounddirector"
 	end ; method
 
 	begin method "getlistenerpositioncomponent"
-		; address: 0x62253
+		; address: 0x59b18
 		; source: 99 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_3DSoundDirector.vbo" 68:68
 		MemberFunctionArgumentCheck 2
 		LineNumber                  37890, 4
@@ -114,7 +114,7 @@ begin class "lego_sounddirector"
 	end ; method
 
 	begin method "getlistenerfrontcomponent"
-		; address: 0x62273
+		; address: 0x59b38
 		; source: 99 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_3DSoundDirector.vbo" 74:74
 		MemberFunctionArgumentCheck 2
 		LineNumber                  37896, 4
@@ -127,7 +127,7 @@ begin class "lego_sounddirector"
 	end ; method
 
 	begin method "getlistenerupcomponent"
-		; address: 0x62293
+		; address: 0x59b58
 		; source: 99 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_3DSoundDirector.vbo" 80:80
 		MemberFunctionArgumentCheck 2
 		LineNumber                  37902, 4
@@ -140,7 +140,7 @@ begin class "lego_sounddirector"
 	end ; method
 
 	begin method "getlistenervelocitycomponent"
-		; address: 0x622b3
+		; address: 0x59b78
 		; source: 99 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_3DSoundDirector.vbo" 86:86
 		MemberFunctionArgumentCheck 2
 		LineNumber                  37908, 4
@@ -153,7 +153,7 @@ begin class "lego_sounddirector"
 	end ; method
 
 	begin method "getlistenerdistancefactor"
-		; address: 0x622d3
+		; address: 0x59b98
 		; source: 99 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_3DSoundDirector.vbo" 92:92
 		MemberFunctionArgumentCheck 1
 		LineNumber                  37914, 4
@@ -165,7 +165,7 @@ begin class "lego_sounddirector"
 	end ; method
 
 	begin method "getlistenerdopplerfactor"
-		; address: 0x622f0
+		; address: 0x59bb5
 		; source: 99 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_3DSoundDirector.vbo" 98:98
 		MemberFunctionArgumentCheck 1
 		LineNumber                  37920, 4
@@ -177,7 +177,7 @@ begin class "lego_sounddirector"
 	end ; method
 
 	begin method "getlistenerrollofffactor"
-		; address: 0x6230d
+		; address: 0x59bd2
 		; source: 99 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_3DSoundDirector.vbo" 104:104
 		MemberFunctionArgumentCheck 1
 		LineNumber                  37926, 4
@@ -189,21 +189,21 @@ begin class "lego_sounddirector"
 	end ; method
 
 	begin method "addsound"
-		; address: 0x6232a
+		; address: 0x59bef
 		MemberFunctionArgumentCheck 3
 		PushNothing
 		Return
 	end ; method
 
 	begin method "playsound"
-		; address: 0x6232e
+		; address: 0x59bf3
 		MemberFunctionArgumentCheck 3
 		PushNothing
 		Return
 	end ; method
 
 	begin method "pausesound"
-		; address: 0x62332
+		; address: 0x59bf7
 		; source: 99 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_3DSoundDirector.vbo" 126:126
 		MemberFunctionArgumentCheck 3
 		LineNumber                  37948, 4
@@ -216,7 +216,7 @@ begin class "lego_sounddirector"
 	end ; method
 
 	begin method "stopsound"
-		; address: 0x6234a
+		; address: 0x59c0f
 		; source: 99 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_3DSoundDirector.vbo" 132:133
 		MemberFunctionArgumentCheck 2
 		LineNumber                  37954, 4
@@ -235,7 +235,7 @@ begin class "lego_sounddirector"
 	end ; method
 
 	begin method "setsoundplayoffset"
-		; address: 0x62377
+		; address: 0x59c3c
 		; source: 99 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_3DSoundDirector.vbo" 138:138
 		MemberFunctionArgumentCheck 3
 		LineNumber                  37960, 4
@@ -249,7 +249,7 @@ begin class "lego_sounddirector"
 	end ; method
 
 	begin method "setsoundvolume"
-		; address: 0x62392
+		; address: 0x59c57
 		; source: 99 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_3DSoundDirector.vbo" 144:144
 		MemberFunctionArgumentCheck 3
 		LineNumber                  37966, 4
@@ -263,7 +263,7 @@ begin class "lego_sounddirector"
 	end ; method
 
 	begin method "getsoundvolume"
-		; address: 0x623ad
+		; address: 0x59c72
 		; source: 99 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_3DSoundDirector.vbo" 149:149
 		MemberFunctionArgumentCheck 2
 		LineNumber                  37971, 4
@@ -276,7 +276,7 @@ begin class "lego_sounddirector"
 	end ; method
 
 	begin method "setsoundfrequency"
-		; address: 0x623cd
+		; address: 0x59c92
 		; source: 99 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_3DSoundDirector.vbo" 155:155
 		MemberFunctionArgumentCheck 3
 		LineNumber                  37977, 4
@@ -290,7 +290,7 @@ begin class "lego_sounddirector"
 	end ; method
 
 	begin method "getsoundfrequency"
-		; address: 0x623e8
+		; address: 0x59cad
 		; source: 99 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_3DSoundDirector.vbo" 160:160
 		MemberFunctionArgumentCheck 2
 		LineNumber                  37982, 4
@@ -303,7 +303,7 @@ begin class "lego_sounddirector"
 	end ; method
 
 	begin method "setsoundpan"
-		; address: 0x62408
+		; address: 0x59ccd
 		; source: 99 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_3DSoundDirector.vbo" 166:166
 		MemberFunctionArgumentCheck 3
 		LineNumber                  37988, 4
@@ -317,7 +317,7 @@ begin class "lego_sounddirector"
 	end ; method
 
 	begin method "getsoundpan"
-		; address: 0x62423
+		; address: 0x59ce8
 		; source: 99 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_3DSoundDirector.vbo" 171:171
 		MemberFunctionArgumentCheck 2
 		LineNumber                  37993, 4
@@ -330,14 +330,14 @@ begin class "lego_sounddirector"
 	end ; method
 
 	begin method "setsoundposition"
-		; address: 0x62443
+		; address: 0x59d08
 		MemberFunctionArgumentCheck 5
 		PushNothing
 		Return
 	end ; method
 
 	begin method "getsoundpositioncomponent"
-		; address: 0x62447
+		; address: 0x59d0c
 		; source: 99 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_3DSoundDirector.vbo" 181:181
 		MemberFunctionArgumentCheck 3
 		LineNumber                  38003, 4
@@ -351,7 +351,7 @@ begin class "lego_sounddirector"
 	end ; method
 
 	begin method "setsoundvelocity"
-		; address: 0x6246a
+		; address: 0x59d2f
 		; source: 99 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_3DSoundDirector.vbo" 186:186
 		MemberFunctionArgumentCheck 5
 		LineNumber                  38008, 4
@@ -367,7 +367,7 @@ begin class "lego_sounddirector"
 	end ; method
 
 	begin method "getsoundvelocitycomponent"
-		; address: 0x6248b
+		; address: 0x59d50
 		; source: 99 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_3DSoundDirector.vbo" 191:191
 		MemberFunctionArgumentCheck 3
 		LineNumber                  38013, 4
@@ -381,14 +381,14 @@ begin class "lego_sounddirector"
 	end ; method
 
 	begin method "setsoundmindistance"
-		; address: 0x624ae
+		; address: 0x59d73
 		MemberFunctionArgumentCheck 3
 		PushNothing
 		Return
 	end ; method
 
 	begin method "getsoundmindistance"
-		; address: 0x624b2
+		; address: 0x59d77
 		; source: 99 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_3DSoundDirector.vbo" 201:201
 		MemberFunctionArgumentCheck 2
 		LineNumber                  38023, 4
@@ -401,7 +401,7 @@ begin class "lego_sounddirector"
 	end ; method
 
 	begin method "setsoundmaxdistance"
-		; address: 0x624d2
+		; address: 0x59d97
 		; source: 99 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_3DSoundDirector.vbo" 206:206
 		MemberFunctionArgumentCheck 3
 		LineNumber                  38028, 4
@@ -415,7 +415,7 @@ begin class "lego_sounddirector"
 	end ; method
 
 	begin method "getsoundmaxdistance"
-		; address: 0x624ed
+		; address: 0x59db2
 		; source: 99 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_3DSoundDirector.vbo" 211:211
 		MemberFunctionArgumentCheck 2
 		LineNumber                  38033, 4
@@ -428,7 +428,7 @@ begin class "lego_sounddirector"
 	end ; method
 
 	begin method "setsoundconeorientation"
-		; address: 0x6250d
+		; address: 0x59dd2
 		; source: 99 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_3DSoundDirector.vbo" 216:216
 		MemberFunctionArgumentCheck 5
 		LineNumber                  38038, 4
@@ -444,7 +444,7 @@ begin class "lego_sounddirector"
 	end ; method
 
 	begin method "getsoundconeorientationcomponent"
-		; address: 0x6252e
+		; address: 0x59df3
 		; source: 99 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_3DSoundDirector.vbo" 221:221
 		MemberFunctionArgumentCheck 3
 		LineNumber                  38043, 4
@@ -458,7 +458,7 @@ begin class "lego_sounddirector"
 	end ; method
 
 	begin method "setsoundconeangles"
-		; address: 0x62549
+		; address: 0x59e0e
 		; source: 99 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_3DSoundDirector.vbo" 226:226
 		MemberFunctionArgumentCheck 4
 		LineNumber                  38048, 4
@@ -473,7 +473,7 @@ begin class "lego_sounddirector"
 	end ; method
 
 	begin method "getsoundconeangles"
-		; address: 0x62567
+		; address: 0x59e2c
 		; source: 99 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_3DSoundDirector.vbo" 232:232
 		MemberFunctionArgumentCheck 3
 		LineNumber                  38054, 4
@@ -487,7 +487,7 @@ begin class "lego_sounddirector"
 	end ; method
 
 	begin method "setsoundconeoutsidevolume"
-		; address: 0x6258a
+		; address: 0x59e4f
 		; source: 99 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_3DSoundDirector.vbo" 238:238
 		MemberFunctionArgumentCheck 3
 		LineNumber                  38060, 4
@@ -501,7 +501,7 @@ begin class "lego_sounddirector"
 	end ; method
 
 	begin method "getsoundconeoutsidevolume"
-		; address: 0x625a5
+		; address: 0x59e6a
 		; source: 99 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_3DSoundDirector.vbo" 243:243
 		MemberFunctionArgumentCheck 2
 		LineNumber                  38065, 4

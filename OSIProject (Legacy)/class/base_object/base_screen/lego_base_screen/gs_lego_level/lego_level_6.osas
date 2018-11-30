@@ -3,7 +3,7 @@ begin class "lego_level_6", "gs_lego_level"
 	property "burnsoundplayed"
 
 	begin method "lego_level_6"
-		; address: 0xb8685
+		; address: 0xb9c05
 		; source: 205 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta04.vbo" 53:116
 		MemberFunctionArgumentCheck 1
 		CreateStackVariables        1
@@ -361,7 +361,7 @@ begin class "lego_level_6", "gs_lego_level"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xb8af3
+		; address: 0xba073
 		; source: 205 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta04.vbo" 125:180
 		MemberFunctionArgumentCheck   1
 		LineNumber                    17673, 4
@@ -638,7 +638,7 @@ begin class "lego_level_6", "gs_lego_level"
 	end ; method
 
 	begin method "initshort"
-		; address: 0xb8e44
+		; address: 0xba3c4
 		; source: 205 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta04.vbo" 188:205
 		MemberFunctionArgumentCheck  1
 		LineNumber                   17736, 4
@@ -782,7 +782,7 @@ begin class "lego_level_6", "gs_lego_level"
 	end ; method
 
 	begin method "onevent"
-		; address: 0xb8fd1
+		; address: 0xba551
 		; source: 205 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta04.vbo" 212:231
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -868,7 +868,7 @@ begin class "lego_level_6", "gs_lego_level"
 	end ; method
 
 	begin method "settestforlavacollisions"
-		; address: 0xb90a0
+		; address: 0xba620
 		; source: 205 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta04.vbo" 244:244
 		MemberFunctionArgumentCheck 2
 		CreateStackVariables        1

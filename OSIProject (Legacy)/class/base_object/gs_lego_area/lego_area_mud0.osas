@@ -2,7 +2,7 @@ begin class "lego_area_mud0", "gs_lego_area"
 	property "mudpuzzle"
 
 	begin method "lego_area_mud0"
-		; address: 0x69506
+		; address: 0xa49b4
 		; source: 111 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_ptv1.vbo" 125:127
 		MemberFunctionArgumentCheck 2
 		LineNumber                  43410, 4
@@ -38,7 +38,7 @@ begin class "lego_area_mud0", "gs_lego_area"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x6955e
+		; address: 0xa4a0c
 		; source: 111 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_ptv1.vbo" 133:146
 		MemberFunctionArgumentCheck  1
 		LineNumber                   43418, 4
@@ -113,7 +113,7 @@ begin class "lego_area_mud0", "gs_lego_area"
 	end ; method
 
 	begin method "initshort"
-		; address: 0x69639
+		; address: 0xa4ae7
 		; source: 111 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_ptv1.vbo" 153:153
 		MemberFunctionArgumentCheck  1
 		LineNumber                   43438, 4
@@ -129,7 +129,7 @@ begin class "lego_area_mud0", "gs_lego_area"
 	end ; method
 
 	begin method "process"
-		; address: 0x69654
+		; address: 0xa4b02
 		; source: 111 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_ptv1.vbo" 158:158
 		MemberFunctionArgumentCheck 2
 		LineNumber                  43443, 4
@@ -145,7 +145,7 @@ begin class "lego_area_mud0", "gs_lego_area"
 	end ; method
 
 	begin method "input"
-		; address: 0x69670
+		; address: 0xa4b1e
 		; source: 111 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_ptv1.vbo" 163:163
 		MemberFunctionArgumentCheck 2
 		LineNumber                  43448, 4
@@ -161,7 +161,7 @@ begin class "lego_area_mud0", "gs_lego_area"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x6968c
+		; address: 0xa4b3a
 		; source: 111 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_ptv1.vbo" 168:168
 		MemberFunctionArgumentCheck 2
 		LineNumber                  43453, 4
@@ -177,7 +177,7 @@ begin class "lego_area_mud0", "gs_lego_area"
 	end ; method
 
 	begin method "endarea"
-		; address: 0x696a8
+		; address: 0xa4b56
 		; source: 111 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_ptv1.vbo" 174:174
 		MemberFunctionArgumentCheck  1
 		LineNumber                   43459, 4
@@ -194,7 +194,7 @@ begin class "lego_area_mud0", "gs_lego_area"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x696c7
+		; address: 0xa4b75
 		; source: 111 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_ptv1.vbo" 180:182
 		MemberFunctionArgumentCheck 1
 		LineNumber                  43465, 4
@@ -215,7 +215,7 @@ begin class "lego_area_mud0", "gs_lego_area"
 	end ; method
 
 	begin method "exit"
-		; address: 0x696f2
+		; address: 0xa4ba0
 		; source: 111 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_ptv1.vbo" 188:190
 		MemberFunctionArgumentCheck 1
 		LineNumber                  43473, 4

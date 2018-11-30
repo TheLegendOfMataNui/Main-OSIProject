@@ -2,7 +2,7 @@ begin class "cinematicviewer", "base_screen"
 	property "cam"
 
 	begin method "cinematicviewer"
-		; address: 0xbd3bb
+		; address: 0x9bd07
 		; source: 236 unknown 27:27
 		MemberFunctionArgumentCheck 1
 		LineNumber                  19699, 4
@@ -31,7 +31,7 @@ begin class "cinematicviewer", "base_screen"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xbd404
+		; address: 0x9bd50
 		; source: 236 unknown 34:45
 		MemberFunctionArgumentCheck  1
 		CreateStackVariables         4
@@ -136,7 +136,7 @@ begin class "cinematicviewer", "base_screen"
 	end ; method
 
 	begin method "process"
-		; address: 0xbd590
+		; address: 0x9bedc
 		; source: 236 unknown 50:50
 		MemberFunctionArgumentCheck 2
 		LineNumber                  19722, 4

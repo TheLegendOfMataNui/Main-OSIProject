@@ -5,7 +5,7 @@ begin class "shrine_puzzle"
 	property "bossdoorshone"
 
 	begin method "shrine_puzzle"
-		; address: 0x9de61
+		; address: 0x6af9b
 		; source: 182 "C:\\projects\\lego\\Scripting\\VBO\\lev5/level_5.vbo" 100:100
 		MemberFunctionArgumentCheck 2
 		LineNumber                  4984, 4
@@ -17,7 +17,7 @@ begin class "shrine_puzzle"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x9de75
+		; address: 0x6afaf
 		; source: 182 "C:\\projects\\lego\\Scripting\\VBO\\lev5/level_5.vbo" 107:125
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          2
@@ -132,7 +132,7 @@ begin class "shrine_puzzle"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x9dff1
+		; address: 0x6b12b
 		; source: 182 "C:\\projects\\lego\\Scripting\\VBO\\lev5/level_5.vbo" 131:132
 		MemberFunctionArgumentCheck 1
 		LineNumber                  5015, 4
@@ -151,21 +151,21 @@ begin class "shrine_puzzle"
 	end ; method
 
 	begin method "show"
-		; address: 0x9e017
+		; address: 0x6b151
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "hide"
-		; address: 0x9e01b
+		; address: 0x6b155
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "onevent"
-		; address: 0x9e01f
+		; address: 0x6b159
 		; source: 182 "C:\\projects\\lego\\Scripting\\VBO\\lev5/level_5.vbo" 148:186
 		; source: 146 "C:\\projects\\lego\\Scripting\\VBO\\lev2/../../../Audio/GfSoundTableDefine.h" 183:183
 		; source: 202 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta01.vbo" 208:214
@@ -399,7 +399,7 @@ begin class "shrine_puzzle"
 	end ; method
 
 	begin method "exit"
-		; address: 0x9e29d
+		; address: 0x6b3d7
 		; source: 182 "C:\\projects\\lego\\Scripting\\VBO\\lev5/level_5.vbo" 210:210
 		MemberFunctionArgumentCheck 1
 		LineNumber                  5094, 4

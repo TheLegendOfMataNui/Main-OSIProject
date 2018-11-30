@@ -6,7 +6,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	property "charspline"
 
 	begin method "gs_lego_character"
-		; address: 0x47873
+		; address: 0xb436a
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 40:44
 		MemberFunctionArgumentCheck 9
 		LineNumber                  21404, 4
@@ -49,7 +49,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "add"
-		; address: 0x478ff
+		; address: 0xb43f6
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 52:71
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -159,7 +159,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "getposx"
-		; address: 0x47a53
+		; address: 0xb454a
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 77:77
 		MemberFunctionArgumentCheck 1
 		LineNumber                  21441, 4
@@ -172,7 +172,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "getposy"
-		; address: 0x47a73
+		; address: 0xb456a
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 82:82
 		MemberFunctionArgumentCheck 1
 		LineNumber                  21446, 4
@@ -185,7 +185,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "getposz"
-		; address: 0x47a93
+		; address: 0xb458a
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 87:87
 		MemberFunctionArgumentCheck 1
 		LineNumber                  21451, 4
@@ -198,7 +198,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "setscale"
-		; address: 0x47ab3
+		; address: 0xb45aa
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 92:92
 		MemberFunctionArgumentCheck 2
 		LineNumber                  21456, 4
@@ -212,7 +212,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "show"
-		; address: 0x47ace
+		; address: 0xb45c5
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 96:97
 		MemberFunctionArgumentCheck 1
 		LineNumber                  21460, 4
@@ -230,7 +230,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "hide"
-		; address: 0x47af8
+		; address: 0xb45ef
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 102:103
 		MemberFunctionArgumentCheck 1
 		LineNumber                  21466, 4
@@ -248,7 +248,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x47b21
+		; address: 0xb4618
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 108:131
 		MemberFunctionArgumentCheck 1
 		LineNumber                  21472, 4
@@ -342,7 +342,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "remove"
-		; address: 0x47c50
+		; address: 0xb4747
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 136:136
 		MemberFunctionArgumentCheck 1
 		LineNumber                  21500, 4
@@ -356,7 +356,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "aienablepatrolonspline"
-		; address: 0x47c6b
+		; address: 0xb4762
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 141:141
 		MemberFunctionArgumentCheck 1
 		LineNumber                  21505, 4
@@ -369,7 +369,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "aidisablepatrolonspline"
-		; address: 0x47c83
+		; address: 0xb477a
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 146:146
 		MemberFunctionArgumentCheck 1
 		LineNumber                  21510, 4
@@ -382,7 +382,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "aisetattacktype"
-		; address: 0x47c9b
+		; address: 0xb4792
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 151:151
 		MemberFunctionArgumentCheck 2
 		LineNumber                  21515, 4
@@ -396,7 +396,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "aisetspline"
-		; address: 0x47cb6
+		; address: 0xb47ad
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 159:162
 		MemberFunctionArgumentCheck   3
 		LineNumber                    21523, 4
@@ -428,7 +428,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "setinputstate"
-		; address: 0x47d07
+		; address: 0xb47fe
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 169:170
 		MemberFunctionArgumentCheck 2
 		CreateStackVariables        1
@@ -451,7 +451,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "disablecollisions"
-		; address: 0x47d47
+		; address: 0xb483e
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 177:177
 		MemberFunctionArgumentCheck 1
 		LineNumber                  21541, 4
@@ -465,7 +465,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "enablecollisions"
-		; address: 0x47d62
+		; address: 0xb4859
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 183:183
 		MemberFunctionArgumentCheck 1
 		LineNumber                  21547, 4
@@ -479,7 +479,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "ignorecollisionswith"
-		; address: 0x47d7d
+		; address: 0xb4874
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 189:189
 		MemberFunctionArgumentCheck 2
 		LineNumber                  21553, 4
@@ -493,7 +493,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "setignoreallcollisions"
-		; address: 0x47d98
+		; address: 0xb488f
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 195:195
 		MemberFunctionArgumentCheck 2
 		LineNumber                  21559, 4
@@ -507,7 +507,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "ignoreignorecollisionswith"
-		; address: 0x47db3
+		; address: 0xb48aa
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 201:201
 		MemberFunctionArgumentCheck 2
 		LineNumber                  21565, 4
@@ -521,7 +521,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "getcurrentanimationid"
-		; address: 0x47dce
+		; address: 0xb48c5
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 207:207
 		MemberFunctionArgumentCheck 1
 		LineNumber                  21571, 4
@@ -534,7 +534,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "getmaterial"
-		; address: 0x47dee
+		; address: 0xb48e5
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 213:213
 		MemberFunctionArgumentCheck 1
 		LineNumber                  21577, 4
@@ -547,7 +547,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "inittargetmorph"
-		; address: 0x47e06
+		; address: 0xb48fd
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 222:222
 		MemberFunctionArgumentCheck 2
 		LineNumber                  21586, 4
@@ -561,7 +561,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "morphcharacter"
-		; address: 0x47e21
+		; address: 0xb4918
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 232:232
 		MemberFunctionArgumentCheck 5
 		LineNumber                  21596, 4
@@ -578,7 +578,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "morphmidcharacter"
-		; address: 0x47e45
+		; address: 0xb493c
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 239:239
 		MemberFunctionArgumentCheck 6
 		LineNumber                  21603, 4
@@ -596,7 +596,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "settweakable"
-		; address: 0x47e6c
+		; address: 0xb4963
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 247:247
 		MemberFunctionArgumentCheck  1
 		LineNumber                   21611, 4
@@ -613,7 +613,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "initmotionsystem"
-		; address: 0x47e8b
+		; address: 0xb4982
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 258:258
 		MemberFunctionArgumentCheck 1
 		LineNumber                  21622, 4
@@ -626,7 +626,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "setlocalgravity"
-		; address: 0x47ea3
+		; address: 0xb499a
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 264:264
 		MemberFunctionArgumentCheck 2
 		LineNumber                  21628, 4
@@ -640,7 +640,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "setupphysics"
-		; address: 0x47ebe
+		; address: 0xb49b5
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 270:271
 		MemberFunctionArgumentCheck 6
 		LineNumber                  21634, 4
@@ -664,7 +664,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "setphysicsflags"
-		; address: 0x47efa
+		; address: 0xb49f1
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 277:277
 		MemberFunctionArgumentCheck 5
 		LineNumber                  21641, 4
@@ -681,7 +681,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "changeorientation"
-		; address: 0x47f1e
+		; address: 0xb4a15
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 294:296
 		MemberFunctionArgumentCheck 2
 		LineNumber                  21658, 4
@@ -719,7 +719,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "interporientation"
-		; address: 0x47f7d
+		; address: 0xb4a74
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 305:305
 		MemberFunctionArgumentCheck 3
 		LineNumber                  21669, 4
@@ -734,7 +734,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "setvelocity"
-		; address: 0x47f9b
+		; address: 0xb4a92
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 311:311
 		MemberFunctionArgumentCheck 4
 		LineNumber                  21675, 4
@@ -750,7 +750,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "setclimbable"
-		; address: 0x47fbc
+		; address: 0xb4ab3
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 317:317
 		MemberFunctionArgumentCheck 2
 		LineNumber                  21681, 4
@@ -764,7 +764,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "enableallraycollisions"
-		; address: 0x47fd7
+		; address: 0xb4ace
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 323:323
 		MemberFunctionArgumentCheck 1
 		LineNumber                  21687, 4
@@ -777,7 +777,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "disableallraycollisions"
-		; address: 0x47fef
+		; address: 0xb4ae6
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 329:329
 		MemberFunctionArgumentCheck 1
 		LineNumber                  21693, 4
@@ -790,7 +790,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "enablewallcollisions"
-		; address: 0x48007
+		; address: 0xb4afe
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 335:335
 		MemberFunctionArgumentCheck 1
 		LineNumber                  21699, 4
@@ -803,7 +803,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "disablewallcollisions"
-		; address: 0x4801f
+		; address: 0xb4b16
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 341:341
 		MemberFunctionArgumentCheck 1
 		LineNumber                  21705, 4
@@ -816,7 +816,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "enablegroundcollisions"
-		; address: 0x48037
+		; address: 0xb4b2e
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 347:347
 		MemberFunctionArgumentCheck 1
 		LineNumber                  21711, 4
@@ -829,7 +829,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "disablegroundcollisions"
-		; address: 0x4804f
+		; address: 0xb4b46
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 353:353
 		MemberFunctionArgumentCheck 1
 		LineNumber                  21717, 4
@@ -842,7 +842,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "setsplitanimation"
-		; address: 0x48067
+		; address: 0xb4b5e
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 364:367
 		MemberFunctionArgumentCheck   3
 		LineNumber                    21728, 4
@@ -870,7 +870,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "switchanimation"
-		; address: 0x480a6
+		; address: 0xb4b9d
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 376:376
 		MemberFunctionArgumentCheck 2
 		LineNumber                  21740, 4
@@ -884,7 +884,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "settargeteerconeangle"
-		; address: 0x480c1
+		; address: 0xb4bb8
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 382:382
 		MemberFunctionArgumentCheck 2
 		LineNumber                  21746, 4
@@ -898,7 +898,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "isjumping"
-		; address: 0x480dc
+		; address: 0xb4bd3
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 400:400
 		MemberFunctionArgumentCheck 1
 		LineNumber                  21764, 4
@@ -911,7 +911,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "settargeteerselectionmode"
-		; address: 0x480fc
+		; address: 0xb4bf3
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 405:405
 		MemberFunctionArgumentCheck 2
 		LineNumber                  21769, 4
@@ -925,7 +925,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "settargeteermaxrange"
-		; address: 0x48117
+		; address: 0xb4c0e
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 410:410
 		MemberFunctionArgumentCheck 2
 		LineNumber                  21774, 4
@@ -939,7 +939,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "settargeteerautotarget"
-		; address: 0x48132
+		; address: 0xb4c29
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 415:415
 		MemberFunctionArgumentCheck 2
 		LineNumber                  21779, 4
@@ -953,7 +953,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "settargeteertarget"
-		; address: 0x4814d
+		; address: 0xb4c44
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 420:420
 		MemberFunctionArgumentCheck 3
 		LineNumber                  21784, 4
@@ -968,7 +968,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "setanimationscalar"
-		; address: 0x4816b
+		; address: 0xb4c62
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 427:427
 		MemberFunctionArgumentCheck 2
 		LineNumber                  21791, 4
@@ -982,7 +982,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "gettargeteervectorxtotarget"
-		; address: 0x48186
+		; address: 0xb4c7d
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 432:432
 		MemberFunctionArgumentCheck 1
 		LineNumber                  21796, 4
@@ -995,7 +995,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "gettargeteervectorytotarget"
-		; address: 0x481a6
+		; address: 0xb4c9d
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 437:437
 		MemberFunctionArgumentCheck 1
 		LineNumber                  21801, 4
@@ -1008,7 +1008,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "gettargeteervectorztotarget"
-		; address: 0x481c6
+		; address: 0xb4cbd
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 442:442
 		MemberFunctionArgumentCheck 1
 		LineNumber                  21806, 4
@@ -1021,7 +1021,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "gettargeteertargetpositionx"
-		; address: 0x481e6
+		; address: 0xb4cdd
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 447:447
 		MemberFunctionArgumentCheck 1
 		LineNumber                  21811, 4
@@ -1034,7 +1034,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "gettargeteertargetpositiony"
-		; address: 0x48206
+		; address: 0xb4cfd
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 452:452
 		MemberFunctionArgumentCheck 1
 		LineNumber                  21816, 4
@@ -1047,7 +1047,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "gettargeteertargetpositionz"
-		; address: 0x48226
+		; address: 0xb4d1d
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 457:457
 		MemberFunctionArgumentCheck 1
 		LineNumber                  21821, 4
@@ -1060,7 +1060,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "gettargeteertargetobjectid"
-		; address: 0x48246
+		; address: 0xb4d3d
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 462:462
 		MemberFunctionArgumentCheck 1
 		LineNumber                  21826, 4
@@ -1073,7 +1073,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "deactivateattackcollisions"
-		; address: 0x48266
+		; address: 0xb4d5d
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 467:467
 		MemberFunctionArgumentCheck 1
 		LineNumber                  21831, 4
@@ -1086,7 +1086,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "activateattackcollisions"
-		; address: 0x4827e
+		; address: 0xb4d75
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 472:472
 		MemberFunctionArgumentCheck 1
 		LineNumber                  21836, 4
@@ -1099,7 +1099,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "run"
-		; address: 0x48296
+		; address: 0xb4d8d
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 480:480
 		MemberFunctionArgumentCheck 2
 		LineNumber                  21844, 4
@@ -1113,7 +1113,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "setsurfingability"
-		; address: 0x482b1
+		; address: 0xb4da8
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 485:485
 		MemberFunctionArgumentCheck 3
 		LineNumber                  21849, 4
@@ -1128,7 +1128,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "setsurfdrag"
-		; address: 0x482cf
+		; address: 0xb4dc6
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 490:490
 		MemberFunctionArgumentCheck 2
 		LineNumber                  21854, 4
@@ -1142,7 +1142,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "setsurfmaxspeed"
-		; address: 0x482ea
+		; address: 0xb4de1
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 495:495
 		MemberFunctionArgumentCheck 2
 		LineNumber                  21859, 4
@@ -1156,7 +1156,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "setsurfminspeed"
-		; address: 0x48305
+		; address: 0xb4dfc
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 500:500
 		MemberFunctionArgumentCheck 2
 		LineNumber                  21864, 4
@@ -1170,7 +1170,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "setsurffallgravity"
-		; address: 0x48320
+		; address: 0xb4e17
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 505:505
 		MemberFunctionArgumentCheck 2
 		LineNumber                  21869, 4
@@ -1184,7 +1184,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "switchsecondmask"
-		; address: 0x4833b
+		; address: 0xb4e32
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 510:510
 		MemberFunctionArgumentCheck 2
 		LineNumber                  21874, 4
@@ -1198,7 +1198,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "sethellpos"
-		; address: 0x48356
+		; address: 0xb4e4d
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 516:516
 		MemberFunctionArgumentCheck 2
 		LineNumber                  21880, 4
@@ -1212,7 +1212,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "sethelltime"
-		; address: 0x48371
+		; address: 0xb4e68
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 521:521
 		MemberFunctionArgumentCheck 2
 		LineNumber                  21885, 4
@@ -1226,7 +1226,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "react"
-		; address: 0x4838c
+		; address: 0xb4e83
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 527:539
 		MemberFunctionArgumentCheck   5
 		LineNumber                    21891, 4
@@ -1282,7 +1282,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "inithaka"
-		; address: 0x48414
+		; address: 0xb4f0b
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 543:543
 		MemberFunctionArgumentCheck 1
 		LineNumber                  21907, 4
@@ -1295,7 +1295,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "playhakasequence"
-		; address: 0x4842c
+		; address: 0xb4f23
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 547:547
 		MemberFunctionArgumentCheck 2
 		LineNumber                  21911, 4
@@ -1309,7 +1309,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "playhakafull"
-		; address: 0x48447
+		; address: 0xb4f3e
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 551:551
 		MemberFunctionArgumentCheck 1
 		LineNumber                  21915, 4
@@ -1322,7 +1322,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "recordhakasequence"
-		; address: 0x4845f
+		; address: 0xb4f56
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 555:555
 		MemberFunctionArgumentCheck 1
 		LineNumber                  21919, 4
@@ -1335,7 +1335,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "stoprecordinghaka"
-		; address: 0x48477
+		; address: 0xb4f6e
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 559:559
 		MemberFunctionArgumentCheck 1
 		LineNumber                  21923, 4
@@ -1348,7 +1348,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "ishakarecording"
-		; address: 0x4848f
+		; address: 0xb4f86
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 563:563
 		MemberFunctionArgumentCheck 1
 		LineNumber                  21927, 4
@@ -1361,7 +1361,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "ishakaplaying"
-		; address: 0x484af
+		; address: 0xb4fa6
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 567:567
 		MemberFunctionArgumentCheck 1
 		LineNumber                  21931, 4
@@ -1374,7 +1374,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "ride"
-		; address: 0x484cf
+		; address: 0xb4fc6
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 580:581
 		MemberFunctionArgumentCheck 4
 		LineNumber                  21944, 4
@@ -1395,7 +1395,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "unride"
-		; address: 0x48504
+		; address: 0xb4ffb
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 588:588
 		MemberFunctionArgumentCheck 1
 		LineNumber                  21952, 4
@@ -1408,7 +1408,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "changearea"
-		; address: 0x4851c
+		; address: 0xb5013
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 593:593
 		MemberFunctionArgumentCheck 2
 		LineNumber                  21957, 4
@@ -1422,7 +1422,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "idle"
-		; address: 0x48537
+		; address: 0xb502e
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 599:599
 		MemberFunctionArgumentCheck 1
 		LineNumber                  21963, 4
@@ -1435,7 +1435,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "disableanim"
-		; address: 0x4854f
+		; address: 0xb5046
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 608:608
 		MemberFunctionArgumentCheck 2
 		LineNumber                  21972, 4
@@ -1449,7 +1449,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "enableanim"
-		; address: 0x4856a
+		; address: 0xb5061
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 616:616
 		MemberFunctionArgumentCheck 2
 		LineNumber                  21980, 4
@@ -1463,7 +1463,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "setforwardvelocity"
-		; address: 0x48585
+		; address: 0xb507c
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 624:624
 		MemberFunctionArgumentCheck 2
 		LineNumber                  21988, 4
@@ -1477,7 +1477,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "disableai"
-		; address: 0x485a0
+		; address: 0xb5097
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 629:629
 		MemberFunctionArgumentCheck 1
 		LineNumber                  21993, 4
@@ -1490,7 +1490,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "enableai"
-		; address: 0x485b8
+		; address: 0xb50af
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 634:634
 		MemberFunctionArgumentCheck 1
 		LineNumber                  21998, 4
@@ -1503,7 +1503,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "fadeout"
-		; address: 0x485d0
+		; address: 0xb50c7
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 644:647
 		MemberFunctionArgumentCheck   2
 		LineNumber                    22008, 4
@@ -1538,7 +1538,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "fadein"
-		; address: 0x48618
+		; address: 0xb510f
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 653:656
 		MemberFunctionArgumentCheck   2
 		LineNumber                    22017, 4
@@ -1573,7 +1573,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "aipatrol"
-		; address: 0x48660
+		; address: 0xb5157
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 662:662
 		MemberFunctionArgumentCheck 1
 		LineNumber                  22026, 4
@@ -1586,7 +1586,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "aiidle"
-		; address: 0x48678
+		; address: 0xb516f
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 669:669
 		MemberFunctionArgumentCheck 1
 		LineNumber                  22033, 4
@@ -1599,7 +1599,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "aistun"
-		; address: 0x48690
+		; address: 0xb5187
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 676:676
 		MemberFunctionArgumentCheck 2
 		LineNumber                  22040, 4
@@ -1613,7 +1613,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "aidie"
-		; address: 0x486ab
+		; address: 0xb51a2
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 680:680
 		MemberFunctionArgumentCheck 2
 		LineNumber                  22044, 4
@@ -1627,7 +1627,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "aitoainsights"
-		; address: 0x486c6
+		; address: 0xb51bd
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 688:688
 		MemberFunctionArgumentCheck 1
 		LineNumber                  22052, 4
@@ -1640,7 +1640,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "aisethandlereaction"
-		; address: 0x486e6
+		; address: 0xb51dd
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 696:696
 		MemberFunctionArgumentCheck 2
 		LineNumber                  22060, 4
@@ -1654,7 +1654,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "aisetbecomeshappy"
-		; address: 0x48701
+		; address: 0xb51f8
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 704:704
 		MemberFunctionArgumentCheck 2
 		LineNumber                  22068, 4
@@ -1668,7 +1668,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "aisetamounttoturn"
-		; address: 0x4871c
+		; address: 0xb5213
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 711:711
 		MemberFunctionArgumentCheck 3
 		LineNumber                  22075, 4
@@ -1683,7 +1683,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "ailand"
-		; address: 0x4873a
+		; address: 0xb5231
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 715:715
 		MemberFunctionArgumentCheck 3
 		LineNumber                  22079, 4
@@ -1698,7 +1698,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "aitakeoff"
-		; address: 0x48758
+		; address: 0xb524f
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 723:723
 		MemberFunctionArgumentCheck 1
 		LineNumber                  22087, 4
@@ -1711,7 +1711,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "aireact"
-		; address: 0x48770
+		; address: 0xb5267
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 735:745
 		MemberFunctionArgumentCheck   5
 		LineNumber                    22099, 4
@@ -1767,7 +1767,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "aiattack"
-		; address: 0x487f9
+		; address: 0xb52f0
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 755:758
 		MemberFunctionArgumentCheck   2
 		LineNumber                    22119, 4
@@ -1794,7 +1794,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "aichasetarget"
-		; address: 0x48835
+		; address: 0xb532c
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 767:767
 		MemberFunctionArgumentCheck 1
 		LineNumber                  22131, 4
@@ -1807,7 +1807,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "setclimb"
-		; address: 0x4884d
+		; address: 0xb5344
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 775:775
 		MemberFunctionArgumentCheck 2
 		LineNumber                  22139, 4
@@ -1821,7 +1821,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "disableallai"
-		; address: 0x48868
+		; address: 0xb535f
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 780:780
 		MemberFunctionArgumentCheck 1
 		LineNumber                  22144, 4
@@ -1833,7 +1833,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "enableallai"
-		; address: 0x4887d
+		; address: 0xb5374
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 785:785
 		MemberFunctionArgumentCheck 1
 		LineNumber                  22149, 4
@@ -1845,7 +1845,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "aisettriggerboxstate"
-		; address: 0x48892
+		; address: 0xb5389
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 789:789
 		MemberFunctionArgumentCheck 2
 		LineNumber                  22153, 4
@@ -1859,7 +1859,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "setevil"
-		; address: 0x488ad
+		; address: 0xb53a4
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 797:797
 		MemberFunctionArgumentCheck 2
 		LineNumber                  22161, 4
@@ -1873,7 +1873,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "setevilpermanent"
-		; address: 0x488c8
+		; address: 0xb53bf
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 805:805
 		MemberFunctionArgumentCheck 2
 		LineNumber                  22169, 4
@@ -1887,7 +1887,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "gotostartpos"
-		; address: 0x488e3
+		; address: 0xb53da
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 817:819
 		MemberFunctionArgumentCheck   3
 		LineNumber                    22181, 4
@@ -1924,7 +1924,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "setorientationrange"
-		; address: 0x48942
+		; address: 0xb5439
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 829:829
 		MemberFunctionArgumentCheck 3
 		LineNumber                  22193, 4
@@ -1939,7 +1939,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "physicson"
-		; address: 0x48960
+		; address: 0xb5457
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 834:834
 		MemberFunctionArgumentCheck 2
 		LineNumber                  22198, 4
@@ -1953,7 +1953,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "animatetexture"
-		; address: 0x4897b
+		; address: 0xb5472
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 839:842
 		MemberFunctionArgumentCheck   2
 		LineNumber                    22203, 4
@@ -1980,7 +1980,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "setnudgetarget"
-		; address: 0x489b7
+		; address: 0xb54ae
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 848:848
 		MemberFunctionArgumentCheck 4
 		LineNumber                  22212, 4
@@ -1996,7 +1996,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "getbasicpoint"
-		; address: 0x489d8
+		; address: 0xb54cf
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 854:855
 		MemberFunctionArgumentCheck 1
 		CreateStackVariables        1
@@ -2028,7 +2028,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "setbasicpoint"
-		; address: 0x48a2e
+		; address: 0xb5525
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 860:860
 		MemberFunctionArgumentCheck 2
 		LineNumber                  22224, 4
@@ -2048,7 +2048,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "activatelevitation"
-		; address: 0x48a57
+		; address: 0xb554e
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 865:865
 		MemberFunctionArgumentCheck 2
 		LineNumber                  22229, 4
@@ -2062,7 +2062,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "setlevitateparams"
-		; address: 0x48a72
+		; address: 0xb5569
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 870:870
 		MemberFunctionArgumentCheck 3
 		LineNumber                  22234, 4
@@ -2077,7 +2077,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "insidelevitatevortex"
-		; address: 0x48a90
+		; address: 0xb5587
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 875:875
 		MemberFunctionArgumentCheck 2
 		LineNumber                  22239, 4
@@ -2091,7 +2091,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "addpart"
-		; address: 0x48aab
+		; address: 0xb55a2
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 880:880
 		MemberFunctionArgumentCheck 3
 		LineNumber                  22244, 4
@@ -2106,7 +2106,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "removepart"
-		; address: 0x48ac9
+		; address: 0xb55c0
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 885:885
 		MemberFunctionArgumentCheck 2
 		LineNumber                  22249, 4
@@ -2120,7 +2120,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "interpolate"
-		; address: 0x48ae4
+		; address: 0xb55db
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 890:890
 		MemberFunctionArgumentCheck 5
 		LineNumber                  22254, 4
@@ -2137,7 +2137,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "watch"
-		; address: 0x48b08
+		; address: 0xb55ff
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 895:895
 		MemberFunctionArgumentCheck 1
 		LineNumber                  22259, 4
@@ -2150,7 +2150,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "setcrushfromtop"
-		; address: 0x48b20
+		; address: 0xb5617
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 900:900
 		MemberFunctionArgumentCheck 2
 		LineNumber                  22264, 4
@@ -2164,7 +2164,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "setbullrunmode"
-		; address: 0x48b3b
+		; address: 0xb5632
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 905:905
 		MemberFunctionArgumentCheck 2
 		LineNumber                  22269, 4
@@ -2178,7 +2178,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "setisboss"
-		; address: 0x48b56
+		; address: 0xb564d
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 910:910
 		MemberFunctionArgumentCheck 2
 		LineNumber                  22274, 4
@@ -2192,7 +2192,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "setattackraycastable"
-		; address: 0x48b71
+		; address: 0xb5668
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 915:915
 		MemberFunctionArgumentCheck 2
 		LineNumber                  22279, 4
@@ -2206,7 +2206,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "setsecondarybclreport"
-		; address: 0x48b8c
+		; address: 0xb5683
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 921:924
 		MemberFunctionArgumentCheck   2
 		LineNumber                    22285, 4
@@ -2233,7 +2233,7 @@ begin class "gs_lego_character", "ss_base3dcharacter"
 	end ; method
 
 	begin method "setwaterlevel"
-		; address: 0x48bc8
+		; address: 0xb56bf
 		; source: 51 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/Lego_character.vbo" 929:929
 		MemberFunctionArgumentCheck 2
 		LineNumber                  22293, 4

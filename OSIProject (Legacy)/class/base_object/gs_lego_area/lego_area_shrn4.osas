@@ -3,7 +3,7 @@ begin class "lego_area_shrn4", "gs_lego_area"
 	property "parent"
 
 	begin method "lego_area_shrn4"
-		; address: 0x9dcdb
+		; address: 0xa630e
 		; source: 182 "C:\\projects\\lego\\Scripting\\VBO\\lev5/level_5.vbo" 29:32
 		MemberFunctionArgumentCheck 2
 		LineNumber                  4913, 4
@@ -43,7 +43,7 @@ begin class "lego_area_shrn4", "gs_lego_area"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x9dd43
+		; address: 0xa6376
 		; source: 182 "C:\\projects\\lego\\Scripting\\VBO\\lev5/level_5.vbo" 42:47
 		MemberFunctionArgumentCheck  1
 		LineNumber                   4926, 4
@@ -89,7 +89,7 @@ begin class "lego_area_shrn4", "gs_lego_area"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x9ddb7
+		; address: 0xa63ea
 		; source: 182 "C:\\projects\\lego\\Scripting\\VBO\\lev5/level_5.vbo" 53:55
 		MemberFunctionArgumentCheck 1
 		LineNumber                  4937, 4
@@ -117,14 +117,14 @@ begin class "lego_area_shrn4", "gs_lego_area"
 	end ; method
 
 	begin method "process"
-		; address: 0x9ddf6
+		; address: 0xa6429
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "onevent"
-		; address: 0x9ddfa
+		; address: 0xa642d
 		; source: 182 "C:\\projects\\lego\\Scripting\\VBO\\lev5/level_5.vbo" 66:66
 		MemberFunctionArgumentCheck 2
 		LineNumber                  4950, 4
@@ -140,14 +140,14 @@ begin class "lego_area_shrn4", "gs_lego_area"
 	end ; method
 
 	begin method "input"
-		; address: 0x9de16
+		; address: 0xa6449
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "exit"
-		; address: 0x9de1a
+		; address: 0xa644d
 		; source: 182 "C:\\projects\\lego\\Scripting\\VBO\\lev5/level_5.vbo" 76:80
 		MemberFunctionArgumentCheck   1
 		LineNumber                    4960, 4

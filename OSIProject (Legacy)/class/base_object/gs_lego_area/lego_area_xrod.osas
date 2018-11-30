@@ -4,7 +4,7 @@ begin class "lego_area_xrod", "gs_lego_area"
 	property "door"
 
 	begin method "lego_area_xrod"
-		; address: 0x927ab
+		; address: 0xabd5c
 		; source: 167 "C:\\projects\\lego\\Scripting\\VBO\\lev4/Lev4_visn.vbo" 25:25
 		MemberFunctionArgumentCheck 2
 		LineNumber                  65416, 4
@@ -22,7 +22,7 @@ begin class "lego_area_xrod", "gs_lego_area"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x927ca
+		; address: 0xabd7b
 		; source: 167 "C:\\projects\\lego\\Scripting\\VBO\\lev4/Lev4_visn.vbo" 34:60
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -214,7 +214,7 @@ begin class "lego_area_xrod", "gs_lego_area"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x92a28
+		; address: 0xabfd9
 		; source: 167 "C:\\projects\\lego\\Scripting\\VBO\\lev4/Lev4_visn.vbo" 69:102
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -449,7 +449,7 @@ begin class "lego_area_xrod", "gs_lego_area"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x92cc6
+		; address: 0xac277
 		; source: 167 "C:\\projects\\lego\\Scripting\\VBO\\lev4/Lev4_visn.vbo" 111:119
 		MemberFunctionArgumentCheck   1
 		LineNumber                    65502, 4
@@ -503,7 +503,7 @@ begin class "lego_area_xrod", "gs_lego_area"
 	end ; method
 
 	begin method "exit"
-		; address: 0x92d42
+		; address: 0xac2f3
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return

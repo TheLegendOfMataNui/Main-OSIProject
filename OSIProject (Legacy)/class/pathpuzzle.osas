@@ -6,7 +6,7 @@ begin class "pathpuzzle"
 	property "hittrigerbox"
 
 	begin method "pathpuzzle"
-		; address: 0x94561
+		; address: 0x614c9
 		; source: 170 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_maz2.vbo" 113:113
 		MemberFunctionArgumentCheck 2
 		LineNumber                  793, 4
@@ -18,7 +18,7 @@ begin class "pathpuzzle"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x94575
+		; address: 0x614dd
 		; source: 170 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_maz2.vbo" 119:189
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          6
@@ -514,7 +514,7 @@ begin class "pathpuzzle"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x94b20
+		; address: 0x61a88
 		; source: 170 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_maz2.vbo" 194:207
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          5
@@ -600,7 +600,7 @@ begin class "pathpuzzle"
 	end ; method
 
 	begin method "show"
-		; address: 0x94bef
+		; address: 0x61b57
 		; source: 170 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_maz2.vbo" 213:214
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -639,7 +639,7 @@ begin class "pathpuzzle"
 	end ; method
 
 	begin method "hide"
-		; address: 0x94c31
+		; address: 0x61b99
 		; source: 170 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_maz2.vbo" 220:221
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -678,7 +678,7 @@ begin class "pathpuzzle"
 	end ; method
 
 	begin method "process"
-		; address: 0x94c73
+		; address: 0x61bdb
 		; source: 170 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_maz2.vbo" 227:228
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -718,7 +718,7 @@ begin class "pathpuzzle"
 	end ; method
 
 	begin method "initshort"
-		; address: 0x94cb9
+		; address: 0x61c21
 		; source: 170 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_maz2.vbo" 236:244
 		MemberFunctionArgumentCheck   1
 		LineNumber                    916, 4
@@ -788,7 +788,7 @@ begin class "pathpuzzle"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x94d7c
+		; address: 0x61ce4
 		; source: 170 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_maz2.vbo" 253:301
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -1007,14 +1007,14 @@ begin class "pathpuzzle"
 	end ; method
 
 	begin method "input"
-		; address: 0x94f59
+		; address: 0x61ec1
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "exit"
-		; address: 0x94f5d
+		; address: 0x61ec5
 		; source: 170 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_maz2.vbo" 320:320
 		MemberFunctionArgumentCheck 1
 		LineNumber                  1000, 4

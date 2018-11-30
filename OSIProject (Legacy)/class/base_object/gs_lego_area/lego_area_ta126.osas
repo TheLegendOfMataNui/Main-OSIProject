@@ -2,7 +2,7 @@ begin class "lego_area_ta126", "gs_lego_area"
 	property "puzzle"
 
 	begin method "lego_area_ta126"
-		; address: 0xb36ec
+		; address: 0xa7f79
 		; source: 217 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_shrn.vbo" 22:24
 		MemberFunctionArgumentCheck 2
 		LineNumber                  15204, 4
@@ -38,7 +38,7 @@ begin class "lego_area_ta126", "gs_lego_area"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xb3744
+		; address: 0xa7fd1
 		; source: 217 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_shrn.vbo" 31:34
 		MemberFunctionArgumentCheck 1
 		LineNumber                  15213, 4
@@ -76,7 +76,7 @@ begin class "lego_area_ta126", "gs_lego_area"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xb37ab
+		; address: 0xa8038
 		; source: 217 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_shrn.vbo" 39:40
 		MemberFunctionArgumentCheck 1
 		LineNumber                  15221, 4
@@ -97,7 +97,7 @@ begin class "lego_area_ta126", "gs_lego_area"
 	end ; method
 
 	begin method "process"
-		; address: 0xb37d6
+		; address: 0xa8063
 		; source: 217 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_shrn.vbo" 45:45
 		MemberFunctionArgumentCheck 2
 		LineNumber                  15227, 4
@@ -113,7 +113,7 @@ begin class "lego_area_ta126", "gs_lego_area"
 	end ; method
 
 	begin method "onevent"
-		; address: 0xb37f2
+		; address: 0xa807f
 		; source: 217 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_shrn.vbo" 50:50
 		MemberFunctionArgumentCheck 2
 		LineNumber                  15232, 4
@@ -129,7 +129,7 @@ begin class "lego_area_ta126", "gs_lego_area"
 	end ; method
 
 	begin method "input"
-		; address: 0xb380e
+		; address: 0xa809b
 		; source: 217 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_shrn.vbo" 55:55
 		MemberFunctionArgumentCheck 2
 		LineNumber                  15237, 4
@@ -145,7 +145,7 @@ begin class "lego_area_ta126", "gs_lego_area"
 	end ; method
 
 	begin method "exit"
-		; address: 0xb382a
+		; address: 0xa80b7
 		; source: 217 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_shrn.vbo" 60:61
 		MemberFunctionArgumentCheck 1
 		LineNumber                  15242, 4

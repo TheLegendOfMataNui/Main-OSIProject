@@ -1,6 +1,6 @@
 begin class "lego_area_hutt", "gs_lego_area"
 	begin method "lego_area_hutt"
-		; address: 0x8e1d7
+		; address: 0xa1e31
 		; source: 161 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_vllg.vbo" 20:21
 		MemberFunctionArgumentCheck 2
 		LineNumber                  63236, 4
@@ -24,7 +24,7 @@ begin class "lego_area_hutt", "gs_lego_area"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x8e209
+		; address: 0xa1e63
 		; source: 161 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_vllg.vbo" 27:47
 		; source: 123 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefittersounds.h" 56:57
 		MemberFunctionArgumentCheck   1
@@ -138,28 +138,28 @@ begin class "lego_area_hutt", "gs_lego_area"
 	end ; method
 
 	begin method "process"
-		; address: 0x8e36e
+		; address: 0xa1fc8
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "input"
-		; address: 0x8e372
+		; address: 0xa1fcc
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "onevent"
-		; address: 0x8e376
+		; address: 0xa1fd0
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x8e37a
+		; address: 0xa1fd4
 		; source: 161 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_vllg.vbo" 68:69
 		MemberFunctionArgumentCheck 1
 		LineNumber                  63284, 4
@@ -179,7 +179,7 @@ begin class "lego_area_hutt", "gs_lego_area"
 	end ; method
 
 	begin method "exit"
-		; address: 0x8e3a4
+		; address: 0xa1ffe
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return

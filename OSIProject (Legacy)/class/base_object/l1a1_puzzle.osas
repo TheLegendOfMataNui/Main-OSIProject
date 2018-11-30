@@ -5,7 +5,7 @@ begin class "l1a1_puzzle", "base_object"
 	property "pickpickup"
 
 	begin method "l1a1_puzzle"
-		; address: 0x6c01c
+		; address: 0x8fbe6
 		; source: 115 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_volatilePlatform.vbo" 95:95
 		MemberFunctionArgumentCheck 2
 		LineNumber                  45131, 4
@@ -17,7 +17,7 @@ begin class "l1a1_puzzle", "base_object"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x6c030
+		; address: 0x8fbfa
 		; source: 115 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_volatilePlatform.vbo" 116:139
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          4
@@ -201,7 +201,7 @@ begin class "l1a1_puzzle", "base_object"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x6c218
+		; address: 0x8fde2
 		; source: 115 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_volatilePlatform.vbo" 149:164
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -292,7 +292,7 @@ begin class "l1a1_puzzle", "base_object"
 	end ; method
 
 	begin method "exit"
-		; address: 0x6c2e4
+		; address: 0x8feae
 		; source: 115 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_volatilePlatform.vbo" 169:169
 		MemberFunctionArgumentCheck 1
 		LineNumber                  45205, 4

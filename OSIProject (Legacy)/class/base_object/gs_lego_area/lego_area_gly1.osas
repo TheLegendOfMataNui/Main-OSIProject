@@ -6,7 +6,7 @@ begin class "lego_area_gly1", "gs_lego_area"
 	property "clawpickup"
 
 	begin method "lego_area_gly1"
-		; address: 0x8bc0f
+		; address: 0xa1083
 		; source: 159 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_rkfl.vbo" 28:32
 		MemberFunctionArgumentCheck 2
 		LineNumber                  62017, 4
@@ -62,7 +62,7 @@ begin class "lego_area_gly1", "gs_lego_area"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x8bc98
+		; address: 0xa110c
 		; source: 159 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_rkfl.vbo" 40:56
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -203,7 +203,7 @@ begin class "lego_area_gly1", "gs_lego_area"
 	end ; method
 
 	begin method "process"
-		; address: 0x8be2c
+		; address: 0xa12a0
 		; source: 159 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_rkfl.vbo" 63:63
 		MemberFunctionArgumentCheck 2
 		LineNumber                  62052, 4
@@ -219,7 +219,7 @@ begin class "lego_area_gly1", "gs_lego_area"
 	end ; method
 
 	begin method "input"
-		; address: 0x8be48
+		; address: 0xa12bc
 		; source: 159 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_rkfl.vbo" 69:69
 		MemberFunctionArgumentCheck 2
 		LineNumber                  62058, 4
@@ -235,7 +235,7 @@ begin class "lego_area_gly1", "gs_lego_area"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x8be64
+		; address: 0xa12d8
 		; source: 159 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_rkfl.vbo" 77:77
 		MemberFunctionArgumentCheck 2
 		LineNumber                  62066, 4
@@ -251,7 +251,7 @@ begin class "lego_area_gly1", "gs_lego_area"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x8be80
+		; address: 0xa12f4
 		; source: 159 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_rkfl.vbo" 83:93
 		MemberFunctionArgumentCheck   1
 		LineNumber                    62072, 4
@@ -314,7 +314,7 @@ begin class "lego_area_gly1", "gs_lego_area"
 	end ; method
 
 	begin method "exit"
-		; address: 0x8bf15
+		; address: 0xa1389
 		; source: 159 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_rkfl.vbo" 101:102
 		MemberFunctionArgumentCheck 1
 		LineNumber                  62090, 4

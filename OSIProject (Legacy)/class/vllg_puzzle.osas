@@ -9,7 +9,7 @@ begin class "vllg_puzzle"
 	property "callev_safe_time_once"
 
 	begin method "vllg_puzzle"
-		; address: 0xa7dfa
+		; address: 0x85d80
 		; source: 200 "C:\\projects\\lego\\Scripting\\VBO\\lev6/level_6.vbo" 93:93
 		MemberFunctionArgumentCheck 2
 		LineNumber                  9625, 4
@@ -21,7 +21,7 @@ begin class "vllg_puzzle"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xa7e0e
+		; address: 0x85d94
 		; source: 200 "C:\\projects\\lego\\Scripting\\VBO\\lev6/level_6.vbo" 101:170
 		; source: 95 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_vllg.vbo" 184:185
 		MemberFunctionArgumentCheck   1
@@ -699,7 +699,7 @@ begin class "vllg_puzzle"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xa86f1
+		; address: 0x86677
 		; source: 200 "C:\\projects\\lego\\Scripting\\VBO\\lev6/level_6.vbo" 176:182
 		MemberFunctionArgumentCheck   1
 		LineNumber                    9708, 4
@@ -749,7 +749,7 @@ begin class "vllg_puzzle"
 	end ; method
 
 	begin method "exit"
-		; address: 0xa875f
+		; address: 0x866e5
 		; source: 200 "C:\\projects\\lego\\Scripting\\VBO\\lev6/level_6.vbo" 188:188
 		MemberFunctionArgumentCheck 1
 		LineNumber                  9720, 4
@@ -761,7 +761,7 @@ begin class "vllg_puzzle"
 	end ; method
 
 	begin method "process"
-		; address: 0xa8771
+		; address: 0x866f7
 		; source: 200 "C:\\projects\\lego\\Scripting\\VBO\\lev6/level_6.vbo" 194:202
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          2
@@ -845,7 +845,7 @@ begin class "vllg_puzzle"
 	end ; method
 
 	begin method "onevent"
-		; address: 0xa8850
+		; address: 0x867d6
 		; source: 200 "C:\\projects\\lego\\Scripting\\VBO\\lev6/level_6.vbo" 213:253
 		; source: 95 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_vllg.vbo" 184:185
 		MemberFunctionArgumentCheck   2
@@ -1129,14 +1129,14 @@ begin class "vllg_puzzle"
 	end ; method
 
 	begin method "input"
-		; address: 0xa8b20
+		; address: 0x86aa6
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "openvllgdoor"
-		; address: 0xa8b24
+		; address: 0x86aaa
 		; source: 200 "C:\\projects\\lego\\Scripting\\VBO\\lev6/level_6.vbo" 264:264
 		MemberFunctionArgumentCheck 1
 		LineNumber                  9796, 4

@@ -7,7 +7,7 @@ begin class "tp016_puzzle"
 	property "music"
 
 	begin method "tp016_puzzle"
-		; address: 0xb66c8
+		; address: 0x834b4
 		; source: 220 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_mtup.vbo" 88:88
 		MemberFunctionArgumentCheck 2
 		LineNumber                  16353, 4
@@ -19,7 +19,7 @@ begin class "tp016_puzzle"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xb66dc
+		; address: 0x834c8
 		; source: 220 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_mtup.vbo" 97:119
 		MemberFunctionArgumentCheck 1
 		LineNumber                  16362, 4
@@ -162,7 +162,7 @@ begin class "tp016_puzzle"
 	end ; method
 
 	begin method "hide"
-		; address: 0xb686c
+		; address: 0x83658
 		; source: 220 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_mtup.vbo" 126:136
 		MemberFunctionArgumentCheck 1
 		LineNumber                  16391, 4
@@ -210,7 +210,7 @@ begin class "tp016_puzzle"
 	end ; method
 
 	begin method "exit"
-		; address: 0xb68ea
+		; address: 0x836d6
 		; source: 220 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_mtup.vbo" 145:145
 		MemberFunctionArgumentCheck 1
 		LineNumber                  16410, 4
@@ -222,14 +222,14 @@ begin class "tp016_puzzle"
 	end ; method
 
 	begin method "process"
-		; address: 0xb68fc
+		; address: 0x836e8
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "onevent"
-		; address: 0xb6900
+		; address: 0x836ec
 		; source: 220 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_mtup.vbo" 156:175
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -351,7 +351,7 @@ begin class "tp016_puzzle"
 	end ; method
 
 	begin method "input"
-		; address: 0xb6a1f
+		; address: 0x8380b
 		; source: 220 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_mtup.vbo" 192:192
 		MemberFunctionArgumentCheck   2
 		LineNumber                    16457, 4
@@ -383,7 +383,7 @@ begin class "tp016_puzzle"
 	end ; method
 
 	begin method "cheat"
-		; address: 0xb6a62
+		; address: 0x8384e
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return

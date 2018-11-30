@@ -2,7 +2,7 @@ begin class "lego_area_ptos", "gs_lego_area"
 	property "puzzle"
 
 	begin method "lego_area_ptos"
-		; address: 0x8ea7a
+		; address: 0xa5580
 		; source: 163 "C:\\projects\\lego\\Scripting\\VBO\\lev4/level_4.vbo" 23:25
 		MemberFunctionArgumentCheck 2
 		LineNumber                  63537, 4
@@ -38,7 +38,7 @@ begin class "lego_area_ptos", "gs_lego_area"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x8ead2
+		; address: 0xa55d8
 		; source: 163 "C:\\projects\\lego\\Scripting\\VBO\\lev4/level_4.vbo" 33:34
 		MemberFunctionArgumentCheck 1
 		LineNumber                  63547, 4
@@ -59,7 +59,7 @@ begin class "lego_area_ptos", "gs_lego_area"
 	end ; method
 
 	begin method "process"
-		; address: 0x8eafd
+		; address: 0xa5603
 		; source: 163 "C:\\projects\\lego\\Scripting\\VBO\\lev4/level_4.vbo" 39:39
 		MemberFunctionArgumentCheck 2
 		LineNumber                  63553, 4
@@ -75,7 +75,7 @@ begin class "lego_area_ptos", "gs_lego_area"
 	end ; method
 
 	begin method "input"
-		; address: 0x8eb19
+		; address: 0xa561f
 		; source: 163 "C:\\projects\\lego\\Scripting\\VBO\\lev4/level_4.vbo" 44:44
 		MemberFunctionArgumentCheck 2
 		LineNumber                  63558, 4
@@ -91,7 +91,7 @@ begin class "lego_area_ptos", "gs_lego_area"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x8eb35
+		; address: 0xa563b
 		; source: 163 "C:\\projects\\lego\\Scripting\\VBO\\lev4/level_4.vbo" 49:49
 		MemberFunctionArgumentCheck 2
 		LineNumber                  63563, 4
@@ -107,7 +107,7 @@ begin class "lego_area_ptos", "gs_lego_area"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x8eb51
+		; address: 0xa5657
 		; source: 163 "C:\\projects\\lego\\Scripting\\VBO\\lev4/level_4.vbo" 54:55
 		MemberFunctionArgumentCheck 1
 		LineNumber                  63568, 4
@@ -128,7 +128,7 @@ begin class "lego_area_ptos", "gs_lego_area"
 	end ; method
 
 	begin method "exit"
-		; address: 0x8eb7c
+		; address: 0xa5682
 		; source: 163 "C:\\projects\\lego\\Scripting\\VBO\\lev4/level_4.vbo" 61:61
 		MemberFunctionArgumentCheck 1
 		LineNumber                  63575, 4

@@ -7,7 +7,7 @@ begin class "fireball"
 	property "burnsoundscleanedup"
 
 	begin method "fireball"
-		; address: 0xb1810
+		; address: 0x42fae
 		; source: 212 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta12.vbo" 902:910
 		MemberFunctionArgumentCheck 5
 		LineNumber                  14115, 4
@@ -77,7 +77,7 @@ begin class "fireball"
 	end ; method
 
 	begin method "fire"
-		; address: 0xb18e5
+		; address: 0x43083
 		; source: 212 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta12.vbo" 916:922
 		MemberFunctionArgumentCheck 3
 		LineNumber                  14129, 4
@@ -127,7 +127,7 @@ begin class "fireball"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xb196a
+		; address: 0x43108
 		; source: 212 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta12.vbo" 927:938
 		MemberFunctionArgumentCheck   1
 		LineNumber                    14140, 4
@@ -189,7 +189,7 @@ begin class "fireball"
 	end ; method
 
 	begin method "reset"
-		; address: 0xb1a11
+		; address: 0x431af
 		; source: 212 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta12.vbo" 944:949
 		MemberFunctionArgumentCheck   1
 		LineNumber                    14157, 4
@@ -228,7 +228,7 @@ begin class "fireball"
 	end ; method
 
 	begin method "process"
-		; address: 0xb1a6c
+		; address: 0x4320a
 		; source: 212 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta12.vbo" 953:953
 		MemberFunctionArgumentCheck 2
 		LineNumber                  14166, 4
@@ -244,7 +244,7 @@ begin class "fireball"
 	end ; method
 
 	begin method "onevent"
-		; address: 0xb1a88
+		; address: 0x43226
 		; source: 212 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta12.vbo" 959:966
 		MemberFunctionArgumentCheck   2
 		LineNumber                    14172, 4
@@ -320,7 +320,7 @@ begin class "fireball"
 	end ; method
 
 	begin method "detonate"
-		; address: 0xb1b42
+		; address: 0x432e0
 		; source: 212 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta12.vbo" 976:989
 		MemberFunctionArgumentCheck   5
 		LineNumber                    14189, 4
@@ -392,7 +392,7 @@ begin class "fireball"
 	end ; method
 
 	begin method "input"
-		; address: 0xb1bf4
+		; address: 0x43392
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return

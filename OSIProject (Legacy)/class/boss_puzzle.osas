@@ -29,7 +29,7 @@ begin class "boss_puzzle"
 	property "ending"
 
 	begin method "boss_puzzle"
-		; address: 0x88a44
+		; address: 0x32f57
 		; source: 158 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_ptos.vbo" 190:190
 		MemberFunctionArgumentCheck 2
 		LineNumber                  61059, 4
@@ -41,7 +41,7 @@ begin class "boss_puzzle"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x88a58
+		; address: 0x32f6b
 		; source: 158 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_ptos.vbo" 198:321
 		; source: 159 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_rkfl.vbo" 185:191
 		; source: 150 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_bldr.vbo" 165:165
@@ -1107,7 +1107,7 @@ begin class "boss_puzzle"
 	end ; method
 
 	begin method "setupstrings"
-		; address: 0x895bf
+		; address: 0x33ad2
 		; source: 158 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_ptos.vbo" 331:341
 		MemberFunctionArgumentCheck  1
 		CreateStackVariables         4
@@ -1194,7 +1194,7 @@ begin class "boss_puzzle"
 	end ; method
 
 	begin method "showstrings"
-		; address: 0x896bc
+		; address: 0x33bcf
 		; source: 158 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_ptos.vbo" 348:353
 		MemberFunctionArgumentCheck 1
 		LineNumber                  61217, 4
@@ -1244,7 +1244,7 @@ begin class "boss_puzzle"
 	end ; method
 
 	begin method "cleanupstrings"
-		; address: 0x89738
+		; address: 0x33c4b
 		; source: 158 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_ptos.vbo" 360:365
 		MemberFunctionArgumentCheck 1
 		LineNumber                  61229, 4
@@ -1288,7 +1288,7 @@ begin class "boss_puzzle"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x897a8
+		; address: 0x33cbb
 		; source: 158 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_ptos.vbo" 374:574
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          4
@@ -2297,7 +2297,7 @@ begin class "boss_puzzle"
 	end ; method
 
 	begin method "startconversation"
-		; address: 0x8a157
+		; address: 0x3466a
 		; source: 158 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_ptos.vbo" 582:585
 		MemberFunctionArgumentCheck  1
 		CreateStackVariables         1
@@ -2336,7 +2336,7 @@ begin class "boss_puzzle"
 	end ; method
 
 	begin method "finishconversation"
-		; address: 0x8a1c7
+		; address: 0x346da
 		; source: 158 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_ptos.vbo" 592:601
 		MemberFunctionArgumentCheck  1
 		CreateStackVariables         3
@@ -2419,7 +2419,7 @@ begin class "boss_puzzle"
 	end ; method
 
 	begin method "process"
-		; address: 0x8a2c3
+		; address: 0x347d6
 		; source: 158 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_ptos.vbo" 612:664
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -2699,7 +2699,7 @@ begin class "boss_puzzle"
 	end ; method
 
 	begin method "reset"
-		; address: 0x8a585
+		; address: 0x34a98
 		; source: 158 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_ptos.vbo" 677:713
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -2904,7 +2904,7 @@ begin class "boss_puzzle"
 	end ; method
 
 	begin method "show"
-		; address: 0x8a7a9
+		; address: 0x34cbc
 		; source: 158 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_ptos.vbo" 719:729
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -3033,7 +3033,7 @@ begin class "boss_puzzle"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x8a89f
+		; address: 0x34db2
 		; source: 158 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_ptos.vbo" 737:816
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -3404,7 +3404,7 @@ begin class "boss_puzzle"
 	end ; method
 
 	begin method "explode"
-		; address: 0x8ac1d
+		; address: 0x35130
 		; source: 158 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_ptos.vbo" 827:952
 		MemberFunctionArgumentCheck   3
 		CreateStackVariables          11
@@ -4377,7 +4377,7 @@ begin class "boss_puzzle"
 	end ; method
 
 	begin method "shake"
-		; address: 0x8b735
+		; address: 0x35c48
 		; source: 158 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_ptos.vbo" 958:958
 		MemberFunctionArgumentCheck 1
 		LineNumber                  61827, 4

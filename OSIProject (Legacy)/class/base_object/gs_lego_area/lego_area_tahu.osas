@@ -2,7 +2,7 @@ begin class "lego_area_tahu", "gs_lego_area"
 	property "puzzle"
 
 	begin method "lego_area_tahu"
-		; address: 0xbbc47
+		; address: 0xa83c5
 		; source: 234 unknown 20:20
 		MemberFunctionArgumentCheck 2
 		LineNumber                  19097, 4
@@ -20,7 +20,7 @@ begin class "lego_area_tahu", "gs_lego_area"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xbbc66
+		; address: 0xa83e4
 		; source: 234 unknown 27:34
 		MemberFunctionArgumentCheck  1
 		LineNumber                   19104, 4
@@ -80,7 +80,7 @@ begin class "lego_area_tahu", "gs_lego_area"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xbbd0b
+		; address: 0xa8489
 		; source: 234 unknown 40:42
 		MemberFunctionArgumentCheck  1
 		LineNumber                   19117, 4
@@ -108,7 +108,7 @@ begin class "lego_area_tahu", "gs_lego_area"
 	end ; method
 
 	begin method "process"
-		; address: 0xbbd4b
+		; address: 0xa84c9
 		; source: 234 unknown 48:52
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -163,7 +163,7 @@ begin class "lego_area_tahu", "gs_lego_area"
 	end ; method
 
 	begin method "onevent"
-		; address: 0xbbdec
+		; address: 0xa856a
 		; source: 234 unknown 60:67
 		; source: 198 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_boss.vbo" 98:98
 		MemberFunctionArgumentCheck   2
@@ -231,14 +231,14 @@ begin class "lego_area_tahu", "gs_lego_area"
 	end ; method
 
 	begin method "input"
-		; address: 0xbbea8
+		; address: 0xa8626
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "exit"
-		; address: 0xbbeac
+		; address: 0xa862a
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return

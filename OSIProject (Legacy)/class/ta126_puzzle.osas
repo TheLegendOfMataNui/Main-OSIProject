@@ -11,7 +11,7 @@ begin class "ta126_puzzle"
 	property "showmask"
 
 	begin method "ta126_puzzle"
-		; address: 0xb3850
+		; address: 0x7f309
 		; source: 217 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_shrn.vbo" 90:90
 		MemberFunctionArgumentCheck 2
 		LineNumber                  15272, 4
@@ -23,7 +23,7 @@ begin class "ta126_puzzle"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xb3864
+		; address: 0x7f31d
 		; source: 217 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_shrn.vbo" 97:198
 		; source: 199 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_tura.vbo" 97:105
 		; source: 163 "C:\\projects\\lego\\Scripting\\VBO\\lev4/level_4.vbo" 120:123
@@ -1048,7 +1048,7 @@ begin class "ta126_puzzle"
 	end ; method
 
 	begin method "initshort"
-		; address: 0xb42bb
+		; address: 0x7fd74
 		; source: 217 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_shrn.vbo" 211:224
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -1187,7 +1187,7 @@ begin class "ta126_puzzle"
 	end ; method
 
 	begin method "cleanupshort"
-		; address: 0xb43ff
+		; address: 0x7feb8
 		; source: 217 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_shrn.vbo" 229:232
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -1233,7 +1233,7 @@ begin class "ta126_puzzle"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xb4455
+		; address: 0x7ff0e
 		; source: 217 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_shrn.vbo" 238:259
 		; source: 172 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_swrd.vbo" 198:200
 		MemberFunctionArgumentCheck   1
@@ -1367,7 +1367,7 @@ begin class "ta126_puzzle"
 	end ; method
 
 	begin method "exit"
-		; address: 0xb4594
+		; address: 0x8004d
 		; source: 217 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_shrn.vbo" 265:265
 		MemberFunctionArgumentCheck 1
 		LineNumber                  15447, 4
@@ -1379,14 +1379,14 @@ begin class "ta126_puzzle"
 	end ; method
 
 	begin method "process"
-		; address: 0xb45a6
+		; address: 0x8005f
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "onevent"
-		; address: 0xb45aa
+		; address: 0x80063
 		; source: 217 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_shrn.vbo" 276:321
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          4
@@ -1670,7 +1670,7 @@ begin class "ta126_puzzle"
 	end ; method
 
 	begin method "input"
-		; address: 0xb483b
+		; address: 0x802f4
 		; source: 217 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_shrn.vbo" 331:331
 		MemberFunctionArgumentCheck   2
 		LineNumber                    15513, 4
@@ -1702,7 +1702,7 @@ begin class "ta126_puzzle"
 	end ; method
 
 	begin method "cheat"
-		; address: 0xb487e
+		; address: 0x80337
 		; source: 217 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_shrn.vbo" 337:341
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1

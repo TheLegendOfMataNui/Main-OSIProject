@@ -2,7 +2,7 @@ begin class "lego_area_onua", "gs_lego_area"
 	property "puzzle"
 
 	begin method "lego_area_onua"
-		; address: 0xb90b6
+		; address: 0xa4d76
 		; source: 229 "C:\\projects\\lego\\Scripting\\VBO\\AreaViewer.vbo" 20:20
 		MemberFunctionArgumentCheck 2
 		LineNumber                  17837, 4
@@ -20,7 +20,7 @@ begin class "lego_area_onua", "gs_lego_area"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xb90d5
+		; address: 0xa4d95
 		; source: 229 "C:\\projects\\lego\\Scripting\\VBO\\AreaViewer.vbo" 27:39
 		; source: 170 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_maz2.vbo" 47:48
 		MemberFunctionArgumentCheck   1
@@ -137,7 +137,7 @@ begin class "lego_area_onua", "gs_lego_area"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xb9213
+		; address: 0xa4ed3
 		; source: 229 "C:\\projects\\lego\\Scripting\\VBO\\AreaViewer.vbo" 45:47
 		MemberFunctionArgumentCheck  1
 		LineNumber                   17862, 4
@@ -165,7 +165,7 @@ begin class "lego_area_onua", "gs_lego_area"
 	end ; method
 
 	begin method "process"
-		; address: 0xb9253
+		; address: 0xa4f13
 		; source: 229 "C:\\projects\\lego\\Scripting\\VBO\\AreaViewer.vbo" 60:63
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -213,7 +213,7 @@ begin class "lego_area_onua", "gs_lego_area"
 	end ; method
 
 	begin method "onevent"
-		; address: 0xb92e0
+		; address: 0xa4fa0
 		; source: 229 "C:\\projects\\lego\\Scripting\\VBO\\AreaViewer.vbo" 71:81
 		MemberFunctionArgumentCheck   2
 		LineNumber                    17888, 4
@@ -287,14 +287,14 @@ begin class "lego_area_onua", "gs_lego_area"
 	end ; method
 
 	begin method "input"
-		; address: 0xb93b0
+		; address: 0xa5070
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "exit"
-		; address: 0xb93b4
+		; address: 0xa5074
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return

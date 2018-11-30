@@ -9,7 +9,7 @@ begin class "ss_shoefittersoundmarkerclass", "ss_basefilledrect"
 	property "blueincr"
 
 	begin method "ss_shoefittersoundmarkerclass"
-		; address: 0x74235
+		; address: 0xb59e6
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/slkheader.h" 1078:1094
 		MemberFunctionArgumentCheck   5
 		CreateStackVariables          1
@@ -123,7 +123,7 @@ begin class "ss_shoefittersoundmarkerclass", "ss_basefilledrect"
 	end ; method
 
 	begin method "markerinitfull"
-		; address: 0x74348
+		; address: 0xb5af9
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/slkheader.h" 1101:1112
 		MemberFunctionArgumentCheck 2
 		LineNumber                  49528, 4
@@ -188,7 +188,7 @@ begin class "ss_shoefittersoundmarkerclass", "ss_basefilledrect"
 	end ; method
 
 	begin method "markercleanupfull"
-		; address: 0x743f8
+		; address: 0xb5ba9
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/slkheader.h" 1117:1119
 		MemberFunctionArgumentCheck 1
 		LineNumber                  49544, 4
@@ -214,7 +214,7 @@ begin class "ss_shoefittersoundmarkerclass", "ss_basefilledrect"
 	end ; method
 
 	begin method "process"
-		; address: 0x74435
+		; address: 0xb5be6
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/slkheader.h" 1124:1124
 		MemberFunctionArgumentCheck 2
 		LineNumber                  49551, 4
@@ -228,7 +228,7 @@ begin class "ss_shoefittersoundmarkerclass", "ss_basefilledrect"
 	end ; method
 
 	begin method "pulsate"
-		; address: 0x7444c
+		; address: 0xb5bfd
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/slkheader.h" 1129:1132
 		MemberFunctionArgumentCheck   1
 		LineNumber                    49556, 4
@@ -275,7 +275,7 @@ begin class "ss_shoefittersoundmarkerclass", "ss_basefilledrect"
 	end ; method
 
 	begin method "moveflag"
-		; address: 0x744a2
+		; address: 0xb5c53
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/slkheader.h" 1138:1141
 		MemberFunctionArgumentCheck   2
 		LineNumber                    49565, 4
@@ -329,7 +329,7 @@ begin class "ss_shoefittersoundmarkerclass", "ss_basefilledrect"
 	end ; method
 
 	begin method "createargarrays"
-		; address: 0x74520
+		; address: 0xb5cd1
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/slkheader.h" 1147:1151
 		MemberFunctionArgumentCheck   1
 		LineNumber                    49574, 4
@@ -393,7 +393,7 @@ begin class "ss_shoefittersoundmarkerclass", "ss_basefilledrect"
 	end ; method
 
 	begin method "setargvalues"
-		; address: 0x74596
+		; address: 0xb5d47
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/slkheader.h" 1157:1157
 		MemberFunctionArgumentCheck 3
 		LineNumber                  49584, 4

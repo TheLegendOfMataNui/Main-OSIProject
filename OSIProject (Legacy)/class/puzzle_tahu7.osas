@@ -6,14 +6,14 @@ begin class "puzzle_tahu7"
 	property "platforms2"
 
 	begin method "puzzle_tahu7"
-		; address: 0xbbeb0
+		; address: 0x697e1
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "initfull"
-		; address: 0xbbeb4
+		; address: 0x697e5
 		; source: 234 unknown 108:148
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -488,7 +488,7 @@ begin class "puzzle_tahu7"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xbc398
+		; address: 0x69cc9
 		; source: 234 unknown 155:168
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -588,7 +588,7 @@ begin class "puzzle_tahu7"
 	end ; method
 
 	begin method "onevent"
-		; address: 0xbc478
+		; address: 0x69da9
 		; source: 234 unknown 175:210
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -804,7 +804,7 @@ begin class "puzzle_tahu7"
 	end ; method
 
 	begin method "reseta"
-		; address: 0xbc651
+		; address: 0x69f82
 		; source: 234 unknown 219:222
 		MemberFunctionArgumentCheck  1
 		LineNumber                   19296, 4
@@ -844,7 +844,7 @@ begin class "puzzle_tahu7"
 	end ; method
 
 	begin method "resetb"
-		; address: 0xbc6c4
+		; address: 0x69ff5
 		; source: 234 unknown 228:231
 		MemberFunctionArgumentCheck  1
 		LineNumber                   19305, 4
@@ -887,7 +887,7 @@ begin class "puzzle_tahu7"
 	end ; method
 
 	begin method "resetpuzzle"
-		; address: 0xbc743
+		; address: 0x6a074
 		; source: 234 unknown 236:247
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1

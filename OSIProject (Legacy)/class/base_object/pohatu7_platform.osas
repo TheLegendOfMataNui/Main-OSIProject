@@ -9,7 +9,7 @@ begin class "pohatu7_platform", "base_object"
 	property "moveup"
 
 	begin method "pohatu7_platform"
-		; address: 0xba787
+		; address: 0x95617
 		; source: 231 "C:\\projects\\lego\\Scripting\\VBO\\LanguageTest.vbo" 312:320
 		MemberFunctionArgumentCheck 6
 		LineNumber                  18471, 4
@@ -78,7 +78,7 @@ begin class "pohatu7_platform", "base_object"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xba889
+		; address: 0x95719
 		; source: 231 "C:\\projects\\lego\\Scripting\\VBO\\LanguageTest.vbo" 326:326
 		MemberFunctionArgumentCheck 1
 		LineNumber                  18485, 4
@@ -90,7 +90,7 @@ begin class "pohatu7_platform", "base_object"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xba89c
+		; address: 0x9572c
 		; source: 231 "C:\\projects\\lego\\Scripting\\VBO\\LanguageTest.vbo" 331:331
 		MemberFunctionArgumentCheck 1
 		LineNumber                  18490, 4
@@ -102,7 +102,7 @@ begin class "pohatu7_platform", "base_object"
 	end ; method
 
 	begin method "toggle"
-		; address: 0xba8ae
+		; address: 0x9573e
 		; source: 231 "C:\\projects\\lego\\Scripting\\VBO\\LanguageTest.vbo" 336:341
 		MemberFunctionArgumentCheck   1
 		LineNumber                    18495, 4
@@ -149,7 +149,7 @@ begin class "pohatu7_platform", "base_object"
 	end ; method
 
 	begin method "reset"
-		; address: 0xba926
+		; address: 0x957b6
 		; source: 231 "C:\\projects\\lego\\Scripting\\VBO\\LanguageTest.vbo" 347:349
 		MemberFunctionArgumentCheck 1
 		LineNumber                  18506, 4

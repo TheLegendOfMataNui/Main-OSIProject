@@ -2,7 +2,7 @@ begin class "lego_area_boss", "gs_lego_area"
 	property "puzzle"
 
 	begin method "lego_area_boss"
-		; address: 0x88920
+		; address: 0x9f191
 		; source: 158 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_ptos.vbo" 97:100
 		MemberFunctionArgumentCheck 2
 		LineNumber                  60966, 4
@@ -56,7 +56,7 @@ begin class "lego_area_boss", "gs_lego_area"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x889a2
+		; address: 0x9f213
 		; source: 158 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_ptos.vbo" 109:110
 		MemberFunctionArgumentCheck 1
 		LineNumber                  60978, 4
@@ -78,7 +78,7 @@ begin class "lego_area_boss", "gs_lego_area"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x889ce
+		; address: 0x9f23f
 		; source: 158 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_ptos.vbo" 115:115
 		MemberFunctionArgumentCheck 2
 		LineNumber                  60984, 4
@@ -94,7 +94,7 @@ begin class "lego_area_boss", "gs_lego_area"
 	end ; method
 
 	begin method "process"
-		; address: 0x889ea
+		; address: 0x9f25b
 		; source: 158 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_ptos.vbo" 120:120
 		MemberFunctionArgumentCheck 2
 		LineNumber                  60989, 4
@@ -110,7 +110,7 @@ begin class "lego_area_boss", "gs_lego_area"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x88a06
+		; address: 0x9f277
 		; source: 158 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_ptos.vbo" 131:131
 		MemberFunctionArgumentCheck 1
 		LineNumber                  61000, 4
@@ -125,7 +125,7 @@ begin class "lego_area_boss", "gs_lego_area"
 	end ; method
 
 	begin method "exit"
-		; address: 0x88a1e
+		; address: 0x9f28f
 		; source: 158 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_ptos.vbo" 136:137
 		MemberFunctionArgumentCheck 1
 		LineNumber                  61005, 4

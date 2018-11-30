@@ -4,7 +4,7 @@ begin class "ta146_puzzle"
 	property "glyph"
 
 	begin method "ta146_puzzle"
-		; address: 0xb62e7
+		; address: 0x81a94
 		; source: 219 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_boss.vbo" 81:81
 		MemberFunctionArgumentCheck 2
 		LineNumber                  16171, 4
@@ -16,7 +16,7 @@ begin class "ta146_puzzle"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xb62fb
+		; address: 0x81aa8
 		; source: 97 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_cave.vbo" 72:72
 		; source: 167 "C:\\projects\\lego\\Scripting\\VBO\\lev4/Lev4_visn.vbo" 45:51
 		; source: 193 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_mtop.vbo" 136:144
@@ -155,14 +155,14 @@ begin class "ta146_puzzle"
 	end ; method
 
 	begin method "show"
-		; address: 0xb647e
+		; address: 0x81c2b
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "hide"
-		; address: 0xb6482
+		; address: 0x81c2f
 		; source: 167 "C:\\projects\\lego\\Scripting\\VBO\\lev4/Lev4_visn.vbo" 111:113
 		; source: 193 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_mtop.vbo" 162:163
 		MemberFunctionArgumentCheck   1
@@ -211,7 +211,7 @@ begin class "ta146_puzzle"
 	end ; method
 
 	begin method "exit"
-		; address: 0xb64e6
+		; address: 0x81c93
 		; source: 219 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_boss.vbo" 131:131
 		MemberFunctionArgumentCheck 1
 		LineNumber                  16221, 4
@@ -223,14 +223,14 @@ begin class "ta146_puzzle"
 	end ; method
 
 	begin method "process"
-		; address: 0xb64f8
+		; address: 0x81ca5
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "onevent"
-		; address: 0xb64fc
+		; address: 0x81ca9
 		; source: 219 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_boss.vbo" 143:149
 		MemberFunctionArgumentCheck   2
 		LineNumber                    16233, 4
@@ -285,7 +285,7 @@ begin class "ta146_puzzle"
 	end ; method
 
 	begin method "input"
-		; address: 0xb6576
+		; address: 0x81d23
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return

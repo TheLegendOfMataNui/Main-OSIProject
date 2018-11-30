@@ -6,7 +6,7 @@ begin class "snowman_puzzle"
 	property "hasstone"
 
 	begin method "snowman_puzzle"
-		; address: 0xa0c66
+		; address: 0x70531
 		; source: 184 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_le02.vbo" 99:102
 		MemberFunctionArgumentCheck 2
 		LineNumber                  6338, 4
@@ -26,7 +26,7 @@ begin class "snowman_puzzle"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xa0c96
+		; address: 0x70561
 		; source: 184 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_le02.vbo" 110:131
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          3
@@ -167,7 +167,7 @@ begin class "snowman_puzzle"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xa0e63
+		; address: 0x7072e
 		; source: 184 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_le02.vbo" 137:148
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -233,7 +233,7 @@ begin class "snowman_puzzle"
 	end ; method
 
 	begin method "exit"
-		; address: 0xa0f10
+		; address: 0x707db
 		; source: 184 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_le02.vbo" 153:154
 		MemberFunctionArgumentCheck 1
 		LineNumber                  6392, 4
@@ -251,7 +251,7 @@ begin class "snowman_puzzle"
 	end ; method
 
 	begin method "resetplayer"
-		; address: 0xa0f35
+		; address: 0x70800
 		; source: 184 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_le02.vbo" 162:174
 		MemberFunctionArgumentCheck  1
 		CreateStackVariables         1
@@ -356,14 +356,14 @@ begin class "snowman_puzzle"
 	end ; method
 
 	begin method "process"
-		; address: 0xa1087
+		; address: 0x70952
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "onevent"
-		; address: 0xa108b
+		; address: 0x70956
 		; source: 184 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_le02.vbo" 186:232
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          2
@@ -634,7 +634,7 @@ begin class "snowman_puzzle"
 	end ; method
 
 	begin method "input"
-		; address: 0xa1334
+		; address: 0x70bff
 		; source: 184 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_le02.vbo" 244:244
 		MemberFunctionArgumentCheck   2
 		LineNumber                    6483, 4
@@ -666,7 +666,7 @@ begin class "snowman_puzzle"
 	end ; method
 
 	begin method "warp"
-		; address: 0xa1377
+		; address: 0x70c42
 		; source: 184 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_le02.vbo" 252:252
 		MemberFunctionArgumentCheck  1
 		LineNumber                   6491, 4

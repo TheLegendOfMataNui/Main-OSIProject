@@ -11,7 +11,7 @@ begin class "lego_volatileplatform"
 	property "touched"
 
 	begin method "lego_volatileplatform"
-		; address: 0x6c2f6
+		; address: 0x59e82
 		; source: 118 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_tura.vbo" 29:38
 		MemberFunctionArgumentCheck 3
 		LineNumber                  45443, 4
@@ -74,7 +74,7 @@ begin class "lego_volatileplatform"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x6c3c8
+		; address: 0x59f54
 		; source: 118 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_tura.vbo" 46:49
 		MemberFunctionArgumentCheck 9
 		LineNumber                  45460, 4
@@ -127,7 +127,7 @@ begin class "lego_volatileplatform"
 	end ; method
 
 	begin method "setupsounds"
-		; address: 0x6c443
+		; address: 0x59fcf
 		; source: 118 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_tura.vbo" 53:71
 		MemberFunctionArgumentCheck   3
 		LineNumber                    45467, 4
@@ -253,7 +253,7 @@ begin class "lego_volatileplatform"
 	end ; method
 
 	begin method "show"
-		; address: 0x6c575
+		; address: 0x5a101
 		; source: 118 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_tura.vbo" 77:77
 		MemberFunctionArgumentCheck 1
 		LineNumber                  45491, 4
@@ -268,7 +268,7 @@ begin class "lego_volatileplatform"
 	end ; method
 
 	begin method "hide"
-		; address: 0x6c58d
+		; address: 0x5a119
 		; source: 118 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_tura.vbo" 81:81
 		MemberFunctionArgumentCheck 1
 		LineNumber                  45495, 4
@@ -283,7 +283,7 @@ begin class "lego_volatileplatform"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x6c5a5
+		; address: 0x5a131
 		; source: 118 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_tura.vbo" 87:99
 		MemberFunctionArgumentCheck   1
 		LineNumber                    45501, 4
@@ -354,7 +354,7 @@ begin class "lego_volatileplatform"
 	end ; method
 
 	begin method "reset"
-		; address: 0x6c648
+		; address: 0x5a1d4
 		; source: 118 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_tura.vbo" 105:108
 		MemberFunctionArgumentCheck 1
 		LineNumber                  45519, 4
@@ -377,7 +377,7 @@ begin class "lego_volatileplatform"
 	end ; method
 
 	begin method "touch"
-		; address: 0x6c67d
+		; address: 0x5a209
 		; source: 118 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_tura.vbo" 113:116
 		MemberFunctionArgumentCheck   1
 		LineNumber                    45527, 4
@@ -412,7 +412,7 @@ begin class "lego_volatileplatform"
 	end ; method
 
 	begin method "settimetofall"
-		; address: 0x6c6ca
+		; address: 0x5a256
 		; source: 118 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_tura.vbo" 122:122
 		MemberFunctionArgumentCheck 2
 		LineNumber                  45536, 4
@@ -428,7 +428,7 @@ begin class "lego_volatileplatform"
 	end ; method
 
 	begin method "setfallrotation"
-		; address: 0x6c6e6
+		; address: 0x5a272
 		; source: 118 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_tura.vbo" 127:127
 		MemberFunctionArgumentCheck 4
 		LineNumber                  45541, 4
@@ -446,7 +446,7 @@ begin class "lego_volatileplatform"
 	end ; method
 
 	begin method "setshakerotateintensity"
-		; address: 0x6c708
+		; address: 0x5a294
 		; source: 118 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_tura.vbo" 132:132
 		MemberFunctionArgumentCheck 2
 		LineNumber                  45546, 4
@@ -462,7 +462,7 @@ begin class "lego_volatileplatform"
 	end ; method
 
 	begin method "setshakebobbleintensity"
-		; address: 0x6c724
+		; address: 0x5a2b0
 		; source: 118 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_tura.vbo" 137:137
 		MemberFunctionArgumentCheck 2
 		LineNumber                  45551, 4
@@ -478,7 +478,7 @@ begin class "lego_volatileplatform"
 	end ; method
 
 	begin method "setshakekillheight"
-		; address: 0x6c740
+		; address: 0x5a2cc
 		; source: 118 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_tura.vbo" 142:142
 		MemberFunctionArgumentCheck 2
 		LineNumber                  45556, 4
@@ -494,7 +494,7 @@ begin class "lego_volatileplatform"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x6c75c
+		; address: 0x5a2e8
 		; source: 118 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_tura.vbo" 147:167
 		MemberFunctionArgumentCheck   2
 		LineNumber                    45561, 4

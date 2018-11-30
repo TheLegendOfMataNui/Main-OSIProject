@@ -2,7 +2,7 @@ begin class "lego_area_boss5", "gs_lego_area"
 	property "puzzle"
 
 	begin method "lego_area_boss5"
-		; address: 0xa99fc
+		; address: 0x9f46e
 		; source: 203 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta02.vbo" 31:33
 		MemberFunctionArgumentCheck 2
 		LineNumber                  10300, 4
@@ -38,7 +38,7 @@ begin class "lego_area_boss5", "gs_lego_area"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xa9a54
+		; address: 0x9f4c6
 		; source: 203 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta02.vbo" 40:43
 		MemberFunctionArgumentCheck 1
 		LineNumber                  10309, 4
@@ -76,7 +76,7 @@ begin class "lego_area_boss5", "gs_lego_area"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xa9aba
+		; address: 0x9f52c
 		; source: 203 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta02.vbo" 48:49
 		MemberFunctionArgumentCheck 1
 		LineNumber                  10317, 4
@@ -97,7 +97,7 @@ begin class "lego_area_boss5", "gs_lego_area"
 	end ; method
 
 	begin method "process"
-		; address: 0xa9ae5
+		; address: 0x9f557
 		; source: 203 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta02.vbo" 54:54
 		MemberFunctionArgumentCheck 2
 		LineNumber                  10323, 4
@@ -113,7 +113,7 @@ begin class "lego_area_boss5", "gs_lego_area"
 	end ; method
 
 	begin method "onevent"
-		; address: 0xa9b01
+		; address: 0x9f573
 		; source: 203 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta02.vbo" 59:59
 		MemberFunctionArgumentCheck 2
 		LineNumber                  10328, 4
@@ -129,7 +129,7 @@ begin class "lego_area_boss5", "gs_lego_area"
 	end ; method
 
 	begin method "input"
-		; address: 0xa9b1d
+		; address: 0x9f58f
 		; source: 203 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta02.vbo" 64:64
 		MemberFunctionArgumentCheck 2
 		LineNumber                  10333, 4

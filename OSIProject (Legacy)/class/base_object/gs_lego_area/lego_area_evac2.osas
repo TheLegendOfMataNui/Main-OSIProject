@@ -2,7 +2,7 @@ begin class "lego_area_evac2", "gs_lego_area"
 	property "puzzle"
 
 	begin method "lego_area_evac2"
-		; address: 0x7fbe9
+		; address: 0xa0891
 		; source: 143 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_gly3.vbo" 26:28
 		MemberFunctionArgumentCheck 2
 		LineNumber                  54782, 4
@@ -38,7 +38,7 @@ begin class "lego_area_evac2", "gs_lego_area"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x7fc41
+		; address: 0xa08e9
 		; source: 143 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_gly3.vbo" 35:40
 		MemberFunctionArgumentCheck 1
 		LineNumber                  54791, 4
@@ -86,7 +86,7 @@ begin class "lego_area_evac2", "gs_lego_area"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x7fcce
+		; address: 0xa0976
 		; source: 143 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_gly3.vbo" 45:46
 		MemberFunctionArgumentCheck 1
 		LineNumber                  54801, 4
@@ -107,7 +107,7 @@ begin class "lego_area_evac2", "gs_lego_area"
 	end ; method
 
 	begin method "process"
-		; address: 0x7fcf9
+		; address: 0xa09a1
 		; source: 143 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_gly3.vbo" 51:51
 		MemberFunctionArgumentCheck 2
 		LineNumber                  54807, 4
@@ -123,7 +123,7 @@ begin class "lego_area_evac2", "gs_lego_area"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x7fd15
+		; address: 0xa09bd
 		; source: 143 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_gly3.vbo" 56:56
 		MemberFunctionArgumentCheck 2
 		LineNumber                  54812, 4
@@ -139,7 +139,7 @@ begin class "lego_area_evac2", "gs_lego_area"
 	end ; method
 
 	begin method "input"
-		; address: 0x7fd31
+		; address: 0xa09d9
 		; source: 143 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_gly3.vbo" 61:61
 		MemberFunctionArgumentCheck 2
 		LineNumber                  54817, 4
@@ -155,7 +155,7 @@ begin class "lego_area_evac2", "gs_lego_area"
 	end ; method
 
 	begin method "exit"
-		; address: 0x7fd4d
+		; address: 0xa09f5
 		; source: 143 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_gly3.vbo" 66:67
 		MemberFunctionArgumentCheck 1
 		LineNumber                  54822, 4

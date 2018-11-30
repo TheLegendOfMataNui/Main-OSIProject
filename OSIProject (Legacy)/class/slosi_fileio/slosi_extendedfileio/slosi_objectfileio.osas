@@ -1,6 +1,6 @@
 begin class "slosi_objectfileio", "slosi_extendedfileio"
 	begin method "slosi_objectfileio"
-		; address: 0x7178b
+		; address: 0xad990
 		; source: 126 "C:\\projects\\lego\\Scripting\\VBO\\demo.vbo" 169:169
 		MemberFunctionArgumentCheck 2
 		LineNumber                  48071, 4
@@ -14,7 +14,7 @@ begin class "slosi_objectfileio", "slosi_extendedfileio"
 	end ; method
 
 	begin method "saveosiobject"
-		; address: 0x717a3
+		; address: 0xad9a8
 		; source: 126 "C:\\projects\\lego\\Scripting\\VBO\\demo.vbo" 181:181
 		MemberFunctionArgumentCheck 2
 		LineNumber                  48083, 4
@@ -28,7 +28,7 @@ begin class "slosi_objectfileio", "slosi_extendedfileio"
 	end ; method
 
 	begin method "loadosiobject"
-		; address: 0x717be
+		; address: 0xad9c3
 		; source: 126 "C:\\projects\\lego\\Scripting\\VBO\\demo.vbo" 185:185
 		MemberFunctionArgumentCheck 1
 		LineNumber                  48087, 4

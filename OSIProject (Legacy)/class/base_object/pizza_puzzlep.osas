@@ -4,7 +4,7 @@ begin class "pizza_puzzlep", "base_object"
 	property "showmask"
 
 	begin method "pizza_puzzlep"
-		; address: 0x6ba6e
+		; address: 0x952c1
 		; source: 114 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_l1a3p.vbo" 104:104
 		MemberFunctionArgumentCheck 2
 		LineNumber                  44946, 4
@@ -16,7 +16,7 @@ begin class "pizza_puzzlep", "base_object"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x6ba82
+		; address: 0x952d5
 		; source: 114 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_l1a3p.vbo" 110:133
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          3
@@ -164,7 +164,7 @@ begin class "pizza_puzzlep", "base_object"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x6bc7b
+		; address: 0x954ce
 		; source: 114 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_l1a3p.vbo" 145:148
 		MemberFunctionArgumentCheck   1
 		LineNumber                    44987, 4
@@ -198,7 +198,7 @@ begin class "pizza_puzzlep", "base_object"
 	end ; method
 
 	begin method "exit"
-		; address: 0x6bcc7
+		; address: 0x9551a
 		; source: 114 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_l1a3p.vbo" 154:154
 		MemberFunctionArgumentCheck 1
 		LineNumber                  44996, 4
@@ -210,7 +210,7 @@ begin class "pizza_puzzlep", "base_object"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x6bcd9
+		; address: 0x9552c
 		; source: 114 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_l1a3p.vbo" 161:171
 		MemberFunctionArgumentCheck   2
 		LineNumber                    45003, 4
@@ -298,14 +298,14 @@ begin class "pizza_puzzlep", "base_object"
 	end ; method
 
 	begin method "process"
-		; address: 0x6bdbc
+		; address: 0x9560f
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "input"
-		; address: 0x6bdc0
+		; address: 0x95613
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
