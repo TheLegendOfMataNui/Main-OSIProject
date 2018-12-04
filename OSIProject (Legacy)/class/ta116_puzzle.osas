@@ -6,7 +6,7 @@ begin class "ta116_puzzle"
 	property "music"
 
 	begin method "ta116_puzzle"
-		; address: 0x7eb2a
+		; address: 0xb2b07
 		; source: 216 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_tvil.vbo" 90:92
 		MemberFunctionArgumentCheck 2
 		LineNumber                  14897, 4
@@ -40,7 +40,7 @@ begin class "ta116_puzzle"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x7eb83
+		; address: 0xb2b60
 		; source: 216 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_tvil.vbo" 99:156
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -629,14 +629,14 @@ begin class "ta116_puzzle"
 	end ; method
 
 	begin method "show"
-		; address: 0x7f102
+		; address: 0xb30df
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "hide"
-		; address: 0x7f106
+		; address: 0xb30e3
 		; source: 216 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_tvil.vbo" 170:175
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -682,7 +682,7 @@ begin class "ta116_puzzle"
 	end ; method
 
 	begin method "exit"
-		; address: 0x7f15c
+		; address: 0xb3139
 		; source: 216 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_tvil.vbo" 182:182
 		MemberFunctionArgumentCheck 1
 		LineNumber                  14989, 4
@@ -694,14 +694,14 @@ begin class "ta116_puzzle"
 	end ; method
 
 	begin method "process"
-		; address: 0x7f16e
+		; address: 0xb314b
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "onevent"
-		; address: 0x7f172
+		; address: 0xb314f
 		; source: 216 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_tvil.vbo" 193:207
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -831,7 +831,7 @@ begin class "ta116_puzzle"
 	end ; method
 
 	begin method "reset"
-		; address: 0x7f2ad
+		; address: 0xb328a
 		; source: 216 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_tvil.vbo" 213:216
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -879,7 +879,7 @@ begin class "ta116_puzzle"
 	end ; method
 
 	begin method "input"
-		; address: 0x7f305
+		; address: 0xb32e2
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return

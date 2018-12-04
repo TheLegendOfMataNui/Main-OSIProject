@@ -8,7 +8,7 @@ begin class "ss_shoefittermarkerclass", "ss_basesprite"
 	property "moveamount"
 
 	begin method "ss_shoefittermarkerclass"
-		; address: 0xb10bb
+		; address: 0x73fbb
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/slkheader.h" 990:994
 		MemberFunctionArgumentCheck 10
 		LineNumber                  49417, 4
@@ -44,7 +44,7 @@ begin class "ss_shoefittermarkerclass", "ss_basesprite"
 	end ; method
 
 	begin method "markerinitfull"
-		; address: 0xb1123
+		; address: 0x74023
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/slkheader.h" 999:1008
 		MemberFunctionArgumentCheck 2
 		LineNumber                  49426, 4
@@ -105,7 +105,7 @@ begin class "ss_shoefittermarkerclass", "ss_basesprite"
 	end ; method
 
 	begin method "markercleanupfull"
-		; address: 0xb11ca
+		; address: 0x740ca
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/slkheader.h" 1013:1015
 		MemberFunctionArgumentCheck 1
 		LineNumber                  49440, 4
@@ -131,7 +131,7 @@ begin class "ss_shoefittermarkerclass", "ss_basesprite"
 	end ; method
 
 	begin method "process"
-		; address: 0xb1207
+		; address: 0x74107
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/slkheader.h" 1020:1020
 		MemberFunctionArgumentCheck 2
 		LineNumber                  49447, 4
@@ -145,7 +145,7 @@ begin class "ss_shoefittermarkerclass", "ss_basesprite"
 	end ; method
 
 	begin method "pulsate"
-		; address: 0xb121e
+		; address: 0x7411e
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/slkheader.h" 1025:1028
 		MemberFunctionArgumentCheck   1
 		LineNumber                    49452, 4
@@ -185,7 +185,7 @@ begin class "ss_shoefittermarkerclass", "ss_basesprite"
 	end ; method
 
 	begin method "moveflag"
-		; address: 0xb127a
+		; address: 0x7417a
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/slkheader.h" 1034:1035
 		MemberFunctionArgumentCheck 2
 		LineNumber                  49461, 4
@@ -210,7 +210,7 @@ begin class "ss_shoefittermarkerclass", "ss_basesprite"
 	end ; method
 
 	begin method "createargarrays"
-		; address: 0xb12b2
+		; address: 0x741b2
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/slkheader.h" 1040:1044
 		MemberFunctionArgumentCheck   1
 		LineNumber                    49467, 4
@@ -274,7 +274,7 @@ begin class "ss_shoefittermarkerclass", "ss_basesprite"
 	end ; method
 
 	begin method "setargvalues"
-		; address: 0xb131e
+		; address: 0x7421e
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/slkheader.h" 1050:1050
 		MemberFunctionArgumentCheck 3
 		LineNumber                  49477, 4

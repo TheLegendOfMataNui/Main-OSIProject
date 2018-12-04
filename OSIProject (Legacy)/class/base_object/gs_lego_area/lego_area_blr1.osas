@@ -2,7 +2,7 @@ begin class "lego_area_blr1", "gs_lego_area"
 	property "puzzle"
 
 	begin method "lego_area_blr1"
-		; address: 0x9ef98
+		; address: 0x875db
 		; source: 156 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_tura.vbo" 26:27
 		MemberFunctionArgumentCheck 2
 		LineNumber                  60378, 4
@@ -32,7 +32,7 @@ begin class "lego_area_blr1", "gs_lego_area"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x9efdd
+		; address: 0x87620
 		; source: 156 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_tura.vbo" 33:34
 		MemberFunctionArgumentCheck 1
 		LineNumber                  60385, 4
@@ -53,7 +53,7 @@ begin class "lego_area_blr1", "gs_lego_area"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x9f008
+		; address: 0x8764b
 		; source: 156 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_tura.vbo" 40:40
 		MemberFunctionArgumentCheck 2
 		LineNumber                  60392, 4
@@ -69,7 +69,7 @@ begin class "lego_area_blr1", "gs_lego_area"
 	end ; method
 
 	begin method "process"
-		; address: 0x9f024
+		; address: 0x87667
 		; source: 156 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_tura.vbo" 45:45
 		MemberFunctionArgumentCheck 2
 		LineNumber                  60397, 4
@@ -85,7 +85,7 @@ begin class "lego_area_blr1", "gs_lego_area"
 	end ; method
 
 	begin method "input"
-		; address: 0x9f040
+		; address: 0x87683
 		; source: 156 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_tura.vbo" 49:49
 		MemberFunctionArgumentCheck 2
 		LineNumber                  60401, 4
@@ -101,7 +101,7 @@ begin class "lego_area_blr1", "gs_lego_area"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x9f05c
+		; address: 0x8769f
 		; source: 156 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_tura.vbo" 54:55
 		MemberFunctionArgumentCheck 1
 		LineNumber                  60406, 4
@@ -122,7 +122,7 @@ begin class "lego_area_blr1", "gs_lego_area"
 	end ; method
 
 	begin method "exit"
-		; address: 0x9f087
+		; address: 0x876ca
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return

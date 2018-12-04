@@ -21,7 +21,7 @@ begin class "cheatlist"
 	property "realdelta"
 
 	begin method "cheatlist"
-		; address: 0x3b50d
+		; address: 0x4f092
 		; source: 66 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_cheat.vbo" 86:159
 		MemberFunctionArgumentCheck 1
 		LineNumber                  26623, 4
@@ -557,7 +557,7 @@ begin class "cheatlist"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x3b8af
+		; address: 0x4f434
 		; source: 66 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_cheat.vbo" 204:212
 		MemberFunctionArgumentCheck 1
 		LineNumber                  26741, 4
@@ -601,7 +601,7 @@ begin class "cheatlist"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x3b938
+		; address: 0x4f4bd
 		; source: 66 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_cheat.vbo" 217:286
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          2
@@ -1010,7 +1010,7 @@ begin class "cheatlist"
 	end ; method
 
 	begin method "showcheatmenu"
-		; address: 0x3bd30
+		; address: 0x4f8b5
 		; source: 66 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_cheat.vbo" 293:299
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -1069,7 +1069,7 @@ begin class "cheatlist"
 	end ; method
 
 	begin method "hidecheatmenu"
-		; address: 0x3bdb8
+		; address: 0x4f93d
 		; source: 66 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_cheat.vbo" 305:310
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -1129,7 +1129,7 @@ begin class "cheatlist"
 	end ; method
 
 	begin method "input"
-		; address: 0x3be39
+		; address: 0x4f9be
 		; source: 66 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_cheat.vbo" 317:383
 		MemberFunctionArgumentCheck   2
 		LineNumber                    26854, 4
@@ -1476,7 +1476,7 @@ begin class "cheatlist"
 	end ; method
 
 	begin method "maininput"
-		; address: 0x3c11a
+		; address: 0x4fc9f
 		; source: 66 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_cheat.vbo" 395:418
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -1658,7 +1658,7 @@ begin class "cheatlist"
 	end ; method
 
 	begin method "areainput"
-		; address: 0x3c28c
+		; address: 0x4fe11
 		; source: 66 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_cheat.vbo" 427:453
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -1812,7 +1812,7 @@ begin class "cheatlist"
 	end ; method
 
 	begin method "levelinput"
-		; address: 0x3c439
+		; address: 0x4ffbe
 		; source: 66 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_cheat.vbo" 465:478
 		MemberFunctionArgumentCheck   2
 		LineNumber                    27002, 4
@@ -1882,7 +1882,7 @@ begin class "cheatlist"
 	end ; method
 
 	begin method "gotoinput"
-		; address: 0x3c4e7
+		; address: 0x5006c
 		; source: 66 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_cheat.vbo" 490:502
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          2
@@ -1965,7 +1965,7 @@ begin class "cheatlist"
 	end ; method
 
 	begin method "charinput"
-		; address: 0x3c5b6
+		; address: 0x5013b
 		; source: 66 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_cheat.vbo" 512:537
 		MemberFunctionArgumentCheck   2
 		LineNumber                    27049, 4
@@ -2134,7 +2134,7 @@ begin class "cheatlist"
 	end ; method
 
 	begin method "maskinput"
-		; address: 0x3c716
+		; address: 0x5029b
 		; source: 66 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_cheat.vbo" 548:611
 		MemberFunctionArgumentCheck   2
 		LineNumber                    27085, 4
@@ -2579,7 +2579,7 @@ begin class "cheatlist"
 	end ; method
 
 	begin method "abilinput"
-		; address: 0x3cb0c
+		; address: 0x50691
 		; source: 66 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_cheat.vbo" 679:692
 		MemberFunctionArgumentCheck   2
 		LineNumber                    27216, 4
@@ -2673,7 +2673,7 @@ begin class "cheatlist"
 	end ; method
 
 	begin method "letinput"
-		; address: 0x3cbc9
+		; address: 0x5074e
 		; source: 66 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_cheat.vbo" 703:748
 		MemberFunctionArgumentCheck   2
 		LineNumber                    27240, 4
@@ -2933,7 +2933,7 @@ begin class "cheatlist"
 	end ; method
 
 	begin method "visualdebuginput"
-		; address: 0x3cdd8
+		; address: 0x5095d
 		; source: 66 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_cheat.vbo" 465:682
 		MemberFunctionArgumentCheck   2
 		LineNumber                    27002, 4
@@ -3054,7 +3054,7 @@ begin class "cheatlist"
 	end ; method
 
 	begin method "hudinput"
-		; address: 0x3ceae
+		; address: 0x50a33
 		; source: 66 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_cheat.vbo" 679:692
 		MemberFunctionArgumentCheck   2
 		LineNumber                    27216, 4
@@ -3139,7 +3139,7 @@ begin class "cheatlist"
 	end ; method
 
 	begin method "process"
-		; address: 0x3cf4b
+		; address: 0x50ad0
 		; source: 66 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_cheat.vbo" 759:761
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -3194,14 +3194,14 @@ begin class "cheatlist"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x3cfbb
+		; address: 0x50b40
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "scrolldown"
-		; address: 0x3cfbf
+		; address: 0x50b44
 		; source: 66 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_cheat.vbo" 774:788
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -3347,7 +3347,7 @@ begin class "cheatlist"
 	end ; method
 
 	begin method "scrollup"
-		; address: 0x3d11b
+		; address: 0x50ca0
 		; source: 66 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_cheat.vbo" 797:811
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -3490,7 +3490,7 @@ begin class "cheatlist"
 	end ; method
 
 	begin method "resetactivemenu"
-		; address: 0x3d271
+		; address: 0x50df6
 		; source: 66 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_cheat.vbo" 819:834
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -3578,7 +3578,7 @@ begin class "cheatlist"
 	end ; method
 
 	begin method "mainmenusetup"
-		; address: 0x3d34f
+		; address: 0x50ed4
 		; source: 66 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_cheat.vbo" 839:853
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          3
@@ -3708,7 +3708,7 @@ begin class "cheatlist"
 	end ; method
 
 	begin method "levelmenusetup"
-		; address: 0x3d497
+		; address: 0x5101c
 		; source: 66 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_cheat.vbo" 858:872
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          3
@@ -3835,7 +3835,7 @@ begin class "cheatlist"
 	end ; method
 
 	begin method "areamenusetup"
-		; address: 0x3d5db
+		; address: 0x51160
 		; source: 66 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_cheat.vbo" 879:913
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          5
@@ -4081,7 +4081,7 @@ begin class "cheatlist"
 	end ; method
 
 	begin method "gotomenusetup"
-		; address: 0x3d85b
+		; address: 0x513e0
 		; source: 66 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_cheat.vbo" 920:934
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          3
@@ -4206,7 +4206,7 @@ begin class "cheatlist"
 	end ; method
 
 	begin method "charactermenusetup"
-		; address: 0x3d99b
+		; address: 0x51520
 		; source: 66 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_cheat.vbo" 939:953
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          3
@@ -4336,7 +4336,7 @@ begin class "cheatlist"
 	end ; method
 
 	begin method "abilitymenusetup"
-		; address: 0x3dae3
+		; address: 0x51668
 		; source: 66 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_cheat.vbo" 977:991
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          3
@@ -4466,7 +4466,7 @@ begin class "cheatlist"
 	end ; method
 
 	begin method "maskmenusetup"
-		; address: 0x3dc2b
+		; address: 0x517b0
 		; source: 66 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_cheat.vbo" 996:1010
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          3
@@ -4596,7 +4596,7 @@ begin class "cheatlist"
 	end ; method
 
 	begin method "letmenusetup"
-		; address: 0x3dd73
+		; address: 0x518f8
 		; source: 66 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_cheat.vbo" 1015:1029
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          3
@@ -4726,7 +4726,7 @@ begin class "cheatlist"
 	end ; method
 
 	begin method "visualdebugmenusetup"
-		; address: 0x3debb
+		; address: 0x51a40
 		; source: 66 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_cheat.vbo" 1015:1029
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          3
@@ -4856,7 +4856,7 @@ begin class "cheatlist"
 	end ; method
 
 	begin method "hudmenusetup"
-		; address: 0x3e003
+		; address: 0x51b88
 		; source: 66 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_cheat.vbo" 1015:1029
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          3

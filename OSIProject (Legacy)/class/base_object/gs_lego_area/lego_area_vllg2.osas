@@ -2,7 +2,7 @@ begin class "lego_area_vllg2", "gs_lego_area"
 	property "puzzle"
 
 	begin method "lego_area_vllg2"
-		; address: 0xaa378
+		; address: 0x7b88a
 		; source: 137 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_vtnl.vbo" 33:35
 		MemberFunctionArgumentCheck 2
 		LineNumber                  53200, 4
@@ -38,7 +38,7 @@ begin class "lego_area_vllg2", "gs_lego_area"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xaa3d0
+		; address: 0x7b8e2
 		; source: 137 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_vtnl.vbo" 42:54
 		MemberFunctionArgumentCheck 1
 		LineNumber                  53209, 4
@@ -108,7 +108,7 @@ begin class "lego_area_vllg2", "gs_lego_area"
 	end ; method
 
 	begin method "process"
-		; address: 0xaa4aa
+		; address: 0x7b9bc
 		; source: 137 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_vtnl.vbo" 59:59
 		MemberFunctionArgumentCheck 2
 		LineNumber                  53226, 4
@@ -124,7 +124,7 @@ begin class "lego_area_vllg2", "gs_lego_area"
 	end ; method
 
 	begin method "onevent"
-		; address: 0xaa4c6
+		; address: 0x7b9d8
 		; source: 137 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_vtnl.vbo" 64:64
 		MemberFunctionArgumentCheck 2
 		LineNumber                  53231, 4
@@ -140,7 +140,7 @@ begin class "lego_area_vllg2", "gs_lego_area"
 	end ; method
 
 	begin method "input"
-		; address: 0xaa4e2
+		; address: 0x7b9f4
 		; source: 137 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_vtnl.vbo" 69:69
 		MemberFunctionArgumentCheck 2
 		LineNumber                  53236, 4
@@ -156,7 +156,7 @@ begin class "lego_area_vllg2", "gs_lego_area"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xaa4fe
+		; address: 0x7ba10
 		; source: 137 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_vtnl.vbo" 74:75
 		MemberFunctionArgumentCheck 1
 		LineNumber                  53241, 4
@@ -177,7 +177,7 @@ begin class "lego_area_vllg2", "gs_lego_area"
 	end ; method
 
 	begin method "exit"
-		; address: 0xaa529
+		; address: 0x7ba3b
 		; source: 137 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_vtnl.vbo" 80:81
 		MemberFunctionArgumentCheck 1
 		LineNumber                  53247, 4

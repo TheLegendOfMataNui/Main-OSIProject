@@ -8,7 +8,7 @@ begin class "bullrun2"
 	property "whichplane"
 
 	begin method "bullrun2"
-		; address: 0x3a91a
+		; address: 0x8806e
 		; source: 157 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_mtup.vbo" 98:100
 		MemberFunctionArgumentCheck 2
 		LineNumber                  60712, 4
@@ -28,7 +28,7 @@ begin class "bullrun2"
 	end ; method
 
 	begin method "init"
-		; address: 0x3a94a
+		; address: 0x8809e
 		; source: 157 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_mtup.vbo" 108:125
 		MemberFunctionArgumentCheck  1
 		LineNumber                   60722, 4
@@ -174,7 +174,7 @@ begin class "bullrun2"
 	end ; method
 
 	begin method "cleanup"
-		; address: 0x3ab35
+		; address: 0x88289
 		; source: 157 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_mtup.vbo" 130:140
 		; source: 156 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_tura.vbo" 136:136
 		MemberFunctionArgumentCheck   1
@@ -246,14 +246,14 @@ begin class "bullrun2"
 	end ; method
 
 	begin method "process"
-		; address: 0x3abed
+		; address: 0x88341
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "input"
-		; address: 0x3abf1
+		; address: 0x88345
 		; source: 157 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_mtup.vbo" 152:162
 		MemberFunctionArgumentCheck   2
 		LineNumber                    60766, 4
@@ -343,7 +343,7 @@ begin class "bullrun2"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x3acc5
+		; address: 0x88419
 		; source: 157 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_mtup.vbo" 172:237
 		; source: 156 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_tura.vbo" 130:130
 		MemberFunctionArgumentCheck   2

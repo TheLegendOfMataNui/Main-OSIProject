@@ -4,7 +4,7 @@ begin class "lego_area_crss4", "gs_lego_area"
 	property "skatespickup"
 
 	begin method "lego_area_crss4"
-		; address: 0xa05f0
+		; address: 0x96ddc
 		; source: 173 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snbd.vbo" 22:25
 		MemberFunctionArgumentCheck 2
 		LineNumber                  1877, 4
@@ -44,7 +44,7 @@ begin class "lego_area_crss4", "gs_lego_area"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xa0658
+		; address: 0x96e44
 		; source: 173 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snbd.vbo" 33:46
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -149,7 +149,7 @@ begin class "lego_area_crss4", "gs_lego_area"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xa0782
+		; address: 0x96f6e
 		; source: 173 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snbd.vbo" 53:59
 		MemberFunctionArgumentCheck   1
 		LineNumber                    1908, 4
@@ -198,7 +198,7 @@ begin class "lego_area_crss4", "gs_lego_area"
 	end ; method
 
 	begin method "process"
-		; address: 0xa07f6
+		; address: 0x96fe2
 		; source: 173 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snbd.vbo" 66:66
 		MemberFunctionArgumentCheck 2
 		LineNumber                  1921, 4
@@ -214,7 +214,7 @@ begin class "lego_area_crss4", "gs_lego_area"
 	end ; method
 
 	begin method "input"
-		; address: 0xa0812
+		; address: 0x96ffe
 		; source: 173 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snbd.vbo" 71:71
 		MemberFunctionArgumentCheck 2
 		LineNumber                  1926, 4
@@ -230,7 +230,7 @@ begin class "lego_area_crss4", "gs_lego_area"
 	end ; method
 
 	begin method "onevent"
-		; address: 0xa082e
+		; address: 0x9701a
 		; source: 173 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snbd.vbo" 76:76
 		MemberFunctionArgumentCheck 2
 		LineNumber                  1931, 4
@@ -246,7 +246,7 @@ begin class "lego_area_crss4", "gs_lego_area"
 	end ; method
 
 	begin method "exit"
-		; address: 0xa084a
+		; address: 0x97036
 		; source: 173 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_snbd.vbo" 81:85
 		MemberFunctionArgumentCheck   1
 		LineNumber                    1936, 4

@@ -18,14 +18,14 @@ begin class "player"
 	property "enterlookid"
 
 	begin method "player"
-		; address: 0x64183
+		; address: 0x4d057
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "initfull"
-		; address: 0x64187
+		; address: 0x4d05b
 		; source: 49 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_player.vbo" 111:130
 		MemberFunctionArgumentCheck 1
 		LineNumber                  25635, 4
@@ -107,7 +107,7 @@ begin class "player"
 	end ; method
 
 	begin method "initshort"
-		; address: 0x64290
+		; address: 0x4d164
 		; source: 49 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_player.vbo" 136:142
 		MemberFunctionArgumentCheck 1
 		LineNumber                  25660, 4
@@ -142,7 +142,7 @@ begin class "player"
 	end ; method
 
 	begin method "cleanupshort"
-		; address: 0x642f6
+		; address: 0x4d1ca
 		; source: 49 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_player.vbo" 147:149
 		MemberFunctionArgumentCheck 1
 		LineNumber                  25671, 4
@@ -168,7 +168,7 @@ begin class "player"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x64330
+		; address: 0x4d204
 		; source: 49 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_player.vbo" 156:175
 		MemberFunctionArgumentCheck   1
 		LineNumber                    25680, 4
@@ -254,7 +254,7 @@ begin class "player"
 	end ; method
 
 	begin method "input"
-		; address: 0x6441c
+		; address: 0x4d2f0
 		; source: 49 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_player.vbo" 188:264
 		MemberFunctionArgumentCheck   2
 		LineNumber                    25712, 4
@@ -611,7 +611,7 @@ begin class "player"
 	end ; method
 
 	begin method "process"
-		; address: 0x646fd
+		; address: 0x4d5d1
 		; source: 49 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_player.vbo" 273:274
 		MemberFunctionArgumentCheck   2
 		LineNumber                    25797, 4
@@ -638,7 +638,7 @@ begin class "player"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x64737
+		; address: 0x4d60b
 		; source: 49 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_player.vbo" 321:403
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          3
@@ -1071,7 +1071,7 @@ begin class "player"
 	end ; method
 
 	begin method "setactor"
-		; address: 0x64be9
+		; address: 0x4dabd
 		; source: 49 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_player.vbo" 427:472
 		MemberFunctionArgumentCheck   8
 		CreateStackVariables          1
@@ -1446,7 +1446,7 @@ begin class "player"
 	end ; method
 
 	begin method "actorinitfull"
-		; address: 0x64f74
+		; address: 0x4de48
 		; source: 49 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_player.vbo" 479:511
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -1727,7 +1727,7 @@ begin class "player"
 	end ; method
 
 	begin method "initfromsaver"
-		; address: 0x65216
+		; address: 0x4e0ea
 		; source: 49 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_player.vbo" 521:527
 		MemberFunctionArgumentCheck 1
 		LineNumber                  26045, 4
@@ -1779,7 +1779,7 @@ begin class "player"
 	end ; method
 
 	begin method "savetosaver"
-		; address: 0x652bd
+		; address: 0x4e191
 		; source: 49 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_player.vbo" 532:534
 		MemberFunctionArgumentCheck 1
 		LineNumber                  26056, 4
@@ -1806,7 +1806,7 @@ begin class "player"
 	end ; method
 
 	begin method "removeactor"
-		; address: 0x6530c
+		; address: 0x4e1e0
 		; source: 49 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_player.vbo" 540:545
 		MemberFunctionArgumentCheck 1
 		LineNumber                  26064, 4
@@ -1843,7 +1843,7 @@ begin class "player"
 	end ; method
 
 	begin method "changetoa"
-		; address: 0x65368
+		; address: 0x4e23c
 		; source: 49 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_player.vbo" 554:622
 		MemberFunctionArgumentCheck   2
 		LineNumber                    26078, 4
@@ -2332,7 +2332,7 @@ begin class "player"
 	end ; method
 
 	begin method "tweaktoggle"
-		; address: 0x658b5
+		; address: 0x4e789
 		; source: 49 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_player.vbo" 640:640
 		MemberFunctionArgumentCheck  1
 		LineNumber                   26164, 4
@@ -2348,7 +2348,7 @@ begin class "player"
 	end ; method
 
 	begin method "drainpower"
-		; address: 0x658d0
+		; address: 0x4e7a4
 		; source: 49 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_player.vbo" 647:657
 		MemberFunctionArgumentCheck   2
 		LineNumber                    26171, 4
@@ -2432,7 +2432,7 @@ begin class "player"
 	end ; method
 
 	begin method "addmask"
-		; address: 0x659a8
+		; address: 0x4e87c
 		; source: 49 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_player.vbo" 670:675
 		MemberFunctionArgumentCheck   3
 		LineNumber                    26194, 4
@@ -2493,7 +2493,7 @@ begin class "player"
 	end ; method
 
 	begin method "usemasks"
-		; address: 0x65a2e
+		; address: 0x4e902
 		; source: 49 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_player.vbo" 688:689
 		MemberFunctionArgumentCheck  2
 		LineNumber                   26212, 4
@@ -2518,7 +2518,7 @@ begin class "player"
 	end ; method
 
 	begin method "setdrainrateofmask"
-		; address: 0x65a65
+		; address: 0x4e939
 		; source: 49 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_player.vbo" 694:694
 		MemberFunctionArgumentCheck 3
 		LineNumber                  26218, 4
@@ -2535,7 +2535,7 @@ begin class "player"
 	end ; method
 
 	begin method "addelement"
-		; address: 0x65a84
+		; address: 0x4e958
 		; source: 49 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_player.vbo" 700:701
 		MemberFunctionArgumentCheck 3
 		LineNumber                  26224, 4
@@ -2553,7 +2553,7 @@ begin class "player"
 	end ; method
 
 	begin method "haselement"
-		; address: 0x65aae
+		; address: 0x4e982
 		; source: 49 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_player.vbo" 715:715
 		MemberFunctionArgumentCheck 1
 		LineNumber                  26239, 4
@@ -2563,7 +2563,7 @@ begin class "player"
 	end ; method
 
 	begin method "whichmaskonface"
-		; address: 0x65abe
+		; address: 0x4e992
 		; source: 49 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_player.vbo" 724:724
 		MemberFunctionArgumentCheck 1
 		LineNumber                  26248, 4
@@ -2578,14 +2578,14 @@ begin class "player"
 	end ; method
 
 	begin method "whichelementchosen"
-		; address: 0x65ade
+		; address: 0x4e9b2
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "ismaskpoweron"
-		; address: 0x65ae2
+		; address: 0x4e9b6
 		; source: 49 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_player.vbo" 734:734
 		MemberFunctionArgumentCheck 1
 		LineNumber                  26258, 4
@@ -2600,14 +2600,14 @@ begin class "player"
 	end ; method
 
 	begin method "iselementpoweron"
-		; address: 0x65b02
+		; address: 0x4e9d6
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "kill"
-		; address: 0x65b06
+		; address: 0x4e9da
 		; source: 49 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_player.vbo" 749:755
 		; source: 101 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_clf1.vbo" 228:228
 		MemberFunctionArgumentCheck  1
@@ -2656,7 +2656,7 @@ begin class "player"
 	end ; method
 
 	begin method "unkill"
-		; address: 0x65b84
+		; address: 0x4ea58
 		; source: 49 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_player.vbo" 764:771
 		; source: 101 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_clf1.vbo" 228:228
 		MemberFunctionArgumentCheck  1
@@ -2707,7 +2707,7 @@ begin class "player"
 	end ; method
 
 	begin method "addlife"
-		; address: 0x65c09
+		; address: 0x4eadd
 		; source: 49 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_player.vbo" 780:794
 		MemberFunctionArgumentCheck   2
 		LineNumber                    26304, 4
@@ -2771,7 +2771,7 @@ begin class "player"
 	end ; method
 
 	begin method "removelife"
-		; address: 0x65ca4
+		; address: 0x4eb78
 		; source: 49 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_player.vbo" 803:826
 		MemberFunctionArgumentCheck   2
 		LineNumber                    26327, 4
@@ -2868,7 +2868,7 @@ begin class "player"
 	end ; method
 
 	begin method "addmaxlife"
-		; address: 0x65d8d
+		; address: 0x4ec61
 		; source: 49 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_player.vbo" 835:838
 		MemberFunctionArgumentCheck  2
 		LineNumber                   26359, 4
@@ -2899,7 +2899,7 @@ begin class "player"
 	end ; method
 
 	begin method "removemaxlife"
-		; address: 0x65dd9
+		; address: 0x4ecad
 		; source: 49 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_player.vbo" 844:846
 		MemberFunctionArgumentCheck  2
 		LineNumber                   26368, 4
@@ -2930,7 +2930,7 @@ begin class "player"
 	end ; method
 
 	begin method "addenergy"
-		; address: 0x65e25
+		; address: 0x4ecf9
 		; source: 49 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_player.vbo" 853:863
 		MemberFunctionArgumentCheck   2
 		LineNumber                    26377, 4
@@ -2967,7 +2967,7 @@ begin class "player"
 	end ; method
 
 	begin method "removeenergy"
-		; address: 0x65e7f
+		; address: 0x4ed53
 		; source: 49 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_player.vbo" 871:875
 		MemberFunctionArgumentCheck   2
 		LineNumber                    26395, 4
@@ -3004,7 +3004,7 @@ begin class "player"
 	end ; method
 
 	begin method "addmaxenergy"
-		; address: 0x65ed5
+		; address: 0x4eda9
 		; source: 49 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_player.vbo" 883:885
 		MemberFunctionArgumentCheck  2
 		LineNumber                   26407, 4
@@ -3035,7 +3035,7 @@ begin class "player"
 	end ; method
 
 	begin method "removemaxenergy"
-		; address: 0x65f21
+		; address: 0x4edf5
 		; source: 49 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_player.vbo" 891:893
 		MemberFunctionArgumentCheck  2
 		LineNumber                   26415, 4
@@ -3066,7 +3066,7 @@ begin class "player"
 	end ; method
 
 	begin method "getamounttokens"
-		; address: 0x65f6d
+		; address: 0x4ee41
 		; source: 49 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_player.vbo" 898:898
 		MemberFunctionArgumentCheck 1
 		LineNumber                  26422, 4
@@ -3076,7 +3076,7 @@ begin class "player"
 	end ; method
 
 	begin method "addtoken"
-		; address: 0x65f7d
+		; address: 0x4ee51
 		; source: 49 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_player.vbo" 904:905
 		MemberFunctionArgumentCheck  2
 		LineNumber                   26428, 4
@@ -3100,7 +3100,7 @@ begin class "player"
 	end ; method
 
 	begin method "removetoken"
-		; address: 0x65fb3
+		; address: 0x4ee87
 		; source: 49 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_player.vbo" 911:912
 		MemberFunctionArgumentCheck  2
 		LineNumber                   26435, 4
@@ -3124,7 +3124,7 @@ begin class "player"
 	end ; method
 
 	begin method "settokens"
-		; address: 0x65fe9
+		; address: 0x4eebd
 		; source: 49 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_player.vbo" 918:919
 		MemberFunctionArgumentCheck  2
 		LineNumber                   26442, 4
@@ -3146,7 +3146,7 @@ begin class "player"
 	end ; method
 
 	begin method "setclimbable"
-		; address: 0x6601b
+		; address: 0x4eeef
 		; source: 49 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_player.vbo" 924:927
 		MemberFunctionArgumentCheck   2
 		LineNumber                    26448, 4
@@ -3175,7 +3175,7 @@ begin class "player"
 	end ; method
 
 	begin method "getactorid"
-		; address: 0x66058
+		; address: 0x4ef2c
 		; source: 49 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_player.vbo" 941:941
 		MemberFunctionArgumentCheck 1
 		LineNumber                  26465, 4
@@ -3188,7 +3188,7 @@ begin class "player"
 	end ; method
 
 	begin method "getactorstringid"
-		; address: 0x66078
+		; address: 0x4ef4c
 		; source: 49 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_player.vbo" 946:946
 		MemberFunctionArgumentCheck 1
 		LineNumber                  26470, 4
@@ -3198,7 +3198,7 @@ begin class "player"
 	end ; method
 
 	begin method "specalelementpowerbooltotrue"
-		; address: 0x66088
+		; address: 0x4ef5c
 		; source: 49 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_player.vbo" 951:951
 		MemberFunctionArgumentCheck 1
 		CreateStackVariables        1
@@ -3211,7 +3211,7 @@ begin class "player"
 	end ; method
 
 	begin method "specalelementpowerbooltofalse"
-		; address: 0x6609d
+		; address: 0x4ef71
 		; source: 49 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_player.vbo" 956:956
 		MemberFunctionArgumentCheck 1
 		CreateStackVariables        1
@@ -3224,7 +3224,7 @@ begin class "player"
 	end ; method
 
 	begin method "addair"
-		; address: 0x660b1
+		; address: 0x4ef85
 		; source: 49 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_player.vbo" 962:962
 		MemberFunctionArgumentCheck  2
 		LineNumber                   26486, 4
@@ -3242,7 +3242,7 @@ begin class "player"
 	end ; method
 
 	begin method "removeair"
-		; address: 0x660d3
+		; address: 0x4efa7
 		; source: 49 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_player.vbo" 968:968
 		MemberFunctionArgumentCheck  1
 		LineNumber                   26492, 4
@@ -3259,7 +3259,7 @@ begin class "player"
 	end ; method
 
 	begin method "setupgrapplinghook"
-		; address: 0x660f1
+		; address: 0x4efc5
 		; source: 49 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_player.vbo" 974:977
 		MemberFunctionArgumentCheck 1
 		LineNumber                  26498, 4
@@ -3301,7 +3301,7 @@ begin class "player"
 	end ; method
 
 	begin method "setgrapplinghookdistance"
-		; address: 0x6615d
+		; address: 0x4f031
 		; source: 49 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_player.vbo" 982:983
 		MemberFunctionArgumentCheck   2
 		LineNumber                    26506, 4
@@ -3324,7 +3324,7 @@ begin class "player"
 	end ; method
 
 	begin method "canshootdragger"
-		; address: 0x66189
+		; address: 0x4f05d
 		; source: 49 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_player.vbo" 990:993
 		MemberFunctionArgumentCheck   2
 		LineNumber                    26514, 4

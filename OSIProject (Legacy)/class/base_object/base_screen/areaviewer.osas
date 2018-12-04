@@ -12,7 +12,7 @@ begin class "areaviewer", "base_screen"
 	property "rgbval"
 
 	begin method "areaviewer"
-		; address: 0x9b62e
+		; address: 0xbcc98
 		; source: 235 unknown 45:84
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          12
@@ -352,7 +352,7 @@ begin class "areaviewer", "base_screen"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x9ba64
+		; address: 0xbd0ce
 		; source: 235 unknown 93:124
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -576,7 +576,7 @@ begin class "areaviewer", "base_screen"
 	end ; method
 
 	begin method "input"
-		; address: 0x9bccf
+		; address: 0xbd339
 		; source: 235 unknown 131:131
 		MemberFunctionArgumentCheck 2
 		LineNumber                  19651, 4
@@ -592,7 +592,7 @@ begin class "areaviewer", "base_screen"
 	end ; method
 
 	begin method "process"
-		; address: 0x9bceb
+		; address: 0xbd355
 		; source: 235 unknown 137:137
 		MemberFunctionArgumentCheck 2
 		LineNumber                  19657, 4

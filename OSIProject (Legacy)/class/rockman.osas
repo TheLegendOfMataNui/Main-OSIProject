@@ -9,7 +9,7 @@ begin class "rockman"
 	property "boneindex"
 
 	begin method "rockman"
-		; address: 0x6aa4b
+		; address: 0x8b762
 		; source: 158 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_ptos.vbo" 985:985
 		MemberFunctionArgumentCheck 2
 		LineNumber                  61854, 4
@@ -21,7 +21,7 @@ begin class "rockman"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x6aa5f
+		; address: 0x8b776
 		; source: 158 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_ptos.vbo" 995:1007
 		MemberFunctionArgumentCheck 1
 		LineNumber                  61864, 4
@@ -142,7 +142,7 @@ begin class "rockman"
 	end ; method
 
 	begin method "reset"
-		; address: 0x6abae
+		; address: 0x8b8c5
 		; source: 158 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_ptos.vbo" 1013:1016
 		MemberFunctionArgumentCheck 1
 		LineNumber                  61882, 4
@@ -176,7 +176,7 @@ begin class "rockman"
 	end ; method
 
 	begin method "initshort"
-		; address: 0x6ac10
+		; address: 0x8b927
 		; source: 158 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_ptos.vbo" 1023:1023
 		MemberFunctionArgumentCheck 1
 		LineNumber                  61892, 4
@@ -190,7 +190,7 @@ begin class "rockman"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x6ac27
+		; address: 0x8b93e
 		; source: 158 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_ptos.vbo" 1029:1048
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -285,7 +285,7 @@ begin class "rockman"
 	end ; method
 
 	begin method "cleanupshort"
-		; address: 0x6ad0c
+		; address: 0x8ba23
 		; source: 158 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_ptos.vbo" 1054:1054
 		MemberFunctionArgumentCheck 1
 		LineNumber                  61923, 4
@@ -299,14 +299,14 @@ begin class "rockman"
 	end ; method
 
 	begin method "input"
-		; address: 0x6ad23
+		; address: 0x8ba3a
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "throwrock"
-		; address: 0x6ad27
+		; address: 0x8ba3e
 		; source: 158 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_ptos.vbo" 1065:1070
 		MemberFunctionArgumentCheck   1
 		LineNumber                    61934, 4
@@ -354,7 +354,7 @@ begin class "rockman"
 	end ; method
 
 	begin method "morph"
-		; address: 0x6ad9e
+		; address: 0x8bab5
 		; source: 158 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_ptos.vbo" 1079:1102
 		MemberFunctionArgumentCheck   2
 		LineNumber                    61948, 4
@@ -486,7 +486,7 @@ begin class "rockman"
 	end ; method
 
 	begin method "exit"
-		; address: 0x6aeea
+		; address: 0x8bc01
 		; source: 158 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_ptos.vbo" 1111:1111
 		MemberFunctionArgumentCheck 1
 		LineNumber                  61980, 4

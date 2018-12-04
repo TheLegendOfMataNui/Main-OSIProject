@@ -3,7 +3,7 @@ begin class "lego_area_well4", "gs_lego_area"
 	property "parent"
 
 	begin method "lego_area_well4"
-		; address: 0xaba54
+		; address: 0xa1402
 		; source: 185 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_le03.vbo" 50:53
 		MemberFunctionArgumentCheck 2
 		LineNumber                  6557, 4
@@ -43,7 +43,7 @@ begin class "lego_area_well4", "gs_lego_area"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xababc
+		; address: 0xa146a
 		; source: 185 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_le03.vbo" 62:67
 		MemberFunctionArgumentCheck  1
 		LineNumber                   6569, 4
@@ -89,7 +89,7 @@ begin class "lego_area_well4", "gs_lego_area"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xabb30
+		; address: 0xa14de
 		; source: 185 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_le03.vbo" 73:75
 		MemberFunctionArgumentCheck 1
 		LineNumber                  6580, 4
@@ -110,7 +110,7 @@ begin class "lego_area_well4", "gs_lego_area"
 	end ; method
 
 	begin method "process"
-		; address: 0xabb5b
+		; address: 0xa1509
 		; source: 185 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_le03.vbo" 81:81
 		MemberFunctionArgumentCheck 2
 		LineNumber                  6588, 4
@@ -126,7 +126,7 @@ begin class "lego_area_well4", "gs_lego_area"
 	end ; method
 
 	begin method "onevent"
-		; address: 0xabb77
+		; address: 0xa1525
 		; source: 185 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_le03.vbo" 86:86
 		MemberFunctionArgumentCheck 2
 		LineNumber                  6593, 4
@@ -142,7 +142,7 @@ begin class "lego_area_well4", "gs_lego_area"
 	end ; method
 
 	begin method "exit"
-		; address: 0xabb93
+		; address: 0xa1541
 		; source: 185 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_le03.vbo" 96:100
 		MemberFunctionArgumentCheck   1
 		LineNumber                    6603, 4

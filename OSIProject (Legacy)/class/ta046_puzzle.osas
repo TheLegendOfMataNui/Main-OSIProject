@@ -5,7 +5,7 @@ begin class "ta046_puzzle"
 	property "shild_on"
 
 	begin method "ta046_puzzle"
-		; address: 0x7b93d
+		; address: 0xae6ab
 		; source: 210 "C:\\projects\\lego\\Scripting\\VBO\\lev6/../../../area/GfMaterialConstants.h" 81:81
 		MemberFunctionArgumentCheck 2
 		LineNumber                  12511, 4
@@ -17,7 +17,7 @@ begin class "ta046_puzzle"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x7b951
+		; address: 0xae6bf
 		; source: 210 "C:\\projects\\lego\\Scripting\\VBO\\lev6/../../../area/GfMaterialConstants.h" 90:117
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -258,7 +258,7 @@ begin class "ta046_puzzle"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x7bba6
+		; address: 0xae914
 		; source: 210 "C:\\projects\\lego\\Scripting\\VBO\\lev6/../../../area/GfMaterialConstants.h" 125:134
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -324,7 +324,7 @@ begin class "ta046_puzzle"
 	end ; method
 
 	begin method "exit"
-		; address: 0x7bc3e
+		; address: 0xae9ac
 		; source: 210 "C:\\projects\\lego\\Scripting\\VBO\\lev6/../../../area/GfMaterialConstants.h" 139:139
 		MemberFunctionArgumentCheck 1
 		LineNumber                  12569, 4
@@ -336,7 +336,7 @@ begin class "ta046_puzzle"
 	end ; method
 
 	begin method "process"
-		; address: 0x7bc50
+		; address: 0xae9be
 		; source: 210 "C:\\projects\\lego\\Scripting\\VBO\\lev6/../../../area/GfMaterialConstants.h" 144:144
 		MemberFunctionArgumentCheck 2
 		LineNumber                  12574, 4
@@ -351,7 +351,7 @@ begin class "ta046_puzzle"
 	end ; method
 
 	begin method "lavakiller"
-		; address: 0x7bc6a
+		; address: 0xae9d8
 		; source: 210 "C:\\projects\\lego\\Scripting\\VBO\\lev6/../../../area/GfMaterialConstants.h" 150:153
 		MemberFunctionArgumentCheck   2
 		LineNumber                    12580, 4
@@ -389,7 +389,7 @@ begin class "ta046_puzzle"
 	end ; method
 
 	begin method "drainpower"
-		; address: 0x7bcc0
+		; address: 0xaea2e
 		; source: 210 "C:\\projects\\lego\\Scripting\\VBO\\lev6/../../../area/GfMaterialConstants.h" 161:165
 		MemberFunctionArgumentCheck   2
 		LineNumber                    12591, 4
@@ -427,7 +427,7 @@ begin class "ta046_puzzle"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x7bd1f
+		; address: 0xaea8d
 		; source: 210 "C:\\projects\\lego\\Scripting\\VBO\\lev6/../../../area/GfMaterialConstants.h" 173:189
 		MemberFunctionArgumentCheck   2
 		LineNumber                    12603, 4
@@ -511,7 +511,7 @@ begin class "ta046_puzzle"
 	end ; method
 
 	begin method "input"
-		; address: 0x7bdd9
+		; address: 0xaeb47
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return

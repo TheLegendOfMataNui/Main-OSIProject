@@ -4,7 +4,7 @@ begin class "brd3_puzzle"
 	property "explotion"
 
 	begin method "brd3_puzzle"
-		; address: 0x36a5a
+		; address: 0x9c6c0
 		; source: 180 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_well.vbo" 92:92
 		MemberFunctionArgumentCheck 2
 		LineNumber                  4386, 4
@@ -16,7 +16,7 @@ begin class "brd3_puzzle"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x36a6e
+		; address: 0x9c6d4
 		; source: 180 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_well.vbo" 100:141
 		; source: 214 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta14.vbo" 191:191
 		MemberFunctionArgumentCheck   1
@@ -452,7 +452,7 @@ begin class "brd3_puzzle"
 	end ; method
 
 	begin method "initshort"
-		; address: 0x36eb3
+		; address: 0x9cc17
 		; source: 180 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_well.vbo" 153:156
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -505,7 +505,7 @@ begin class "brd3_puzzle"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x36f24
+		; address: 0x9cc88
 		; source: 180 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_well.vbo" 161:165
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -554,14 +554,14 @@ begin class "brd3_puzzle"
 	end ; method
 
 	begin method "show"
-		; address: 0x36f86
+		; address: 0x9ccea
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "hide"
-		; address: 0x36f8a
+		; address: 0x9ccee
 		; source: 214 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta14.vbo" 191:191
 		MemberFunctionArgumentCheck 1
 		LineNumber                  14736, 4
@@ -576,7 +576,7 @@ begin class "brd3_puzzle"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x36fa2
+		; address: 0x9cd06
 		; source: 180 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_well.vbo" 188:241
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -976,7 +976,7 @@ begin class "brd3_puzzle"
 	end ; method
 
 	begin method "icewallcollision"
-		; address: 0x373ef
+		; address: 0x9d153
 		; source: 180 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_well.vbo" 254:257
 		MemberFunctionArgumentCheck   3
 		CreateStackVariables          1
@@ -1034,7 +1034,7 @@ begin class "brd3_puzzle"
 	end ; method
 
 	begin method "explode"
-		; address: 0x37461
+		; address: 0x9d1c5
 		; source: 180 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_well.vbo" 271:272
 		MemberFunctionArgumentCheck 2
 		LineNumber                  4565, 4
@@ -1057,7 +1057,7 @@ begin class "brd3_puzzle"
 	end ; method
 
 	begin method "setsurfmode"
-		; address: 0x37491
+		; address: 0x9cb19
 		; source: 214 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta14.vbo" 207:237
 		; source: 180 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_well.vbo" 101:104
 		MemberFunctionArgumentCheck   2

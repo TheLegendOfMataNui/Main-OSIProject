@@ -5,7 +5,7 @@ begin class "l4_swrd_puzzle"
 	property "hittrigerbox"
 
 	begin method "l4_swrd_puzzle"
-		; address: 0x52daa
+		; address: 0x9a96c
 		; source: 177 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_shrn.vbo" 101:101
 		MemberFunctionArgumentCheck 2
 		LineNumber                  3528, 4
@@ -17,7 +17,7 @@ begin class "l4_swrd_puzzle"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x52dbe
+		; address: 0x9a980
 		; source: 177 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_shrn.vbo" 109:139
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          2
@@ -241,7 +241,7 @@ begin class "l4_swrd_puzzle"
 	end ; method
 
 	begin method "show"
-		; address: 0x5300c
+		; address: 0x9abce
 		; source: 177 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_shrn.vbo" 146:164
 		MemberFunctionArgumentCheck 1
 		LineNumber                  3582, 4
@@ -431,7 +431,7 @@ begin class "l4_swrd_puzzle"
 	end ; method
 
 	begin method "initshort"
-		; address: 0x531cf
+		; address: 0x9ad91
 		; source: 177 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_shrn.vbo" 172:179
 		MemberFunctionArgumentCheck   1
 		LineNumber                    3599, 4
@@ -490,7 +490,7 @@ begin class "l4_swrd_puzzle"
 	end ; method
 
 	begin method "hide"
-		; address: 0x53271
+		; address: 0x9ae33
 		; source: 177 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_shrn.vbo" 186:200
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          2
@@ -583,7 +583,7 @@ begin class "l4_swrd_puzzle"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x5333d
+		; address: 0x9aeff
 		; source: 177 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_shrn.vbo" 206:243
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -746,14 +746,14 @@ begin class "l4_swrd_puzzle"
 	end ; method
 
 	begin method "input"
-		; address: 0x534b2
+		; address: 0x9b074
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "process"
-		; address: 0x534b6
+		; address: 0x9b078
 		; source: 177 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_shrn.vbo" 254:255
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -793,7 +793,7 @@ begin class "l4_swrd_puzzle"
 	end ; method
 
 	begin method "cheat"
-		; address: 0x534fc
+		; address: 0x9b0be
 		; source: 177 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_shrn.vbo" 262:262
 		MemberFunctionArgumentCheck  1
 		LineNumber                   3689, 4
@@ -810,7 +810,7 @@ begin class "l4_swrd_puzzle"
 	end ; method
 
 	begin method "exit"
-		; address: 0x5351a
+		; address: 0x9b0dc
 		; source: 177 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_shrn.vbo" 268:268
 		MemberFunctionArgumentCheck 1
 		LineNumber                  3695, 4

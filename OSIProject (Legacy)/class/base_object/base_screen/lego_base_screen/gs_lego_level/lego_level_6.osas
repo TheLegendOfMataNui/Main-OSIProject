@@ -3,7 +3,7 @@ begin class "lego_level_6", "gs_lego_level"
 	property "burnsoundplayed"
 
 	begin method "lego_level_6"
-		; address: 0xb9c05
+		; address: 0xb8688
 		; source: 205 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta04.vbo" 53:116
 		MemberFunctionArgumentCheck 1
 		CreateStackVariables        1
@@ -361,7 +361,7 @@ begin class "lego_level_6", "gs_lego_level"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xba073
+		; address: 0xb8af6
 		; source: 205 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta04.vbo" 125:180
 		MemberFunctionArgumentCheck   1
 		LineNumber                    17673, 4
@@ -480,31 +480,11 @@ begin class "lego_level_6", "gs_lego_level"
 		GetMemberFunctionString       "addmask"
 		JumpAbsolute                  3
 		Pop
-		LineNumber                    17688, 4
-		LineNumberAlt1                140, 205
-		GetVariableValueGlobalString  "globalclass"
-		GetMemberValueString          "player"
-		PushConstanti8                4
-		PushConstanti8                3
-		Pull                          3
-		GetMemberFunctionString       "setdrainrateofmask"
-		JumpAbsolute                  3
-		Pop
-		LineNumber                    17689, 4
-		LineNumberAlt1                141, 205
-		GetVariableValueGlobalString  "globalclass"
-		GetMemberValueString          "player"
-		PushConstanti8                2
-		PushConstanti8                5
-		Pull                          3
-		GetMemberFunctionString       "setdrainrateofmask"
-		JumpAbsolute                  3
-		Pop
 		LineNumber                    17691, 4
 		LineNumberAlt1                143, 205
 		GetVariableValueGlobalString  "globalclass"
 		GetMemberValueString          "saverloaded"
-		CompareAndBranchIfFalseTarget 2, 0
+		CompareAndBranchIfFalseTarget 4, 0
 		; ->
 		LineNumber                    17693, 4
 		LineNumberAlt1                145, 205
@@ -539,7 +519,7 @@ begin class "lego_level_6", "gs_lego_level"
 		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
 		LineNumber                    17696, 4
 		LineNumberAlt1                148, 205
-		PushConstantStringString      "ra03"
+		PushConstantStringString      "ta03"
 		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
 		LineNumber                    17696, 4
 		LineNumberAlt1                148, 205
@@ -562,7 +542,7 @@ begin class "lego_level_6", "gs_lego_level"
 		BranchTarget                  1
 		LineNumber                    17707, 4
 		LineNumberAlt1                159, 205
-		PushConstantStringString      "gly0"
+		PushConstantStringString      "glyp"
 		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
 		LineNumber                    17707, 4
 		LineNumberAlt1                159, 205
@@ -579,13 +559,42 @@ begin class "lego_level_6", "gs_lego_level"
 		LineNumberAlt1                160, 205
 		GetVariableValueGlobalString  "globalclass"
 		GetMemberValueString          "player"
-		PushConstanti8                19
-		Pull                          2
+		Dup
 		GetMemberFunctionString       "addelement"
-		JumpAbsolute                  2
+		JumpAbsolute                  1
 		Pop
 		; <-
 		BranchTarget                  2
+		PushConstantStringString      "swrd"
+		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+		PushConstantStringString      "vllg"
+		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+		CallGameFunctionString        "gcsaver", "finditema", 2
+		CompareAndBranchIfFalseTarget 3, 0
+		; ->
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "player"
+		Dup
+		GetMemberFunctionString       "setupgrapplinghook"
+		JumpAbsolute                  1
+		Pop
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "player"
+		PushConstanti8                120
+		Pull                          2
+		GetMemberFunctionString       "setgrapplinghookdistance"
+		JumpAbsolute                  2
+		Pop
+		; <-
+		BranchTarget                  3
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "player"
+		Dup
+		GetMemberFunctionString       "initfromsaver"
+		JumpAbsolute                  1
+		Pop
+		; <-
+		BranchTarget                  4
 		LineNumber                    17722, 4
 		LineNumberAlt1                174, 205
 		CreateObjectString            "tablecopysound"
@@ -606,17 +615,6 @@ begin class "lego_level_6", "gs_lego_level"
 		GetMemberFunctionString       "setvolume"
 		JumpAbsolute                  2
 		Pop
-		LineNumber                    17724, 4
-		LineNumberAlt1                176, 205
-		GetVariableValueGlobalString  "globalclass"
-		GetMemberValueString          "player"
-		GetMemberValueString          "actor"
-		PushConstanti8                19
-		PushConstanti8                15
-		Pull                          3
-		GetMemberFunctionString       "setlevitateparams"
-		JumpAbsolute                  3
-		Pop
 		LineNumber                    17726, 4
 		LineNumberAlt1                178, 205
 		PushConstant0
@@ -633,13 +631,16 @@ begin class "lego_level_6", "gs_lego_level"
 		PushConstantf32               0.05000000074505806
 		CallGameFunctionString        "gcareadirector", "setfog", 4
 		Pop
+		PushConstanti8                0
+		GetVariableValueGlobalString  "globalclass"
+		SetMemberValueString          "saverloaded"
 		PushNothing
 		Return
 	end ; method
 
 	begin method "initshort"
-		; address: 0xba3c4
-		; source: 205 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta04.vbo" 188:205
+		; address: 0xb8e32
+		; source: 205 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta04.vbo" 188:201
 		MemberFunctionArgumentCheck  1
 		LineNumber                   17736, 4
 		LineNumberAlt1               188, 205
@@ -757,32 +758,12 @@ begin class "lego_level_6", "gs_lego_level"
 		GetMemberFunctionString      "addmask"
 		JumpAbsolute                 3
 		Pop
-		LineNumber                   17752, 4
-		LineNumberAlt1               204, 205
-		GetVariableValueGlobalString "globalclass"
-		GetMemberValueString         "player"
-		PushConstanti8               4
-		PushConstanti8               3
-		Pull                         3
-		GetMemberFunctionString      "setdrainrateofmask"
-		JumpAbsolute                 3
-		Pop
-		LineNumber                   17753, 4
-		LineNumberAlt1               205, 205
-		GetVariableValueGlobalString "globalclass"
-		GetMemberValueString         "player"
-		PushConstanti8               2
-		PushConstanti8               5
-		Pull                         3
-		GetMemberFunctionString      "setdrainrateofmask"
-		JumpAbsolute                 3
-		Pop
 		PushNothing
 		Return
 	end ; method
 
 	begin method "onevent"
-		; address: 0xba551
+		; address: 0xb8f87
 		; source: 205 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta04.vbo" 212:231
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -868,7 +849,7 @@ begin class "lego_level_6", "gs_lego_level"
 	end ; method
 
 	begin method "settestforlavacollisions"
-		; address: 0xba620
+		; address: 0xb9056
 		; source: 205 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta04.vbo" 244:244
 		MemberFunctionArgumentCheck 2
 		CreateStackVariables        1

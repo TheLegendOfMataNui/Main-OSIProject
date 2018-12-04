@@ -2,7 +2,7 @@ begin class "lego_area_le015", "gs_lego_area"
 	property "launcherpickup"
 
 	begin method "lego_area_le015"
-		; address: 0xa2af0
+		; address: 0xa3453
 		; source: 188 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_room.vbo" 27:27
 		MemberFunctionArgumentCheck 2
 		LineNumber                  7345, 4
@@ -20,7 +20,7 @@ begin class "lego_area_le015", "gs_lego_area"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xa2b0f
+		; address: 0xa3472
 		; source: 188 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_room.vbo" 35:51
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          2
@@ -155,7 +155,7 @@ begin class "lego_area_le015", "gs_lego_area"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xa2cb8
+		; address: 0xa361b
 		; source: 188 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_room.vbo" 57:59
 		MemberFunctionArgumentCheck   1
 		LineNumber                    7375, 4
@@ -184,21 +184,21 @@ begin class "lego_area_le015", "gs_lego_area"
 	end ; method
 
 	begin method "exit"
-		; address: 0xa2cf1
+		; address: 0xa3654
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "process"
-		; address: 0xa2cf5
+		; address: 0xa3658
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "onevent"
-		; address: 0xa2cf9
+		; address: 0xa365c
 		; source: 188 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_room.vbo" 76:83
 		MemberFunctionArgumentCheck   2
 		LineNumber                    7394, 4
@@ -271,7 +271,7 @@ begin class "lego_area_le015", "gs_lego_area"
 	end ; method
 
 	begin method "input"
-		; address: 0xa2da7
+		; address: 0xa370a
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return

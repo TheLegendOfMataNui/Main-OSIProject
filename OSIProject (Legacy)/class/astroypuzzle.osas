@@ -38,7 +38,7 @@ begin class "astroypuzzle"
 	property "musichasstarted"
 
 	begin method "astroypuzzle"
-		; address: 0x2d7a4
+		; address: 0x8f297
 		; source: 164 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_strt.vbo" 138:143
 		MemberFunctionArgumentCheck 2
 		LineNumber                  63934, 4
@@ -66,7 +66,7 @@ begin class "astroypuzzle"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x2d7f7
+		; address: 0x8f2ea
 		; source: 164 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_strt.vbo" 151:261
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -866,7 +866,7 @@ begin class "astroypuzzle"
 	end ; method
 
 	begin method "show"
-		; address: 0x2e105
+		; address: 0x8fbf8
 		; source: 164 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_strt.vbo" 267:267
 		MemberFunctionArgumentCheck 1
 		LineNumber                  64063, 4
@@ -879,7 +879,7 @@ begin class "astroypuzzle"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x2e11d
+		; address: 0x8fc10
 		; source: 164 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_strt.vbo" 272:340
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -1160,7 +1160,7 @@ begin class "astroypuzzle"
 	end ; method
 
 	begin method "process"
-		; address: 0x2e457
+		; address: 0x8ff4a
 		; source: 164 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_strt.vbo" 347:352
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -1232,7 +1232,7 @@ begin class "astroypuzzle"
 	end ; method
 
 	begin method "input"
-		; address: 0x2e4e5
+		; address: 0x8ffd8
 		; source: 164 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_strt.vbo" 360:379
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -1346,14 +1346,14 @@ begin class "astroypuzzle"
 	end ; method
 
 	begin method "cheat"
-		; address: 0x2e5e0
+		; address: 0x900d3
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "onevent"
-		; address: 0x2e5e4
+		; address: 0x900d7
 		; source: 164 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_strt.vbo" 411:518
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          4
@@ -1766,7 +1766,7 @@ begin class "astroypuzzle"
 	end ; method
 
 	begin method "reseta"
-		; address: 0x2e9ec
+		; address: 0x904df
 		; source: 164 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_strt.vbo" 549:554
 		MemberFunctionArgumentCheck  1
 		LineNumber                   64345, 4
@@ -1820,7 +1820,7 @@ begin class "astroypuzzle"
 	end ; method
 
 	begin method "resetb"
-		; address: 0x2ea7a
+		; address: 0x9056d
 		; source: 164 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_strt.vbo" 560:572
 		MemberFunctionArgumentCheck  1
 		LineNumber                   64356, 4
@@ -1934,7 +1934,7 @@ begin class "astroypuzzle"
 	end ; method
 
 	begin method "hitswitch"
-		; address: 0x2ebd2
+		; address: 0x906c5
 		; source: 164 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_strt.vbo" 580:598
 		MemberFunctionArgumentCheck   1
 		LineNumber                    64376, 4
@@ -2112,7 +2112,7 @@ begin class "astroypuzzle"
 	end ; method
 
 	begin method "platformhit"
-		; address: 0x2edc3
+		; address: 0x908b6
 		; source: 164 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_strt.vbo" 607:619
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -2170,7 +2170,7 @@ begin class "astroypuzzle"
 	end ; method
 
 	begin method "reset"
-		; address: 0x2ee46
+		; address: 0x90939
 		; source: 164 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_strt.vbo" 630:659
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -2364,7 +2364,7 @@ begin class "astroypuzzle"
 	end ; method
 
 	begin method "exit"
-		; address: 0x2f033
+		; address: 0x90b26
 		; source: 164 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_strt.vbo" 682:682
 		MemberFunctionArgumentCheck 1
 		LineNumber                  64478, 4

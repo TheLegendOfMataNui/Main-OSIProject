@@ -1,5 +1,5 @@
 begin function "setuplanguagetest", 0
-	; address: 0x2b775
+	; address: 0x2c738
 	; source: 237 unknown 110:110
 	LineNumber                   19883, 4
 	LineNumberAlt1               110, 237

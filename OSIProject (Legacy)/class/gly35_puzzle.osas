@@ -7,7 +7,7 @@ begin class "gly35_puzzle"
 	property "callsurfonce"
 
 	begin method "gly35_puzzle"
-		; address: 0x43a47
+		; address: 0xa6e7a
 		; source: 197 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_shrn.vbo" 89:90
 		MemberFunctionArgumentCheck 2
 		LineNumber                  9118, 4
@@ -23,7 +23,7 @@ begin class "gly35_puzzle"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x43a6a
+		; address: 0xa6e9d
 		; source: 197 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_shrn.vbo" 98:111
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -113,7 +113,7 @@ begin class "gly35_puzzle"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x43b71
+		; address: 0xa6fa4
 		; source: 197 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_shrn.vbo" 117:122
 		MemberFunctionArgumentCheck   1
 		LineNumber                    9146, 4
@@ -150,7 +150,7 @@ begin class "gly35_puzzle"
 	end ; method
 
 	begin method "exit"
-		; address: 0x43bc6
+		; address: 0xa6ff9
 		; source: 197 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_shrn.vbo" 130:130
 		MemberFunctionArgumentCheck 1
 		LineNumber                  9159, 4
@@ -162,7 +162,7 @@ begin class "gly35_puzzle"
 	end ; method
 
 	begin method "process"
-		; address: 0x43bd8
+		; address: 0xa700b
 		; source: 197 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_shrn.vbo" 136:140
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -214,7 +214,7 @@ begin class "gly35_puzzle"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x43c50
+		; address: 0xa7083
 		; source: 197 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_shrn.vbo" 147:157
 		MemberFunctionArgumentCheck   2
 		LineNumber                    9176, 4
@@ -295,7 +295,7 @@ begin class "gly35_puzzle"
 	end ; method
 
 	begin method "input"
-		; address: 0x43d17
+		; address: 0xa714a
 		; source: 197 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_shrn.vbo" 164:165
 		MemberFunctionArgumentCheck   2
 		LineNumber                    9193, 4
@@ -351,7 +351,7 @@ begin class "gly35_puzzle"
 	end ; method
 
 	begin method "startsurf"
-		; address: 0x43d99
+		; address: 0xa71cc
 		; source: 197 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_shrn.vbo" 171:177
 		MemberFunctionArgumentCheck   1
 		LineNumber                    9200, 4
@@ -403,7 +403,7 @@ begin class "gly35_puzzle"
 	end ; method
 
 	begin method "stopsurf"
-		; address: 0x43e1d
+		; address: 0xa7250
 		; source: 197 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_shrn.vbo" 184:188
 		MemberFunctionArgumentCheck   1
 		LineNumber                    9213, 4

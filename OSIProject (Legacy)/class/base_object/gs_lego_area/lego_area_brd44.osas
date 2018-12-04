@@ -3,7 +3,7 @@ begin class "lego_area_brd44", "gs_lego_area"
 	property "parent"
 
 	begin method "lego_area_brd44"
-		; address: 0x9f963
+		; address: 0x9d1f5
 		; source: 181 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_tura.vbo" 29:32
 		MemberFunctionArgumentCheck 2
 		LineNumber                  4617, 4
@@ -43,7 +43,7 @@ begin class "lego_area_brd44", "gs_lego_area"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x9f9cb
+		; address: 0x9d25d
 		; source: 181 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_tura.vbo" 40:46
 		MemberFunctionArgumentCheck  1
 		LineNumber                   4628, 4
@@ -89,7 +89,7 @@ begin class "lego_area_brd44", "gs_lego_area"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x9fa3f
+		; address: 0x9d2d1
 		; source: 181 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_tura.vbo" 52:55
 		MemberFunctionArgumentCheck 1
 		LineNumber                  4640, 4
@@ -117,7 +117,7 @@ begin class "lego_area_brd44", "gs_lego_area"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x9fa7e
+		; address: 0x9d310
 		; source: 181 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_tura.vbo" 66:66
 		MemberFunctionArgumentCheck 2
 		LineNumber                  4654, 4
@@ -133,7 +133,7 @@ begin class "lego_area_brd44", "gs_lego_area"
 	end ; method
 
 	begin method "exit"
-		; address: 0x9fa9a
+		; address: 0x9d32c
 		; source: 181 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_tura.vbo" 76:80
 		MemberFunctionArgumentCheck   1
 		LineNumber                    4664, 4

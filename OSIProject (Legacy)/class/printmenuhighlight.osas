@@ -3,7 +3,7 @@ begin class "printmenuhighlight"
 	property "lit"
 
 	begin method "printmenuhighlight"
-		; address: 0x6722b
+		; address: 0x57e75
 		; source: 85 "C:\\projects\\lego\\Scripting\\VBO\\frnt/frend_print.vbo" 30:36
 		MemberFunctionArgumentCheck  6
 		LineNumber                   33270, 4
@@ -44,7 +44,7 @@ begin class "printmenuhighlight"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x67284
+		; address: 0x57ece
 		; source: 85 "C:\\projects\\lego\\Scripting\\VBO\\frnt/frend_print.vbo" 41:42
 		MemberFunctionArgumentCheck 1
 		LineNumber                  33281, 4
@@ -80,7 +80,7 @@ begin class "printmenuhighlight"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x672d8
+		; address: 0x57f22
 		; source: 85 "C:\\projects\\lego\\Scripting\\VBO\\frnt/frend_print.vbo" 47:49
 		MemberFunctionArgumentCheck   1
 		LineNumber                    33287, 4
@@ -123,7 +123,7 @@ begin class "printmenuhighlight"
 	end ; method
 
 	begin method "check"
-		; address: 0x67339
+		; address: 0x57f83
 		; source: 85 "C:\\projects\\lego\\Scripting\\VBO\\frnt/frend_print.vbo" 57:68
 		MemberFunctionArgumentCheck   3
 		LineNumber                    33297, 4

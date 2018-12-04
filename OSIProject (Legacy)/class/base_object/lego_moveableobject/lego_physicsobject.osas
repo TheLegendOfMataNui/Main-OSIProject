@@ -10,7 +10,7 @@ begin class "lego_physicsobject", "lego_moveableobject"
 	property "collisiontype"
 
 	begin method "lego_physicsobject"
-		; address: 0xac2f7
+		; address: 0x4308f
 		; source: 52 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_moveableObj.vbo" 767:767
 		MemberFunctionArgumentCheck 4
 		LineNumber                  19403, 4
@@ -27,7 +27,7 @@ begin class "lego_physicsobject", "lego_moveableobject"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xac317
+		; address: 0x430af
 		; source: 52 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_moveableObj.vbo" 775:837
 		MemberFunctionArgumentCheck   17
 		CreateStackVariables          1
@@ -292,7 +292,7 @@ begin class "lego_physicsobject", "lego_moveableobject"
 	end ; method
 
 	begin method "createnew"
-		; address: 0xac5c3
+		; address: 0x4335b
 		; source: 52 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_moveableObj.vbo" 844:845
 		MemberFunctionArgumentCheck   4
 		LineNumber                    19480, 4
@@ -319,7 +319,7 @@ begin class "lego_physicsobject", "lego_moveableobject"
 	end ; method
 
 	begin method "setshrinkable"
-		; address: 0xac602
+		; address: 0x4339a
 		; source: 52 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_moveableObj.vbo" 852:852
 		MemberFunctionArgumentCheck 2
 		LineNumber                  19488, 4
@@ -333,7 +333,7 @@ begin class "lego_physicsobject", "lego_moveableobject"
 	end ; method
 
 	begin method "setpushparams"
-		; address: 0xac61d
+		; address: 0x433b5
 		; source: 52 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_moveableObj.vbo" 857:857
 		MemberFunctionArgumentCheck 4
 		LineNumber                  19493, 4
@@ -349,7 +349,7 @@ begin class "lego_physicsobject", "lego_moveableobject"
 	end ; method
 
 	begin method "getscale"
-		; address: 0xac63e
+		; address: 0x433d6
 		; source: 52 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_moveableObj.vbo" 863:863
 		MemberFunctionArgumentCheck 1
 		LineNumber                  19499, 4
@@ -362,7 +362,7 @@ begin class "lego_physicsobject", "lego_moveableobject"
 	end ; method
 
 	begin method "sethitvelocity"
-		; address: 0xac65e
+		; address: 0x433f6
 		; source: 52 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_moveableObj.vbo" 870:870
 		MemberFunctionArgumentCheck 3
 		LineNumber                  19506, 4
@@ -377,7 +377,7 @@ begin class "lego_physicsobject", "lego_moveableobject"
 	end ; method
 
 	begin method "setmoveable"
-		; address: 0xac67c
+		; address: 0x43414
 		; source: 52 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_moveableObj.vbo" 876:881
 		MemberFunctionArgumentCheck   2
 		LineNumber                    19512, 4
@@ -428,7 +428,7 @@ begin class "lego_physicsobject", "lego_moveableobject"
 	end ; method
 
 	begin method "setasshakeobj"
-		; address: 0xac6fb
+		; address: 0x43493
 		; source: 52 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_moveableObj.vbo" 888:888
 		MemberFunctionArgumentCheck 1
 		LineNumber                  19524, 4
@@ -441,7 +441,7 @@ begin class "lego_physicsobject", "lego_moveableobject"
 	end ; method
 
 	begin method "shaketouch"
-		; address: 0xac713
+		; address: 0x434ab
 		; source: 52 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_moveableObj.vbo" 893:893
 		MemberFunctionArgumentCheck 1
 		LineNumber                  19529, 4
@@ -454,7 +454,7 @@ begin class "lego_physicsobject", "lego_moveableobject"
 	end ; method
 
 	begin method "settimetofall"
-		; address: 0xac72b
+		; address: 0x434db
 		; source: 52 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_moveableObj.vbo" 903:903
 		MemberFunctionArgumentCheck 2
 		LineNumber                  19539, 4
@@ -468,7 +468,7 @@ begin class "lego_physicsobject", "lego_moveableobject"
 	end ; method
 
 	begin method "setfallrotation"
-		; address: 0xac746
+		; address: 0x434f6
 		; source: 52 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_moveableObj.vbo" 908:908
 		MemberFunctionArgumentCheck 4
 		LineNumber                  19544, 4
@@ -484,7 +484,7 @@ begin class "lego_physicsobject", "lego_moveableobject"
 	end ; method
 
 	begin method "setshakerotateintensity"
-		; address: 0xac767
+		; address: 0x43517
 		; source: 52 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_moveableObj.vbo" 913:913
 		MemberFunctionArgumentCheck 2
 		LineNumber                  19549, 4
@@ -498,7 +498,7 @@ begin class "lego_physicsobject", "lego_moveableobject"
 	end ; method
 
 	begin method "setshakebobbleintensity"
-		; address: 0xac782
+		; address: 0x43532
 		; source: 52 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_moveableObj.vbo" 918:918
 		MemberFunctionArgumentCheck 2
 		LineNumber                  19554, 4
@@ -512,7 +512,7 @@ begin class "lego_physicsobject", "lego_moveableobject"
 	end ; method
 
 	begin method "setshakekillheight"
-		; address: 0xac79d
+		; address: 0x4354d
 		; source: 52 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_moveableObj.vbo" 923:923
 		MemberFunctionArgumentCheck 2
 		LineNumber                  19559, 4
@@ -526,7 +526,7 @@ begin class "lego_physicsobject", "lego_moveableobject"
 	end ; method
 
 	begin method "shakereset"
-		; address: 0xac7b8
+		; address: 0x43568
 		; source: 52 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_moveableObj.vbo" 928:928
 		MemberFunctionArgumentCheck 1
 		LineNumber                  19564, 4

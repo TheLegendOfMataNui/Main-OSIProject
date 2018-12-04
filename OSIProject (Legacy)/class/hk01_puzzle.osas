@@ -5,7 +5,7 @@ begin class "hk01_puzzle"
 	property "hive2handle"
 
 	begin method "hk01_puzzle"
-		; address: 0x4e276
+		; address: 0x7e06e
 		; source: 140 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_mwat.vbo" 87:87
 		MemberFunctionArgumentCheck 2
 		LineNumber                  54149, 4
@@ -17,7 +17,7 @@ begin class "hk01_puzzle"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x4e28a
+		; address: 0x7e082
 		; source: 140 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_mwat.vbo" 95:125
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          2
@@ -262,7 +262,7 @@ begin class "hk01_puzzle"
 	end ; method
 
 	begin method "initshort"
-		; address: 0x4e56a
+		; address: 0x7e362
 		; source: 140 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_mwat.vbo" 131:133
 		MemberFunctionArgumentCheck  1
 		LineNumber                   54193, 4
@@ -304,7 +304,7 @@ begin class "hk01_puzzle"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x4e5da
+		; address: 0x7e3d2
 		; source: 140 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_mwat.vbo" 138:144
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -361,14 +361,14 @@ begin class "hk01_puzzle"
 	end ; method
 
 	begin method "process"
-		; address: 0x4e658
+		; address: 0x7e450
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "onevent"
-		; address: 0x4e65c
+		; address: 0x7e454
 		; source: 140 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_mwat.vbo" 154:159
 		MemberFunctionArgumentCheck   2
 		LineNumber                    54216, 4
@@ -413,7 +413,7 @@ begin class "hk01_puzzle"
 	end ; method
 
 	begin method "input"
-		; address: 0x4e6bf
+		; address: 0x7e4b7
 		; source: 140 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_mwat.vbo" 165:165
 		MemberFunctionArgumentCheck   2
 		LineNumber                    54227, 4
@@ -445,7 +445,7 @@ begin class "hk01_puzzle"
 	end ; method
 
 	begin method "exit"
-		; address: 0x4e702
+		; address: 0x7e4fa
 		; source: 140 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_mwat.vbo" 170:170
 		MemberFunctionArgumentCheck 1
 		LineNumber                  54232, 4
@@ -457,7 +457,7 @@ begin class "hk01_puzzle"
 	end ; method
 
 	begin method "cheat"
-		; address: 0x4e714
+		; address: 0x7e50c
 		; source: 140 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_mwat.vbo" 176:177
 		MemberFunctionArgumentCheck  1
 		LineNumber                   54238, 4

@@ -8,7 +8,7 @@ begin class "lego_area_vilg", "gs_lego_area"
 	property "deadhives"
 
 	begin method "lego_area_vilg"
-		; address: 0xa95a2
+		; address: 0x91f19
 		; source: 166 "C:\\projects\\lego\\Scripting\\VBO\\lev4/Lev4_vllg.vbo" 33:34
 		MemberFunctionArgumentCheck 2
 		LineNumber                  65225, 4
@@ -32,7 +32,7 @@ begin class "lego_area_vilg", "gs_lego_area"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xa95d4
+		; address: 0x91f4b
 		; source: 166 "C:\\projects\\lego\\Scripting\\VBO\\lev4/Lev4_vllg.vbo" 42:84
 		; source: 95 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_vllg.vbo" 143:185
 		; source: 171 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_tele.vbo" 120:120
@@ -375,7 +375,7 @@ begin class "lego_area_vilg", "gs_lego_area"
 	end ; method
 
 	begin method "process"
-		; address: 0xa9a63
+		; address: 0x923da
 		; source: 166 "C:\\projects\\lego\\Scripting\\VBO\\lev4/Lev4_vllg.vbo" 93:101
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          2
@@ -459,7 +459,7 @@ begin class "lego_area_vilg", "gs_lego_area"
 	end ; method
 
 	begin method "onevent"
-		; address: 0xa9b42
+		; address: 0x924b9
 		; source: 166 "C:\\projects\\lego\\Scripting\\VBO\\lev4/Lev4_vllg.vbo" 114:163
 		; source: 95 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_vllg.vbo" 313:314
 		MemberFunctionArgumentCheck   2
@@ -699,7 +699,7 @@ begin class "lego_area_vilg", "gs_lego_area"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xa9d9c
+		; address: 0x92713
 		; source: 166 "C:\\projects\\lego\\Scripting\\VBO\\lev4/Lev4_vllg.vbo" 173:180
 		MemberFunctionArgumentCheck 1
 		LineNumber                  65365, 4
@@ -742,14 +742,14 @@ begin class "lego_area_vilg", "gs_lego_area"
 	end ; method
 
 	begin method "exit"
-		; address: 0xa9e16
+		; address: 0x9278d
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "opencoindoor"
-		; address: 0xa9e1a
+		; address: 0x92791
 		; source: 166 "C:\\projects\\lego\\Scripting\\VBO\\lev4/Lev4_vllg.vbo" 190:190
 		MemberFunctionArgumentCheck 1
 		LineNumber                  65382, 4

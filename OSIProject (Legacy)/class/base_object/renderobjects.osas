@@ -7,7 +7,7 @@ begin class "renderobjects", "base_object"
 	property "actorhandle"
 
 	begin method "renderobjects"
-		; address: 0x957fa
+		; address: 0x54725
 		; source: 48 "C:\\projects\\lego\\Scripting\\VBO\\global.vbo" 726:729
 		MemberFunctionArgumentCheck 1
 		LineNumber                  29361, 4
@@ -31,7 +31,7 @@ begin class "renderobjects", "base_object"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x95836
+		; address: 0x54761
 		; source: 48 "C:\\projects\\lego\\Scripting\\VBO\\global.vbo" 735:735
 		MemberFunctionArgumentCheck 1
 		LineNumber                  29370, 4
@@ -43,7 +43,7 @@ begin class "renderobjects", "base_object"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x95848
+		; address: 0x54773
 		; source: 48 "C:\\projects\\lego\\Scripting\\VBO\\global.vbo" 740:750
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          2
@@ -108,14 +108,14 @@ begin class "renderobjects", "base_object"
 	end ; method
 
 	begin method "input"
-		; address: 0x958eb
+		; address: 0x54816
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "renderoctree"
-		; address: 0x958ef
+		; address: 0x5481a
 		; source: 48 "C:\\projects\\lego\\Scripting\\VBO\\global.vbo" 765:777
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -203,7 +203,7 @@ begin class "renderobjects", "base_object"
 	end ; method
 
 	begin method "renderrays"
-		; address: 0x959a2
+		; address: 0x548cd
 		; source: 48 "C:\\projects\\lego\\Scripting\\VBO\\global.vbo" 786:792
 		MemberFunctionArgumentCheck   1
 		LineNumber                    29421, 4
@@ -254,7 +254,7 @@ begin class "renderobjects", "base_object"
 	end ; method
 
 	begin method "rendercylinder"
-		; address: 0x95a33
+		; address: 0x5495e
 		; source: 48 "C:\\projects\\lego\\Scripting\\VBO\\global.vbo" 799:805
 		MemberFunctionArgumentCheck   1
 		LineNumber                    29434, 4
@@ -305,7 +305,7 @@ begin class "renderobjects", "base_object"
 	end ; method
 
 	begin method "rendertriggerboxes"
-		; address: 0x95ac4
+		; address: 0x549ef
 		; source: 48 "C:\\projects\\lego\\Scripting\\VBO\\global.vbo" 812:820
 		MemberFunctionArgumentCheck   1
 		LineNumber                    29447, 4
@@ -368,7 +368,7 @@ begin class "renderobjects", "base_object"
 	end ; method
 
 	begin method "addareatorender"
-		; address: 0x95b80
+		; address: 0x54aab
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return

@@ -10,7 +10,7 @@ begin class "ss_shoefitterscreen", "lego_base_screen"
 	property "runninganimation"
 
 	begin method "ss_shoefitterscreen"
-		; address: 0xb38ec
+		; address: 0x717df
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/slkheader.h" 94:99
 		MemberFunctionArgumentCheck 7
 		LineNumber                  48521, 4
@@ -42,7 +42,7 @@ begin class "ss_shoefitterscreen", "lego_base_screen"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xb3950
+		; address: 0x71843
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/slkheader.h" 108:128
 		MemberFunctionArgumentCheck 1
 		LineNumber                  48535, 4
@@ -129,7 +129,7 @@ begin class "ss_shoefitterscreen", "lego_base_screen"
 	end ; method
 
 	begin method "initshort"
-		; address: 0xb3a5e
+		; address: 0x71951
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/slkheader.h" 132:132
 		MemberFunctionArgumentCheck 1
 		LineNumber                  48559, 4
@@ -143,7 +143,7 @@ begin class "ss_shoefitterscreen", "lego_base_screen"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xb3a75
+		; address: 0x71968
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/slkheader.h" 137:145
 		MemberFunctionArgumentCheck 1
 		LineNumber                  48564, 4
@@ -201,7 +201,7 @@ begin class "ss_shoefitterscreen", "lego_base_screen"
 	end ; method
 
 	begin method "cleanupshort"
-		; address: 0xb3b0d
+		; address: 0x71a00
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/slkheader.h" 151:151
 		MemberFunctionArgumentCheck 1
 		LineNumber                  48578, 4
@@ -215,7 +215,7 @@ begin class "ss_shoefitterscreen", "lego_base_screen"
 	end ; method
 
 	begin method "process"
-		; address: 0xb3b24
+		; address: 0x71a17
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/slkheader.h" 155:177
 		MemberFunctionArgumentCheck   2
 		LineNumber                    48582, 4
@@ -345,7 +345,7 @@ begin class "ss_shoefitterscreen", "lego_base_screen"
 	end ; method
 
 	begin method "input"
-		; address: 0xb3c67
+		; address: 0x71b5a
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/slkheader.h" 185:194
 		MemberFunctionArgumentCheck   2
 		LineNumber                    48612, 4
@@ -443,7 +443,7 @@ begin class "ss_shoefitterscreen", "lego_base_screen"
 	end ; method
 
 	begin method "resetpause"
-		; address: 0xb3d4b
+		; address: 0x71c3e
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/slkheader.h" 199:199
 		MemberFunctionArgumentCheck 1
 		LineNumber                  48626, 4
@@ -455,7 +455,7 @@ begin class "ss_shoefitterscreen", "lego_base_screen"
 	end ; method
 
 	begin method "selectanimation"
-		; address: 0xb3d61
+		; address: 0x71c54
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/slkheader.h" 204:205
 		MemberFunctionArgumentCheck 1
 		LineNumber                  48631, 4
@@ -482,7 +482,7 @@ begin class "ss_shoefitterscreen", "lego_base_screen"
 	end ; method
 
 	begin method "checkanimation"
-		; address: 0xb3d9d
+		; address: 0x71c90
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/slkheader.h" 210:212
 		MemberFunctionArgumentCheck   1
 		LineNumber                    48637, 4
@@ -523,7 +523,7 @@ begin class "ss_shoefitterscreen", "lego_base_screen"
 	end ; method
 
 	begin method "switchoptions"
-		; address: 0xb3e00
+		; address: 0x71cf3
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/slkheader.h" 218:235
 		MemberFunctionArgumentCheck   1
 		LineNumber                    48645, 4
@@ -671,7 +671,7 @@ begin class "ss_shoefitterscreen", "lego_base_screen"
 	end ; method
 
 	begin method "playsounds"
-		; address: 0xb3f40
+		; address: 0x71e33
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/slkheader.h" 241:261
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          3
@@ -858,7 +858,7 @@ begin class "ss_shoefitterscreen", "lego_base_screen"
 	end ; method
 
 	begin method "switchwindows"
-		; address: 0xb4107
+		; address: 0x71ffa
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/slkheader.h" 270:283
 		MemberFunctionArgumentCheck   1
 		LineNumber                    48697, 4

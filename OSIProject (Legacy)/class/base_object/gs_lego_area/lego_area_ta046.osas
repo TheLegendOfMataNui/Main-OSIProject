@@ -2,7 +2,7 @@ begin class "lego_area_ta046", "gs_lego_area"
 	property "puzzle"
 
 	begin method "lego_area_ta046"
-		; address: 0xa771e
+		; address: 0xae55d
 		; source: 210 "C:\\projects\\lego\\Scripting\\VBO\\lev6/../../../area/GfMaterialConstants.h" 21:24
 		MemberFunctionArgumentCheck 2
 		LineNumber                  12451, 4
@@ -56,7 +56,7 @@ begin class "lego_area_ta046", "gs_lego_area"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xa779c
+		; address: 0xae5db
 		; source: 210 "C:\\projects\\lego\\Scripting\\VBO\\lev6/../../../area/GfMaterialConstants.h" 30:31
 		MemberFunctionArgumentCheck 1
 		LineNumber                  12460, 4
@@ -77,7 +77,7 @@ begin class "lego_area_ta046", "gs_lego_area"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xa77c7
+		; address: 0xae606
 		; source: 210 "C:\\projects\\lego\\Scripting\\VBO\\lev6/../../../area/GfMaterialConstants.h" 36:37
 		MemberFunctionArgumentCheck 1
 		LineNumber                  12466, 4
@@ -98,7 +98,7 @@ begin class "lego_area_ta046", "gs_lego_area"
 	end ; method
 
 	begin method "process"
-		; address: 0xa77f2
+		; address: 0xae631
 		; source: 210 "C:\\projects\\lego\\Scripting\\VBO\\lev6/../../../area/GfMaterialConstants.h" 42:42
 		MemberFunctionArgumentCheck 2
 		LineNumber                  12472, 4
@@ -114,7 +114,7 @@ begin class "lego_area_ta046", "gs_lego_area"
 	end ; method
 
 	begin method "onevent"
-		; address: 0xa780e
+		; address: 0xae64d
 		; source: 210 "C:\\projects\\lego\\Scripting\\VBO\\lev6/../../../area/GfMaterialConstants.h" 47:47
 		MemberFunctionArgumentCheck 2
 		LineNumber                  12477, 4
@@ -130,7 +130,7 @@ begin class "lego_area_ta046", "gs_lego_area"
 	end ; method
 
 	begin method "input"
-		; address: 0xa782a
+		; address: 0xae669
 		; source: 210 "C:\\projects\\lego\\Scripting\\VBO\\lev6/../../../area/GfMaterialConstants.h" 52:52
 		MemberFunctionArgumentCheck 2
 		LineNumber                  12482, 4
@@ -146,7 +146,7 @@ begin class "lego_area_ta046", "gs_lego_area"
 	end ; method
 
 	begin method "exit"
-		; address: 0xa7846
+		; address: 0xae685
 		; source: 210 "C:\\projects\\lego\\Scripting\\VBO\\lev6/../../../area/GfMaterialConstants.h" 56:57
 		MemberFunctionArgumentCheck 1
 		LineNumber                  12486, 4

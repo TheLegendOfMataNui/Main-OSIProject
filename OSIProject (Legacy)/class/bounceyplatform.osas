@@ -7,7 +7,7 @@ begin class "bounceyplatform"
 	property "sinksound"
 
 	begin method "bounceyplatform"
-		; address: 0x36221
+		; address: 0xad902
 		; source: 208 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta08.vbo" 546:546
 		MemberFunctionArgumentCheck 2
 		LineNumber                  12073, 4
@@ -27,7 +27,7 @@ begin class "bounceyplatform"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x3624b
+		; address: 0xad92c
 		; source: 208 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta08.vbo" 554:560
 		MemberFunctionArgumentCheck 1
 		LineNumber                  12081, 4
@@ -110,7 +110,7 @@ begin class "bounceyplatform"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x36336
+		; address: 0xada17
 		; source: 208 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta08.vbo" 565:571
 		MemberFunctionArgumentCheck 1
 		LineNumber                  12092, 4
@@ -149,7 +149,7 @@ begin class "bounceyplatform"
 	end ; method
 
 	begin method "initshort"
-		; address: 0x363a2
+		; address: 0xada83
 		; source: 208 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta08.vbo" 576:578
 		MemberFunctionArgumentCheck 1
 		LineNumber                  12103, 4
@@ -181,7 +181,7 @@ begin class "bounceyplatform"
 	end ; method
 
 	begin method "setignoreallcollisions"
-		; address: 0x363ef
+		; address: 0xadad0
 		; source: 208 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta08.vbo" 583:583
 		MemberFunctionArgumentCheck 2
 		LineNumber                  12110, 4
@@ -197,7 +197,7 @@ begin class "bounceyplatform"
 	end ; method
 
 	begin method "ignoreignorecollisionswith"
-		; address: 0x3640b
+		; address: 0xadaec
 		; source: 208 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta08.vbo" 588:588
 		MemberFunctionArgumentCheck 2
 		LineNumber                  12115, 4
@@ -213,7 +213,7 @@ begin class "bounceyplatform"
 	end ; method
 
 	begin method "show"
-		; address: 0x36427
+		; address: 0xadb08
 		; source: 208 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta08.vbo" 594:594
 		MemberFunctionArgumentCheck 1
 		LineNumber                  12121, 4
@@ -228,7 +228,7 @@ begin class "bounceyplatform"
 	end ; method
 
 	begin method "hide"
-		; address: 0x3643f
+		; address: 0xadb20
 		; source: 208 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta08.vbo" 599:599
 		MemberFunctionArgumentCheck 1
 		LineNumber                  12126, 4
@@ -243,21 +243,21 @@ begin class "bounceyplatform"
 	end ; method
 
 	begin method "exit"
-		; address: 0x36457
+		; address: 0xadb38
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "process"
-		; address: 0x3645b
+		; address: 0xadb3c
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "onevent"
-		; address: 0x3645f
+		; address: 0xadb40
 		; source: 208 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta08.vbo" 618:677
 		MemberFunctionArgumentCheck   2
 		LineNumber                    12145, 4
@@ -524,7 +524,7 @@ begin class "bounceyplatform"
 	end ; method
 
 	begin method "startsink"
-		; address: 0x366e3
+		; address: 0xaddc4
 		; source: 208 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta08.vbo" 687:690
 		MemberFunctionArgumentCheck   1
 		LineNumber                    12214, 4
@@ -568,7 +568,7 @@ begin class "bounceyplatform"
 	end ; method
 
 	begin method "settweakable"
-		; address: 0x3674e
+		; address: 0xade2f
 		; source: 208 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta08.vbo" 696:696
 		MemberFunctionArgumentCheck 1
 		LineNumber                  12223, 4

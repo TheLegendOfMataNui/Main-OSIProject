@@ -5,14 +5,14 @@ begin class "hudammo", "base_objectarray"
 	property "ready"
 
 	begin method "hudammo"
-		; address: 0x9aad1
+		; address: 0x3a4e6
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "initfull"
-		; address: 0x9aad5
+		; address: 0x3a4ea
 		; source: 28 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_hud.vbo" 1045:1045
 		MemberFunctionArgumentCheck 1
 		LineNumber                  12304, 4
@@ -24,7 +24,7 @@ begin class "hudammo", "base_objectarray"
 	end ; method
 
 	begin method "setcolor"
-		; address: 0x9aae7
+		; address: 0x3a4fc
 		; source: 28 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_hud.vbo" 1052:1096
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          5
@@ -319,7 +319,7 @@ begin class "hudammo", "base_objectarray"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x9adee
+		; address: 0x3a803
 		; source: 28 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_hud.vbo" 1100:1108
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          2
@@ -408,7 +408,7 @@ begin class "hudammo", "base_objectarray"
 	end ; method
 
 	begin method "initshort"
-		; address: 0x9aeb3
+		; address: 0x3a8c8
 		; source: 28 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_hud.vbo" 1114:1114
 		MemberFunctionArgumentCheck 1
 		LineNumber                  12373, 4
@@ -420,7 +420,7 @@ begin class "hudammo", "base_objectarray"
 	end ; method
 
 	begin method "cleanupshort"
-		; address: 0x9aec5
+		; address: 0x3a8da
 		; source: 28 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_hud.vbo" 1118:1118
 		MemberFunctionArgumentCheck 1
 		LineNumber                  12377, 4
@@ -434,7 +434,7 @@ begin class "hudammo", "base_objectarray"
 	end ; method
 
 	begin method "add"
-		; address: 0x9aedc
+		; address: 0x3a8f1
 		; source: 28 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_hud.vbo" 1123:1126
 		MemberFunctionArgumentCheck   1
 		LineNumber                    12382, 4
@@ -479,7 +479,7 @@ begin class "hudammo", "base_objectarray"
 	end ; method
 
 	begin method "show"
-		; address: 0x9af37
+		; address: 0x3a94c
 		; source: 28 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_hud.vbo" 1133:1140
 		MemberFunctionArgumentCheck   1
 		LineNumber                    12392, 4
@@ -552,7 +552,7 @@ begin class "hudammo", "base_objectarray"
 	end ; method
 
 	begin method "hide"
-		; address: 0x9afdd
+		; address: 0x3a9f2
 		; source: 28 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_hud.vbo" 1147:1149
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -601,7 +601,7 @@ begin class "hudammo", "base_objectarray"
 	end ; method
 
 	begin method "setammo"
-		; address: 0x9b032
+		; address: 0x3aa47
 		; source: 28 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_hud.vbo" 1156:1164
 		MemberFunctionArgumentCheck   2
 		LineNumber                    12415, 4
@@ -682,14 +682,14 @@ begin class "hudammo", "base_objectarray"
 	end ; method
 
 	begin method "input"
-		; address: 0x9b0e4
+		; address: 0x3aaf9
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "process"
-		; address: 0x9b0e8
+		; address: 0x3aafd
 		; source: 28 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_hud.vbo" 1177:1178
 		MemberFunctionArgumentCheck   2
 		LineNumber                    12436, 4

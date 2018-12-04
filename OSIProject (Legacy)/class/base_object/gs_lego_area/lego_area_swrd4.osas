@@ -3,7 +3,7 @@ begin class "lego_area_swrd4", "gs_lego_area"
 	property "parent"
 
 	begin method "lego_area_swrd4"
-		; address: 0xa7151
+		; address: 0x9a7ca
 		; source: 177 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_shrn.vbo" 28:31
 		MemberFunctionArgumentCheck 2
 		LineNumber                  3455, 4
@@ -43,7 +43,7 @@ begin class "lego_area_swrd4", "gs_lego_area"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xa71b9
+		; address: 0x9a832
 		; source: 177 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_shrn.vbo" 40:45
 		MemberFunctionArgumentCheck  1
 		LineNumber                   3467, 4
@@ -89,7 +89,7 @@ begin class "lego_area_swrd4", "gs_lego_area"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xa722d
+		; address: 0x9a8a6
 		; source: 177 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_shrn.vbo" 51:52
 		MemberFunctionArgumentCheck 1
 		LineNumber                  3478, 4
@@ -110,7 +110,7 @@ begin class "lego_area_swrd4", "gs_lego_area"
 	end ; method
 
 	begin method "onevent"
-		; address: 0xa7258
+		; address: 0x9a8d1
 		; source: 177 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_shrn.vbo" 58:58
 		MemberFunctionArgumentCheck 2
 		LineNumber                  3485, 4
@@ -126,7 +126,7 @@ begin class "lego_area_swrd4", "gs_lego_area"
 	end ; method
 
 	begin method "input"
-		; address: 0xa7274
+		; address: 0x9a8ed
 		; source: 177 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_shrn.vbo" 63:63
 		MemberFunctionArgumentCheck 2
 		LineNumber                  3490, 4
@@ -142,7 +142,7 @@ begin class "lego_area_swrd4", "gs_lego_area"
 	end ; method
 
 	begin method "process"
-		; address: 0xa7290
+		; address: 0x9a909
 		; source: 177 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_shrn.vbo" 68:68
 		MemberFunctionArgumentCheck 2
 		LineNumber                  3495, 4
@@ -158,7 +158,7 @@ begin class "lego_area_swrd4", "gs_lego_area"
 	end ; method
 
 	begin method "exit"
-		; address: 0xa72ac
+		; address: 0x9a925
 		; source: 177 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_shrn.vbo" 73:77
 		MemberFunctionArgumentCheck   1
 		LineNumber                    3500, 4

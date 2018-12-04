@@ -9,7 +9,7 @@ begin class "ss_shoefitterselecteddisplay"
 	property "endnumber"
 
 	begin method "ss_shoefitterselecteddisplay"
-		; address: 0x75ab1
+		; address: 0x7257a
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/slkheader.h" 418:425
 		MemberFunctionArgumentCheck 9
 		LineNumber                  48845, 4
@@ -49,7 +49,7 @@ begin class "ss_shoefitterselecteddisplay"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x75b35
+		; address: 0x725fe
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/slkheader.h" 430:446
 		MemberFunctionArgumentCheck 1
 		LineNumber                  48857, 4
@@ -169,7 +169,7 @@ begin class "ss_shoefitterselecteddisplay"
 	end ; method
 
 	begin method "initshort"
-		; address: 0x75c79
+		; address: 0x72742
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/slkheader.h" 451:451
 		MemberFunctionArgumentCheck 1
 		LineNumber                  48878, 4
@@ -183,7 +183,7 @@ begin class "ss_shoefitterselecteddisplay"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x75c90
+		; address: 0x72759
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/slkheader.h" 456:481
 		MemberFunctionArgumentCheck   1
 		LineNumber                    48883, 4
@@ -423,7 +423,7 @@ begin class "ss_shoefitterselecteddisplay"
 	end ; method
 
 	begin method "cleanupshort"
-		; address: 0x75f0c
+		; address: 0x729d5
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/slkheader.h" 486:486
 		MemberFunctionArgumentCheck 1
 		LineNumber                  48913, 4
@@ -437,7 +437,7 @@ begin class "ss_shoefitterselecteddisplay"
 	end ; method
 
 	begin method "setanimation"
-		; address: 0x75f23
+		; address: 0x729ec
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/slkheader.h" 491:491
 		MemberFunctionArgumentCheck 2
 		LineNumber                  48918, 4
@@ -455,7 +455,7 @@ begin class "ss_shoefitterselecteddisplay"
 	end ; method
 
 	begin method "showanimation"
-		; address: 0x75f43
+		; address: 0x72a0c
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/slkheader.h" 496:498
 		MemberFunctionArgumentCheck   1
 		LineNumber                    48923, 4
@@ -479,7 +479,7 @@ begin class "ss_shoefitterselecteddisplay"
 	end ; method
 
 	begin method "hideanimation"
-		; address: 0x75f6f
+		; address: 0x72a38
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/slkheader.h" 504:506
 		MemberFunctionArgumentCheck   1
 		LineNumber                    48931, 4
@@ -502,7 +502,7 @@ begin class "ss_shoefitterselecteddisplay"
 	end ; method
 
 	begin method "setflags"
-		; address: 0x75f9a
+		; address: 0x72a63
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/slkheader.h" 512:514
 		MemberFunctionArgumentCheck   4
 		LineNumber                    48939, 4
@@ -549,7 +549,7 @@ begin class "ss_shoefitterselecteddisplay"
 	end ; method
 
 	begin method "showflags"
-		; address: 0x7600b
+		; address: 0x72ad4
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/slkheader.h" 519:524
 		MemberFunctionArgumentCheck   2
 		LineNumber                    48946, 4
@@ -663,7 +663,7 @@ begin class "ss_shoefitterselecteddisplay"
 	end ; method
 
 	begin method "hideflags"
-		; address: 0x7611f
+		; address: 0x72be8
 		; source: 124 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/slkheader.h" 529:534
 		MemberFunctionArgumentCheck   1
 		LineNumber                    48956, 4

@@ -1,5 +1,5 @@
 begin function "process", 3
-	; address: 0x2b3f9
+	; address: 0x2cab5
 	; source: 2 "C:\\projects\\lego\\Scripting\\VBO\\base.vbo" 96:103
 	CreateStackVariables          1
 	LineNumber                    20003, 4

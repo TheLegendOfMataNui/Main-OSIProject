@@ -15,7 +15,7 @@ begin class "puzzle_class"
 	property "bossdoorz"
 
 	begin method "puzzle_class"
-		; address: 0x67935
+		; address: 0x914e0
 		; source: 165 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_path.vbo" 119:122
 		MemberFunctionArgumentCheck 2
 		LineNumber                  64933, 4
@@ -39,7 +39,7 @@ begin class "puzzle_class"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x67975
+		; address: 0x91520
 		; source: 165 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_path.vbo" 130:174
 		; source: 137 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_vtnl.vbo" 148:148
 		MemberFunctionArgumentCheck   1
@@ -275,14 +275,14 @@ begin class "puzzle_class"
 	end ; method
 
 	begin method "show"
-		; address: 0x67c6e
+		; address: 0x91819
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "hide"
-		; address: 0x67c72
+		; address: 0x9181d
 		; source: 165 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_path.vbo" 185:200
 		MemberFunctionArgumentCheck 1
 		LineNumber                  64999, 4
@@ -352,7 +352,7 @@ begin class "puzzle_class"
 	end ; method
 
 	begin method "process"
-		; address: 0x67d46
+		; address: 0x918f1
 		; source: 165 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_path.vbo" 208:221
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          2
@@ -447,14 +447,14 @@ begin class "puzzle_class"
 	end ; method
 
 	begin method "input"
-		; address: 0x67e43
+		; address: 0x919ee
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "onevent"
-		; address: 0x67e47
+		; address: 0x919f2
 		; source: 165 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_path.vbo" 240:320
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          3
@@ -829,7 +829,7 @@ begin class "puzzle_class"
 	end ; method
 
 	begin method "openbkikdoor"
-		; address: 0x68261
+		; address: 0x91e0c
 		; source: 165 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_path.vbo" 333:333
 		MemberFunctionArgumentCheck 1
 		LineNumber                  65147, 4
@@ -845,7 +845,7 @@ begin class "puzzle_class"
 	end ; method
 
 	begin method "shutgly3door"
-		; address: 0x6827f
+		; address: 0x91e2a
 		; source: 165 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_path.vbo" 339:345
 		MemberFunctionArgumentCheck  1
 		CreateStackVariables         2

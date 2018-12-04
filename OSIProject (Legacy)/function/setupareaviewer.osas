@@ -1,7 +1,7 @@
 begin function "setupareaviewer", 0
-	; address: 0x2b5ca
+	; address: 0x2c6dc
 	; source: 235 unknown 144:144
-	JumpTarget                   1
+	JumpTarget                   12
 	LineNumber                   19664, 4
 	LineNumberAlt1               144, 235
 	GetVariableValueGlobalString "screenlist"

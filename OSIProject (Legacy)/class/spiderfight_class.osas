@@ -14,7 +14,7 @@ begin class "spiderfight_class"
 	property "starttimer"
 
 	begin method "spiderfight_class"
-		; address: 0x7128e
+		; address: 0x645f9
 		; source: 103 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_spcv.vbo" 113:114
 		MemberFunctionArgumentCheck 2
 		LineNumber                  40445, 4
@@ -30,7 +30,7 @@ begin class "spiderfight_class"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x712b1
+		; address: 0x6461c
 		; source: 103 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_spcv.vbo" 121:172
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          4
@@ -378,7 +378,7 @@ begin class "spiderfight_class"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x716b8
+		; address: 0x64a23
 		; source: 103 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_spcv.vbo" 178:217
 		MemberFunctionArgumentCheck   1
 		LineNumber                    40510, 4
@@ -526,7 +526,7 @@ begin class "spiderfight_class"
 	end ; method
 
 	begin method "exit"
-		; address: 0x7181d
+		; address: 0x64b88
 		; source: 103 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_spcv.vbo" 232:232
 		MemberFunctionArgumentCheck 1
 		LineNumber                  40564, 4
@@ -538,7 +538,7 @@ begin class "spiderfight_class"
 	end ; method
 
 	begin method "process"
-		; address: 0x7182f
+		; address: 0x64b9a
 		; source: 103 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_spcv.vbo" 240:243
 		MemberFunctionArgumentCheck   2
 		LineNumber                    40572, 4
@@ -576,7 +576,7 @@ begin class "spiderfight_class"
 	end ; method
 
 	begin method "input"
-		; address: 0x7187d
+		; address: 0x64be8
 		; source: 103 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_spcv.vbo" 252:253
 		MemberFunctionArgumentCheck   2
 		LineNumber                    40584, 4
@@ -599,7 +599,7 @@ begin class "spiderfight_class"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x718a8
+		; address: 0x64c13
 		; source: 103 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_spcv.vbo" 264:307
 		MemberFunctionArgumentCheck   2
 		LineNumber                    40596, 4
@@ -879,7 +879,7 @@ begin class "spiderfight_class"
 	end ; method
 
 	begin method "playintro"
-		; address: 0x71b66
+		; address: 0x64ed1
 		; source: 103 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_spcv.vbo" 317:331
 		MemberFunctionArgumentCheck  1
 		LineNumber                   40649, 4

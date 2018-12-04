@@ -2,7 +2,7 @@ begin class "lego_area_gly32", "gs_lego_area"
 	property "puzzle"
 
 	begin method "lego_area_gly32"
-		; address: 0xa1676
+		; address: 0x82462
 		; source: 148 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_bkik.vbo" 29:31
 		MemberFunctionArgumentCheck 2
 		LineNumber                  55980, 4
@@ -38,7 +38,7 @@ begin class "lego_area_gly32", "gs_lego_area"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xa16ce
+		; address: 0x824ba
 		; source: 148 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_bkik.vbo" 38:43
 		MemberFunctionArgumentCheck 1
 		LineNumber                  55989, 4
@@ -87,7 +87,7 @@ begin class "lego_area_gly32", "gs_lego_area"
 	end ; method
 
 	begin method "onevent"
-		; address: 0xa175b
+		; address: 0x82547
 		; source: 148 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_bkik.vbo" 48:48
 		MemberFunctionArgumentCheck 2
 		LineNumber                  55999, 4
@@ -103,7 +103,7 @@ begin class "lego_area_gly32", "gs_lego_area"
 	end ; method
 
 	begin method "process"
-		; address: 0xa1777
+		; address: 0x82563
 		; source: 148 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_bkik.vbo" 54:54
 		MemberFunctionArgumentCheck 2
 		LineNumber                  56005, 4
@@ -119,7 +119,7 @@ begin class "lego_area_gly32", "gs_lego_area"
 	end ; method
 
 	begin method "input"
-		; address: 0xa1793
+		; address: 0x8257f
 		; source: 148 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_bkik.vbo" 59:59
 		MemberFunctionArgumentCheck 2
 		LineNumber                  56010, 4
@@ -135,7 +135,7 @@ begin class "lego_area_gly32", "gs_lego_area"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xa17af
+		; address: 0x8259b
 		; source: 148 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_bkik.vbo" 64:64
 		MemberFunctionArgumentCheck 1
 		LineNumber                  56015, 4
@@ -150,7 +150,7 @@ begin class "lego_area_gly32", "gs_lego_area"
 	end ; method
 
 	begin method "exit"
-		; address: 0xa17c7
+		; address: 0x825b3
 		; source: 148 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_bkik.vbo" 69:70
 		MemberFunctionArgumentCheck 1
 		LineNumber                  56020, 4

@@ -1,6 +1,6 @@
 begin class "slosi_extendedfileio", "slosi_fileio"
 	begin method "slosi_extendedfileio"
-		; address: 0x96a6b
+		; address: 0x71622
 		; source: 126 "C:\\projects\\lego\\Scripting\\VBO\\demo.vbo" 96:96
 		MemberFunctionArgumentCheck 2
 		LineNumber                  47998, 4
@@ -12,7 +12,7 @@ begin class "slosi_extendedfileio", "slosi_fileio"
 	end ; method
 
 	begin method "write"
-		; address: 0x96a7f
+		; address: 0x71636
 		; source: 126 "C:\\projects\\lego\\Scripting\\VBO\\demo.vbo" 108:108
 		MemberFunctionArgumentCheck 2
 		LineNumber                  48010, 4
@@ -26,7 +26,7 @@ begin class "slosi_extendedfileio", "slosi_fileio"
 	end ; method
 
 	begin method "writeln"
-		; address: 0x96a9a
+		; address: 0x71651
 		; source: 126 "C:\\projects\\lego\\Scripting\\VBO\\demo.vbo" 118:118
 		MemberFunctionArgumentCheck 2
 		LineNumber                  48020, 4
@@ -42,7 +42,7 @@ begin class "slosi_extendedfileio", "slosi_fileio"
 	end ; method
 
 	begin method "eol"
-		; address: 0x96ab9
+		; address: 0x71670
 		; source: 126 "C:\\projects\\lego\\Scripting\\VBO\\demo.vbo" 122:122
 		MemberFunctionArgumentCheck 1
 		LineNumber                  48024, 4
@@ -56,7 +56,7 @@ begin class "slosi_extendedfileio", "slosi_fileio"
 	end ; method
 
 	begin method "is_eof"
-		; address: 0x96ad4
+		; address: 0x7168b
 		; source: 126 "C:\\projects\\lego\\Scripting\\VBO\\demo.vbo" 126:126
 		MemberFunctionArgumentCheck 1
 		LineNumber                  48028, 4
@@ -69,7 +69,7 @@ begin class "slosi_extendedfileio", "slosi_fileio"
 	end ; method
 
 	begin method "clearfile"
-		; address: 0x96af4
+		; address: 0x716ab
 		; source: 126 "C:\\projects\\lego\\Scripting\\VBO\\demo.vbo" 130:145
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          2

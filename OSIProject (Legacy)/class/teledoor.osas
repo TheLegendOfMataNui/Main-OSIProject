@@ -7,7 +7,7 @@ begin class "teledoor"
 	property "bottomopenpos"
 
 	begin method "teledoor"
-		; address: 0x82ce5
+		; address: 0x9a4b5
 		; source: 176 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_brd4.vbo" 352:353
 		MemberFunctionArgumentCheck 1
 		LineNumber                  3353, 4
@@ -39,7 +39,7 @@ begin class "teledoor"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x82d35
+		; address: 0x9a505
 		; source: 176 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_brd4.vbo" 359:364
 		MemberFunctionArgumentCheck 1
 		LineNumber                  3360, 4
@@ -181,7 +181,7 @@ begin class "teledoor"
 	end ; method
 
 	begin method "open"
-		; address: 0x82ed7
+		; address: 0x9a6a7
 		; source: 176 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_brd4.vbo" 370:381
 		MemberFunctionArgumentCheck   2
 		LineNumber                    3371, 4
@@ -284,42 +284,42 @@ begin class "teledoor"
 	end ; method
 
 	begin method "show"
-		; address: 0x82fe2
+		; address: 0x9a7b2
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "hide"
-		; address: 0x82fe6
+		; address: 0x9a7b6
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "process"
-		; address: 0x82fea
+		; address: 0x9a7ba
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "onevent"
-		; address: 0x82fee
+		; address: 0x9a7be
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "input"
-		; address: 0x82ff2
+		; address: 0x9a7c2
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x82ff6
+		; address: 0x9a7c6
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return

@@ -2,7 +2,7 @@ begin class "lego_area_vllg", "gs_lego_area"
 	property "puzzle"
 
 	begin method "lego_area_vllg"
-		; address: 0xaa12c
+		; address: 0x60a3c
 		; source: 95 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_vllg.vbo" 40:42
 		MemberFunctionArgumentCheck 2
 		LineNumber                  37208, 4
@@ -37,7 +37,7 @@ begin class "lego_area_vllg", "gs_lego_area"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xaa180
+		; address: 0x60a90
 		; source: 95 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_vllg.vbo" 47:56
 		MemberFunctionArgumentCheck 1
 		LineNumber                  37215, 4
@@ -85,14 +85,14 @@ begin class "lego_area_vllg", "gs_lego_area"
 	end ; method
 
 	begin method "input"
-		; address: 0xaa20d
+		; address: 0x60b1d
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "onevent"
-		; address: 0xaa211
+		; address: 0x60b21
 		; source: 95 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_vllg.vbo" 67:71
 		; source: 166 "C:\\projects\\lego\\Scripting\\VBO\\lev4/Lev4_vllg.vbo" 153:156
 		MemberFunctionArgumentCheck   2
@@ -180,7 +180,7 @@ begin class "lego_area_vllg", "gs_lego_area"
 	end ; method
 
 	begin method "process"
-		; address: 0xaa2f8
+		; address: 0x60c08
 		; source: 95 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_vllg.vbo" 87:87
 		MemberFunctionArgumentCheck 2
 		LineNumber                  37255, 4
@@ -196,7 +196,7 @@ begin class "lego_area_vllg", "gs_lego_area"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xaa314
+		; address: 0x60c24
 		; source: 95 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_vllg.vbo" 92:93
 		MemberFunctionArgumentCheck 1
 		LineNumber                  37260, 4
@@ -217,7 +217,7 @@ begin class "lego_area_vllg", "gs_lego_area"
 	end ; method
 
 	begin method "exit"
-		; address: 0xaa33f
+		; address: 0x60c4f
 		; source: 95 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_vllg.vbo" 98:100
 		MemberFunctionArgumentCheck 1
 		LineNumber                  37266, 4

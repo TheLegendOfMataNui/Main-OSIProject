@@ -4,7 +4,7 @@ begin class "ss_baserect", "base_drawobject"
 	property "mycolor"
 
 	begin method "ss_baserect"
-		; address: 0x97e82
+		; address: 0x70222
 		; source: 125 "C:\\projects\\lego\\Scripting\\VBO\\artheaders/scrn_shoefitter.h" 77:90
 		MemberFunctionArgumentCheck   7
 		LineNumber                    47523, 4
@@ -152,7 +152,7 @@ begin class "ss_baserect", "base_drawobject"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x97fd2
+		; address: 0x70372
 		; source: 125 "C:\\projects\\lego\\Scripting\\VBO\\artheaders/scrn_shoefitter.h" 96:99
 		MemberFunctionArgumentCheck 1
 		LineNumber                  47542, 4
@@ -187,7 +187,7 @@ begin class "ss_baserect", "base_drawobject"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x98041
+		; address: 0x703e1
 		; source: 125 "C:\\projects\\lego\\Scripting\\VBO\\artheaders/scrn_shoefitter.h" 103:103
 		MemberFunctionArgumentCheck 1
 		LineNumber                  47549, 4
@@ -199,7 +199,7 @@ begin class "ss_baserect", "base_drawobject"
 	end ; method
 
 	begin method "initshort"
-		; address: 0x98053
+		; address: 0x703f3
 		; source: 125 "C:\\projects\\lego\\Scripting\\VBO\\artheaders/scrn_shoefitter.h" 107:107
 		MemberFunctionArgumentCheck 1
 		LineNumber                  47553, 4
@@ -213,7 +213,7 @@ begin class "ss_baserect", "base_drawobject"
 	end ; method
 
 	begin method "cleanupshort"
-		; address: 0x9806a
+		; address: 0x7040a
 		; source: 125 "C:\\projects\\lego\\Scripting\\VBO\\artheaders/scrn_shoefitter.h" 111:111
 		MemberFunctionArgumentCheck 1
 		LineNumber                  47557, 4
@@ -227,7 +227,7 @@ begin class "ss_baserect", "base_drawobject"
 	end ; method
 
 	begin method "add"
-		; address: 0x98081
+		; address: 0x70421
 		; source: 125 "C:\\projects\\lego\\Scripting\\VBO\\artheaders/scrn_shoefitter.h" 115:115
 		MemberFunctionArgumentCheck 1
 		LineNumber                  47561, 4
@@ -242,7 +242,7 @@ begin class "ss_baserect", "base_drawobject"
 	end ; method
 
 	begin method "show"
-		; address: 0x980a5
+		; address: 0x70445
 		; source: 125 "C:\\projects\\lego\\Scripting\\VBO\\artheaders/scrn_shoefitter.h" 119:120
 		MemberFunctionArgumentCheck 1
 		LineNumber                  47565, 4
@@ -259,7 +259,7 @@ begin class "ss_baserect", "base_drawobject"
 	end ; method
 
 	begin method "hide"
-		; address: 0x980cc
+		; address: 0x7046c
 		; source: 125 "C:\\projects\\lego\\Scripting\\VBO\\artheaders/scrn_shoefitter.h" 124:125
 		MemberFunctionArgumentCheck 1
 		LineNumber                  47570, 4
@@ -276,7 +276,7 @@ begin class "ss_baserect", "base_drawobject"
 	end ; method
 
 	begin method "remove"
-		; address: 0x980f2
+		; address: 0x70492
 		; source: 125 "C:\\projects\\lego\\Scripting\\VBO\\artheaders/scrn_shoefitter.h" 129:129
 		MemberFunctionArgumentCheck 1
 		LineNumber                  47575, 4
@@ -289,7 +289,7 @@ begin class "ss_baserect", "base_drawobject"
 	end ; method
 
 	begin method "setpos"
-		; address: 0x9810a
+		; address: 0x704aa
 		; source: 125 "C:\\projects\\lego\\Scripting\\VBO\\artheaders/scrn_shoefitter.h" 133:138
 		MemberFunctionArgumentCheck   5
 		LineNumber                    47579, 4
@@ -362,7 +362,7 @@ begin class "ss_baserect", "base_drawobject"
 	end ; method
 
 	begin method "setzvalue"
-		; address: 0x981ba
+		; address: 0x7055a
 		; source: 125 "C:\\projects\\lego\\Scripting\\VBO\\artheaders/scrn_shoefitter.h" 142:144
 		MemberFunctionArgumentCheck   2
 		LineNumber                    47588, 4
@@ -390,7 +390,7 @@ begin class "ss_baserect", "base_drawobject"
 	end ; method
 
 	begin method "changepos"
-		; address: 0x981f8
+		; address: 0x70598
 		; source: 125 "C:\\projects\\lego\\Scripting\\VBO\\artheaders/scrn_shoefitter.h" 149:154
 		MemberFunctionArgumentCheck   3
 		LineNumber                    47595, 4
@@ -471,7 +471,7 @@ begin class "ss_baserect", "base_drawobject"
 	end ; method
 
 	begin method "setcolor"
-		; address: 0x982b8
+		; address: 0x70658
 		; source: 125 "C:\\projects\\lego\\Scripting\\VBO\\artheaders/scrn_shoefitter.h" 158:163
 		MemberFunctionArgumentCheck   5
 		LineNumber                    47604, 4
@@ -549,7 +549,7 @@ begin class "ss_baserect", "base_drawobject"
 	end ; method
 
 	begin method "changecolor"
-		; address: 0x9836f
+		; address: 0x7070f
 		; source: 125 "C:\\projects\\lego\\Scripting\\VBO\\artheaders/scrn_shoefitter.h" 167:172
 		MemberFunctionArgumentCheck   5
 		LineNumber                    47613, 4

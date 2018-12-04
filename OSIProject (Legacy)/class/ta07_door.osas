@@ -7,7 +7,7 @@ begin class "ta07_door"
 	property "downpos"
 
 	begin method "ta07_door"
-		; address: 0x7da69
+		; address: 0xb0abc
 		; source: 212 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta12.vbo" 430:433
 		MemberFunctionArgumentCheck 2
 		LineNumber                  13643, 4
@@ -42,7 +42,7 @@ begin class "ta07_door"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x7dad2
+		; address: 0xb0b25
 		; source: 212 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta12.vbo" 441:444
 		MemberFunctionArgumentCheck 1
 		LineNumber                  13654, 4
@@ -92,14 +92,14 @@ begin class "ta07_door"
 	end ; method
 
 	begin method "process"
-		; address: 0x7db56
+		; address: 0xb0ba9
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x7db5a
+		; address: 0xb0bad
 		; source: 212 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta12.vbo" 454:458
 		MemberFunctionArgumentCheck 1
 		LineNumber                  13667, 4
@@ -130,7 +130,7 @@ begin class "ta07_door"
 	end ; method
 
 	begin method "reset"
-		; address: 0x7dbaa
+		; address: 0xb0bfd
 		; source: 212 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta12.vbo" 464:464
 		MemberFunctionArgumentCheck 1
 		LineNumber                  13677, 4
@@ -145,21 +145,21 @@ begin class "ta07_door"
 	end ; method
 
 	begin method "exit"
-		; address: 0x7dbc3
+		; address: 0xb0c16
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "onevent"
-		; address: 0x7dbc7
+		; address: 0xb0c1a
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "rase"
-		; address: 0x7dbcb
+		; address: 0xb0c1e
 		; source: 212 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta12.vbo" 478:488
 		MemberFunctionArgumentCheck   2
 		LineNumber                    13691, 4
@@ -227,7 +227,7 @@ begin class "ta07_door"
 	end ; method
 
 	begin method "settweakable"
-		; address: 0x7dc75
+		; address: 0xb0cc8
 		; source: 212 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta12.vbo" 498:498
 		MemberFunctionArgumentCheck 1
 		LineNumber                  13711, 4

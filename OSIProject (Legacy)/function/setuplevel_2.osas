@@ -1,5 +1,5 @@
 begin function "setuplevel_2", 0
-	; address: 0x2b7d1
+	; address: 0x2c5c8
 	; source: 134 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_vlgs.vbo" 180:180
 	JumpTarget                   6
 	LineNumber                   58984, 4

@@ -12,7 +12,7 @@ begin class "startpuzzle"
 	property "killedbytrigerbox"
 
 	begin method "startpuzzle"
-		; address: 0x77aea
+		; address: 0x937f6
 		; source: 169 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_maz1.vbo" 103:105
 		MemberFunctionArgumentCheck 2
 		LineNumber                  313, 4
@@ -32,7 +32,7 @@ begin class "startpuzzle"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x77b1b
+		; address: 0x93827
 		; source: 169 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_maz1.vbo" 113:139
 		MemberFunctionArgumentCheck 1
 		CreateStackVariables        2
@@ -199,7 +199,7 @@ begin class "startpuzzle"
 	end ; method
 
 	begin method "initshort"
-		; address: 0x77d5c
+		; address: 0x93a68
 		; source: 169 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_maz1.vbo" 146:151
 		MemberFunctionArgumentCheck  1
 		LineNumber                   356, 4
@@ -251,7 +251,7 @@ begin class "startpuzzle"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x77de8
+		; address: 0x93af4
 		; source: 169 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_maz1.vbo" 158:169
 		MemberFunctionArgumentCheck 1
 		CreateStackVariables        2
@@ -305,35 +305,35 @@ begin class "startpuzzle"
 	end ; method
 
 	begin method "cleanupshort"
-		; address: 0x77e7e
+		; address: 0x93b8a
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "show"
-		; address: 0x77e82
+		; address: 0x93b8e
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "hide"
-		; address: 0x77e86
+		; address: 0x93b92
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "process"
-		; address: 0x77e8a
+		; address: 0x93b96
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "input"
-		; address: 0x77e8e
+		; address: 0x93b9a
 		; source: 169 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_maz1.vbo" 194:195
 		MemberFunctionArgumentCheck   2
 		LineNumber                    404, 4
@@ -389,7 +389,7 @@ begin class "startpuzzle"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x77f10
+		; address: 0x93c1c
 		; source: 169 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_maz1.vbo" 213:300
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          3
@@ -702,7 +702,7 @@ begin class "startpuzzle"
 	end ; method
 
 	begin method "resetcharacterposition"
-		; address: 0x7821e
+		; address: 0x93f2a
 		; source: 169 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_maz1.vbo" 310:321
 		MemberFunctionArgumentCheck   1
 		LineNumber                    520, 4
@@ -818,14 +818,14 @@ begin class "startpuzzle"
 	end ; method
 
 	begin method "cheat"
-		; address: 0x78358
+		; address: 0x94064
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "hitswitch"
-		; address: 0x7835c
+		; address: 0x94068
 		; source: 169 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_maz1.vbo" 333:339
 		MemberFunctionArgumentCheck   1
 		LineNumber                    543, 4
@@ -895,7 +895,7 @@ begin class "startpuzzle"
 	end ; method
 
 	begin method "startcam"
-		; address: 0x7840d
+		; address: 0x94119
 		; source: 169 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_maz1.vbo" 345:349
 		MemberFunctionArgumentCheck 1
 		LineNumber                  555, 4
@@ -960,7 +960,7 @@ begin class "startpuzzle"
 	end ; method
 
 	begin method "secondcaminterp"
-		; address: 0x784c2
+		; address: 0x941ce
 		; source: 169 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_maz1.vbo" 354:355
 		MemberFunctionArgumentCheck 1
 		LineNumber                  564, 4
@@ -992,7 +992,7 @@ begin class "startpuzzle"
 	end ; method
 
 	begin method "setupstartingpositions"
-		; address: 0x78513
+		; address: 0x9421f
 		; source: 169 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_maz1.vbo" 360:363
 		MemberFunctionArgumentCheck   1
 		LineNumber                    570, 4
@@ -1036,7 +1036,7 @@ begin class "startpuzzle"
 	end ; method
 
 	begin method "opendoors"
-		; address: 0x78571
+		; address: 0x9427d
 		; source: 169 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_maz1.vbo" 369:373
 		MemberFunctionArgumentCheck 1
 		LineNumber                  579, 4
@@ -1090,7 +1090,7 @@ begin class "startpuzzle"
 	end ; method
 
 	begin method "exit"
-		; address: 0x785ea
+		; address: 0x942f6
 		; source: 169 "C:\\projects\\lego\\Scripting\\VBO\\lev4/lev4_maz1.vbo" 378:378
 		MemberFunctionArgumentCheck 1
 		LineNumber                  588, 4

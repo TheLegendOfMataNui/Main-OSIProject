@@ -6,14 +6,14 @@ begin class "lego_helpscreen"
 	property "skip"
 
 	begin method "lego_helpscreen"
-		; address: 0x56449
+		; address: 0x51cd0
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "initfull"
-		; address: 0x5644d
+		; address: 0x51cd4
 		; source: 67 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_helpScreen.vbo" 44:48
 		MemberFunctionArgumentCheck 1
 		LineNumber                  27631, 4
@@ -41,7 +41,7 @@ begin class "lego_helpscreen"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x56498
+		; address: 0x51d1f
 		; source: 67 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_helpScreen.vbo" 53:59
 		MemberFunctionArgumentCheck   1
 		LineNumber                    27640, 4
@@ -91,7 +91,7 @@ begin class "lego_helpscreen"
 	end ; method
 
 	begin method "show"
-		; address: 0x56506
+		; address: 0x51d8d
 		; source: 67 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_helpScreen.vbo" 67:88
 		MemberFunctionArgumentCheck   1
 		LineNumber                    27654, 4
@@ -178,7 +178,7 @@ begin class "lego_helpscreen"
 	end ; method
 
 	begin method "hide"
-		; address: 0x565ed
+		; address: 0x51e74
 		; source: 67 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_helpScreen.vbo" 95:104
 		MemberFunctionArgumentCheck   1
 		LineNumber                    27682, 4
@@ -258,7 +258,7 @@ begin class "lego_helpscreen"
 	end ; method
 
 	begin method "process"
-		; address: 0x566b4
+		; address: 0x51f3b
 		; source: 67 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_helpScreen.vbo" 112:121
 		MemberFunctionArgumentCheck   2
 		LineNumber                    27699, 4
@@ -325,7 +325,7 @@ begin class "lego_helpscreen"
 	end ; method
 
 	begin method "input"
-		; address: 0x5674b
+		; address: 0x51fd2
 		; source: 67 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_helpScreen.vbo" 132:134
 		MemberFunctionArgumentCheck   2
 		LineNumber                    27719, 4
@@ -364,7 +364,7 @@ begin class "lego_helpscreen"
 	end ; method
 
 	begin method "enableinput"
-		; address: 0x56798
+		; address: 0x5201f
 		; source: 67 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_helpScreen.vbo" 141:141
 		MemberFunctionArgumentCheck 2
 		LineNumber                  27728, 4
@@ -376,7 +376,7 @@ begin class "lego_helpscreen"
 	end ; method
 
 	begin method "setstring"
-		; address: 0x567ac
+		; address: 0x52033
 		; source: 67 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_helpScreen.vbo" 149:150
 		MemberFunctionArgumentCheck   2
 		LineNumber                    27736, 4

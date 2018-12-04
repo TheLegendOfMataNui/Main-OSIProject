@@ -5,7 +5,7 @@ begin class "ta07_platform"
 	property "up"
 
 	begin method "ta07_platform"
-		; address: 0x7dc8d
+		; address: 0xb0f7d
 		; source: 212 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta12.vbo" 633:635
 		MemberFunctionArgumentCheck 2
 		LineNumber                  13846, 4
@@ -36,7 +36,7 @@ begin class "ta07_platform"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x7dce7
+		; address: 0xb0fd7
 		; source: 212 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta12.vbo" 642:643
 		MemberFunctionArgumentCheck 1
 		LineNumber                  13855, 4
@@ -61,14 +61,14 @@ begin class "ta07_platform"
 	end ; method
 
 	begin method "process"
-		; address: 0x7dd19
+		; address: 0xb1009
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x7dd1d
+		; address: 0xb100d
 		; source: 212 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta12.vbo" 654:658
 		MemberFunctionArgumentCheck 1
 		LineNumber                  13867, 4
@@ -99,14 +99,14 @@ begin class "ta07_platform"
 	end ; method
 
 	begin method "exit"
-		; address: 0x7dd6d
+		; address: 0xb105d
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "onevent"
-		; address: 0x7dd71
+		; address: 0xb1061
 		; source: 212 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta12.vbo" 669:669
 		MemberFunctionArgumentCheck   2
 		LineNumber                    13882, 4
@@ -126,14 +126,14 @@ begin class "ta07_platform"
 	end ; method
 
 	begin method "reset"
-		; address: 0x7dd8d
+		; address: 0xb107d
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "settweakable"
-		; address: 0x7dd91
+		; address: 0xb1081
 		; source: 212 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta12.vbo" 688:688
 		MemberFunctionArgumentCheck 1
 		LineNumber                  13901, 4

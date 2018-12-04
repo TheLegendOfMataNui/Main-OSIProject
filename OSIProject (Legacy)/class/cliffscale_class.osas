@@ -4,7 +4,7 @@ begin class "cliffscale_class"
 	property "timer"
 
 	begin method "cliffscale_class"
-		; address: 0x3e14b
+		; address: 0x63d82
 		; source: 102 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_clf2.vbo" 99:99
 		MemberFunctionArgumentCheck 2
 		LineNumber                  40062, 4
@@ -16,7 +16,7 @@ begin class "cliffscale_class"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x3e15f
+		; address: 0x63d96
 		; source: 102 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_clf2.vbo" 104:132
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          3
@@ -224,7 +224,7 @@ begin class "cliffscale_class"
 	end ; method
 
 	begin method "initshort"
-		; address: 0x3e3cc
+		; address: 0x64003
 		; source: 102 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_clf2.vbo" 138:138
 		MemberFunctionArgumentCheck 1
 		LineNumber                  40101, 4
@@ -238,7 +238,7 @@ begin class "cliffscale_class"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x3e3e3
+		; address: 0x6401a
 		; source: 102 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_clf2.vbo" 143:153
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -318,7 +318,7 @@ begin class "cliffscale_class"
 	end ; method
 
 	begin method "exit"
-		; address: 0x3e48d
+		; address: 0x640c4
 		; source: 102 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_clf2.vbo" 159:159
 		MemberFunctionArgumentCheck 1
 		LineNumber                  40122, 4
@@ -330,21 +330,21 @@ begin class "cliffscale_class"
 	end ; method
 
 	begin method "process"
-		; address: 0x3e49f
+		; address: 0x640d6
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "input"
-		; address: 0x3e4a3
+		; address: 0x640da
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "onevent"
-		; address: 0x3e4a7
+		; address: 0x640de
 		; source: 102 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_clf2.vbo" 183:235
 		; source: 101 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_clf1.vbo" 228:228
 		; source: 97 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_cave.vbo" 165:165
@@ -481,35 +481,35 @@ begin class "cliffscale_class"
 	end ; method
 
 	begin method "reseta"
-		; address: 0x3e60e
+		; address: 0x64245
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "resetb"
-		; address: 0x3e612
+		; address: 0x64249
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "resetc"
-		; address: 0x3e616
+		; address: 0x6424d
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "show"
-		; address: 0x3e61a
+		; address: 0x64251
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "hide"
-		; address: 0x3e61e
+		; address: 0x64255
 		; source: 102 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_clf2.vbo" 247:247
 		MemberFunctionArgumentCheck 1
 		LineNumber                  40210, 4

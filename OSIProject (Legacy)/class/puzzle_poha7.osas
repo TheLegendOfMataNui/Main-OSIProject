@@ -3,14 +3,14 @@ begin class "puzzle_poha7"
 	property "targets"
 
 	begin method "puzzle_poha7"
-		; address: 0x691e7
+		; address: 0xb9e5b
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "initfull"
-		; address: 0x691eb
+		; address: 0xb9e5f
 		; source: 231 "C:\\projects\\lego\\Scripting\\VBO\\LanguageTest.vbo" 104:131
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -360,7 +360,7 @@ begin class "puzzle_poha7"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x6950f
+		; address: 0xba183
 		; source: 231 "C:\\projects\\lego\\Scripting\\VBO\\LanguageTest.vbo" 138:148
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -449,7 +449,7 @@ begin class "puzzle_poha7"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x695cd
+		; address: 0xba241
 		; source: 231 "C:\\projects\\lego\\Scripting\\VBO\\LanguageTest.vbo" 153:169
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -537,7 +537,7 @@ begin class "puzzle_poha7"
 	end ; method
 
 	begin method "reseta"
-		; address: 0x69684
+		; address: 0xba2f8
 		; source: 231 "C:\\projects\\lego\\Scripting\\VBO\\LanguageTest.vbo" 176:179
 		MemberFunctionArgumentCheck  1
 		LineNumber                   18335, 4
@@ -577,7 +577,7 @@ begin class "puzzle_poha7"
 	end ; method
 
 	begin method "resetb"
-		; address: 0x696f7
+		; address: 0xba36b
 		; source: 231 "C:\\projects\\lego\\Scripting\\VBO\\LanguageTest.vbo" 185:187
 		MemberFunctionArgumentCheck  1
 		LineNumber                   18344, 4
@@ -614,7 +614,7 @@ begin class "puzzle_poha7"
 	end ; method
 
 	begin method "resetpuzzle"
-		; address: 0x69763
+		; address: 0xba3d7
 		; source: 231 "C:\\projects\\lego\\Scripting\\VBO\\LanguageTest.vbo" 192:196
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1

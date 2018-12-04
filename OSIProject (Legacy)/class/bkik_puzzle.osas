@@ -9,7 +9,7 @@ begin class "bkik_puzzle"
 	property "grapplingpivots"
 
 	begin method "bkik_puzzle"
-		; address: 0x30c72
+		; address: 0x84fdf
 		; source: 153 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_boss.vbo" 87:88
 		MemberFunctionArgumentCheck 2
 		LineNumber                  59087, 4
@@ -25,7 +25,7 @@ begin class "bkik_puzzle"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x30c94
+		; address: 0x85001
 		; source: 153 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_boss.vbo" 96:172
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -312,14 +312,14 @@ begin class "bkik_puzzle"
 	end ; method
 
 	begin method "process"
-		; address: 0x30f9a
+		; address: 0x85307
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "onevent"
-		; address: 0x30f9e
+		; address: 0x8530b
 		; source: 153 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_boss.vbo" 185:283
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          3
@@ -663,14 +663,14 @@ begin class "bkik_puzzle"
 	end ; method
 
 	begin method "input"
-		; address: 0x3133f
+		; address: 0x856ac
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "show"
-		; address: 0x31343
+		; address: 0x856b0
 		; source: 153 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_boss.vbo" 296:297
 		MemberFunctionArgumentCheck 1
 		LineNumber                  59296, 4
@@ -692,7 +692,7 @@ begin class "bkik_puzzle"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x3136f
+		; address: 0x856dc
 		; source: 153 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_boss.vbo" 308:325
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -793,7 +793,7 @@ begin class "bkik_puzzle"
 	end ; method
 
 	begin method "exit"
-		; address: 0x31475
+		; address: 0x857e2
 		; source: 153 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_boss.vbo" 330:330
 		MemberFunctionArgumentCheck 1
 		LineNumber                  59330, 4

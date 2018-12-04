@@ -10,7 +10,7 @@ begin class "onakoro_puzzle"
 	property "arrowhandle"
 
 	begin method "onakoro_puzzle"
-		; address: 0x60806
+		; address: 0x60c88
 		; source: 95 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_vllg.vbo" 131:135
 		MemberFunctionArgumentCheck 2
 		LineNumber                  37299, 4
@@ -38,7 +38,7 @@ begin class "onakoro_puzzle"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x60854
+		; address: 0x60cd6
 		; source: 95 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_vllg.vbo" 143:241
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          6
@@ -701,7 +701,7 @@ begin class "onakoro_puzzle"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x6116f
+		; address: 0x615f1
 		; source: 95 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_vllg.vbo" 256:274
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          5
@@ -779,13 +779,11 @@ begin class "onakoro_puzzle"
 		PushNothing
 		SetVariableValue              5                   ; local
 		PushNothing
-		SetThisMemberValueString      "deadhives"
-		PushNothing
 		Return
 	end ; method
 
 	begin method "exit"
-		; address: 0x6124b
+		; address: 0x616c9
 		; source: 95 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_vllg.vbo" 280:280
 		MemberFunctionArgumentCheck 1
 		LineNumber                  37448, 4
@@ -797,7 +795,7 @@ begin class "onakoro_puzzle"
 	end ; method
 
 	begin method "process"
-		; address: 0x6125d
+		; address: 0x616db
 		; source: 95 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_vllg.vbo" 286:290
 		MemberFunctionArgumentCheck   2
 		LineNumber                    37454, 4
@@ -840,7 +838,7 @@ begin class "onakoro_puzzle"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x612b7
+		; address: 0x61735
 		; source: 95 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_vllg.vbo" 300:339
 		MemberFunctionArgumentCheck   2
 		LineNumber                    37468, 4
@@ -1035,7 +1033,7 @@ begin class "onakoro_puzzle"
 	end ; method
 
 	begin method "input"
-		; address: 0x614c5
+		; address: 0x61943
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return

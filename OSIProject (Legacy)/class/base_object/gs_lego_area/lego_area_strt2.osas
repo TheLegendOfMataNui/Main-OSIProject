@@ -2,7 +2,7 @@ begin class "lego_area_strt2", "gs_lego_area"
 	property "puzzle"
 
 	begin method "lego_area_strt2"
-		; address: 0xa6c12
+		; address: 0x7b0aa
 		; source: 136 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_mtop.vbo" 28:30
 		MemberFunctionArgumentCheck 2
 		LineNumber                  52975, 4
@@ -38,7 +38,7 @@ begin class "lego_area_strt2", "gs_lego_area"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xa6c6a
+		; address: 0x7b102
 		; source: 136 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_mtop.vbo" 37:42
 		; source: 141 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_shrn.vbo" 99:100
 		MemberFunctionArgumentCheck  1
@@ -104,7 +104,7 @@ begin class "lego_area_strt2", "gs_lego_area"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xa6d29
+		; address: 0x7b1c1
 		; source: 136 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_mtop.vbo" 47:48
 		MemberFunctionArgumentCheck 1
 		LineNumber                  52994, 4
@@ -125,7 +125,7 @@ begin class "lego_area_strt2", "gs_lego_area"
 	end ; method
 
 	begin method "process"
-		; address: 0xa6d54
+		; address: 0x7b1ec
 		; source: 136 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_mtop.vbo" 53:53
 		MemberFunctionArgumentCheck 2
 		LineNumber                  53000, 4
@@ -141,7 +141,7 @@ begin class "lego_area_strt2", "gs_lego_area"
 	end ; method
 
 	begin method "onevent"
-		; address: 0xa6d70
+		; address: 0x7b208
 		; source: 136 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_mtop.vbo" 58:58
 		MemberFunctionArgumentCheck 2
 		LineNumber                  53005, 4
@@ -157,7 +157,7 @@ begin class "lego_area_strt2", "gs_lego_area"
 	end ; method
 
 	begin method "input"
-		; address: 0xa6d8c
+		; address: 0x7b224
 		; source: 136 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_mtop.vbo" 63:63
 		MemberFunctionArgumentCheck 2
 		LineNumber                  53010, 4
@@ -173,7 +173,7 @@ begin class "lego_area_strt2", "gs_lego_area"
 	end ; method
 
 	begin method "exit"
-		; address: 0xa6da8
+		; address: 0x7b240
 		; source: 136 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_mtop.vbo" 68:69
 		MemberFunctionArgumentCheck 1
 		LineNumber                  53015, 4

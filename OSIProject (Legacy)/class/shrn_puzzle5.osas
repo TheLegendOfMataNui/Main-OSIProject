@@ -10,7 +10,7 @@ begin class "shrn_puzzle5"
 	property "testbossdoorproximity"
 
 	begin method "shrn_puzzle5"
-		; address: 0x6c57b
+		; address: 0xa911e
 		; source: 202 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta01.vbo" 95:95
 		MemberFunctionArgumentCheck 2
 		LineNumber                  10081, 4
@@ -22,7 +22,7 @@ begin class "shrn_puzzle5"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x6c58f
+		; address: 0xa9132
 		; source: 202 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta01.vbo" 104:140
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          4
@@ -238,7 +238,7 @@ begin class "shrn_puzzle5"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x6c879
+		; address: 0xa941c
 		; source: 202 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta01.vbo" 146:148
 		MemberFunctionArgumentCheck 1
 		LineNumber                  10132, 4
@@ -261,7 +261,7 @@ begin class "shrn_puzzle5"
 	end ; method
 
 	begin method "exit"
-		; address: 0x6c8ad
+		; address: 0xa9450
 		; source: 202 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta01.vbo" 153:153
 		MemberFunctionArgumentCheck 1
 		LineNumber                  10139, 4
@@ -273,7 +273,7 @@ begin class "shrn_puzzle5"
 	end ; method
 
 	begin method "process"
-		; address: 0x6c8bf
+		; address: 0xa9462
 		; source: 202 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta01.vbo" 159:167
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          2
@@ -357,7 +357,7 @@ begin class "shrn_puzzle5"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x6c99e
+		; address: 0xa9541
 		; source: 202 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta01.vbo" 179:247
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -757,7 +757,7 @@ begin class "shrn_puzzle5"
 	end ; method
 
 	begin method "input"
-		; address: 0x6cdcd
+		; address: 0xa9970
 		; source: 202 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta01.vbo" 255:259
 		MemberFunctionArgumentCheck   2
 		LineNumber                    10241, 4
@@ -800,7 +800,7 @@ begin class "shrn_puzzle5"
 	end ; method
 
 	begin method "openbossdoor"
-		; address: 0x6ce27
+		; address: 0xa99ca
 		; source: 202 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta01.vbo" 267:267
 		MemberFunctionArgumentCheck 1
 		LineNumber                  10253, 4

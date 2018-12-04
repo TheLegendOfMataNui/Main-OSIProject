@@ -9,7 +9,7 @@ begin class "tahu7_platform", "base_object"
 	property "moveup"
 
 	begin method "tahu7_platform"
-		; address: 0x96779
+		; address: 0xbc7c0
 		; source: 234 unknown 273:281
 		MemberFunctionArgumentCheck 6
 		LineNumber                  19350, 4
@@ -80,7 +80,7 @@ begin class "tahu7_platform", "base_object"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x96881
+		; address: 0xbc8c8
 		; source: 234 unknown 287:288
 		MemberFunctionArgumentCheck 1
 		LineNumber                  19364, 4
@@ -103,7 +103,7 @@ begin class "tahu7_platform", "base_object"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x968b7
+		; address: 0xbc8fe
 		; source: 234 unknown 293:293
 		MemberFunctionArgumentCheck 1
 		LineNumber                  19370, 4
@@ -115,7 +115,7 @@ begin class "tahu7_platform", "base_object"
 	end ; method
 
 	begin method "offsetposition"
-		; address: 0x968c9
+		; address: 0xbc910
 		; source: 234 unknown 298:301
 		MemberFunctionArgumentCheck 4
 		LineNumber                  19375, 4
@@ -149,7 +149,7 @@ begin class "tahu7_platform", "base_object"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x96926
+		; address: 0xbc96d
 		; source: 234 unknown 305:315
 		MemberFunctionArgumentCheck   2
 		LineNumber                    19382, 4
@@ -216,7 +216,7 @@ begin class "tahu7_platform", "base_object"
 	end ; method
 
 	begin method "reset"
-		; address: 0x969cf
+		; address: 0xbca16
 		; source: 234 unknown 323:324
 		MemberFunctionArgumentCheck 1
 		LineNumber                  19400, 4
@@ -237,7 +237,7 @@ begin class "tahu7_platform", "base_object"
 	end ; method
 
 	begin method "reset2"
-		; address: 0x96a04
+		; address: 0xbca4b
 		; source: 234 unknown 329:332
 		MemberFunctionArgumentCheck 1
 		LineNumber                  19406, 4

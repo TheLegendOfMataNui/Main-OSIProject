@@ -2,7 +2,7 @@ begin class "lego_area_tura1", "gs_lego_area"
 	property "when"
 
 	begin method "lego_area_tura1"
-		; address: 0xa8bea
+		; address: 0x6f9d3
 		; source: 123 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefittersounds.h" 29:30
 		MemberFunctionArgumentCheck 2
 		LineNumber                  47217, 4
@@ -26,7 +26,7 @@ begin class "lego_area_tura1", "gs_lego_area"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xa8c1c
+		; address: 0x6fa05
 		; source: 123 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefittersounds.h" 36:57
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          2
@@ -133,7 +133,7 @@ begin class "lego_area_tura1", "gs_lego_area"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xa8d71
+		; address: 0x6fb5a
 		; source: 123 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefittersounds.h" 62:63
 		MemberFunctionArgumentCheck 1
 		LineNumber                  47250, 4
@@ -151,7 +151,7 @@ begin class "lego_area_tura1", "gs_lego_area"
 	end ; method
 
 	begin method "exit"
-		; address: 0xa8d96
+		; address: 0x6fb7f
 		; source: 123 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefittersounds.h" 68:68
 		MemberFunctionArgumentCheck 1
 		LineNumber                  47256, 4

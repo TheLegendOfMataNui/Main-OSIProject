@@ -7,14 +7,14 @@ begin class "puzzle_kopa7"
 	property "buttonpressed"
 
 	begin method "puzzle_kopa7"
-		; address: 0x684b8
+		; address: 0xbab89
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "initfull"
-		; address: 0x684bc
+		; address: 0xbab8d
 		; source: 232 "C:\\projects\\lego\\Scripting\\VBO\\strings/InterfaceStrings.h" 108:140
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -347,7 +347,7 @@ begin class "puzzle_kopa7"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x68812
+		; address: 0xbaee3
 		; source: 232 "C:\\projects\\lego\\Scripting\\VBO\\strings/InterfaceStrings.h" 147:163
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -458,7 +458,7 @@ begin class "puzzle_kopa7"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x68914
+		; address: 0xbafe5
 		; source: 232 "C:\\projects\\lego\\Scripting\\VBO\\strings/InterfaceStrings.h" 169:199
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -631,7 +631,7 @@ begin class "puzzle_kopa7"
 	end ; method
 
 	begin method "reseta"
-		; address: 0x68a91
+		; address: 0xbb162
 		; source: 232 "C:\\projects\\lego\\Scripting\\VBO\\strings/InterfaceStrings.h" 207:210
 		MemberFunctionArgumentCheck  1
 		LineNumber                   18730, 4
@@ -671,7 +671,7 @@ begin class "puzzle_kopa7"
 	end ; method
 
 	begin method "resetb"
-		; address: 0x68b04
+		; address: 0xbb1d5
 		; source: 232 "C:\\projects\\lego\\Scripting\\VBO\\strings/InterfaceStrings.h" 216:219
 		MemberFunctionArgumentCheck  1
 		LineNumber                   18739, 4
@@ -714,7 +714,7 @@ begin class "puzzle_kopa7"
 	end ; method
 
 	begin method "resetpuzzle"
-		; address: 0x68b83
+		; address: 0xbb254
 		; source: 232 "C:\\projects\\lego\\Scripting\\VBO\\strings/InterfaceStrings.h" 224:237
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1

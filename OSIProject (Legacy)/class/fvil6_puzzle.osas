@@ -6,7 +6,7 @@ begin class "fvil6_puzzle"
 	property "elmdoorshone"
 
 	begin method "fvil6_puzzle"
-		; address: 0x43396
+		; address: 0xaabe8
 		; source: 206 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta05.vbo" 82:82
 		MemberFunctionArgumentCheck 2
 		LineNumber                  10841, 4
@@ -18,7 +18,7 @@ begin class "fvil6_puzzle"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x433aa
+		; address: 0xaabfc
 		; source: 206 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta05.vbo" 90:123
 		; source: 137 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_vtnl.vbo" 148:148
 		MemberFunctionArgumentCheck   1
@@ -272,7 +272,7 @@ begin class "fvil6_puzzle"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x4364f
+		; address: 0xaaea1
 		; source: 206 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta05.vbo" 129:144
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -362,7 +362,7 @@ begin class "fvil6_puzzle"
 	end ; method
 
 	begin method "initshort"
-		; address: 0x43722
+		; address: 0xaaf74
 		; source: 206 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta05.vbo" 151:154
 		MemberFunctionArgumentCheck  1
 		LineNumber                   10910, 4
@@ -401,21 +401,21 @@ begin class "fvil6_puzzle"
 	end ; method
 
 	begin method "cleanupshort"
-		; address: 0x43782
+		; address: 0xaafd4
 		MemberFunctionArgumentCheck 1
 		PushNothing
 		Return
 	end ; method
 
 	begin method "process"
-		; address: 0x43786
+		; address: 0xaafd8
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "onevent"
-		; address: 0x4378a
+		; address: 0xaafdc
 		; source: 206 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta05.vbo" 172:203
 		MemberFunctionArgumentCheck   2
 		LineNumber                    10931, 4
@@ -570,14 +570,14 @@ begin class "fvil6_puzzle"
 	end ; method
 
 	begin method "input"
-		; address: 0x43904
+		; address: 0xab156
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "exit"
-		; address: 0x43908
+		; address: 0xab15a
 		; source: 206 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta05.vbo" 214:214
 		MemberFunctionArgumentCheck 1
 		LineNumber                  10973, 4

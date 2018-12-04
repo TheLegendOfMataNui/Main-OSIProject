@@ -9,7 +9,7 @@ begin class "shrine_puzzle2"
 	property "bdoorz"
 
 	begin method "shrine_puzzle2"
-		; address: 0x6b3e9
+		; address: 0x81576
 		; source: 146 "C:\\projects\\lego\\Scripting\\VBO\\lev2/../../../Audio/GfSoundTableDefine.h" 89:89
 		MemberFunctionArgumentCheck 2
 		LineNumber                  55567, 4
@@ -21,7 +21,7 @@ begin class "shrine_puzzle2"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x6b3fd
+		; address: 0x8158a
 		; source: 146 "C:\\projects\\lego\\Scripting\\VBO\\lev2/../../../Audio/GfSoundTableDefine.h" 96:125
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          3
@@ -230,7 +230,7 @@ begin class "shrine_puzzle2"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x6b65d
+		; address: 0x817ea
 		; source: 146 "C:\\projects\\lego\\Scripting\\VBO\\lev2/../../../Audio/GfSoundTableDefine.h" 131:135
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
@@ -279,7 +279,7 @@ begin class "shrine_puzzle2"
 	end ; method
 
 	begin method "process"
-		; address: 0x6b6bf
+		; address: 0x8184c
 		; source: 146 "C:\\projects\\lego\\Scripting\\VBO\\lev2/../../../Audio/GfSoundTableDefine.h" 141:150
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          2
@@ -370,7 +370,7 @@ begin class "shrine_puzzle2"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x6b7b1
+		; address: 0x8193e
 		; source: 146 "C:\\projects\\lego\\Scripting\\VBO\\lev2/../../../Audio/GfSoundTableDefine.h" 161:203
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          2
@@ -641,7 +641,7 @@ begin class "shrine_puzzle2"
 	end ; method
 
 	begin method "input"
-		; address: 0x6ba75
+		; address: 0x81c02
 		; source: 146 "C:\\projects\\lego\\Scripting\\VBO\\lev2/../../../Audio/GfSoundTableDefine.h" 209:211
 		MemberFunctionArgumentCheck   2
 		LineNumber                    55687, 4
@@ -724,7 +724,7 @@ begin class "shrine_puzzle2"
 	end ; method
 
 	begin method "movedoorsdown"
-		; address: 0x6bb3b
+		; address: 0x81cc8
 		; source: 146 "C:\\projects\\lego\\Scripting\\VBO\\lev2/../../../Audio/GfSoundTableDefine.h" 216:243
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          3
@@ -881,7 +881,7 @@ begin class "shrine_puzzle2"
 	end ; method
 
 	begin method "cheat"
-		; address: 0x6bcd6
+		; address: 0x81e63
 		; source: 146 "C:\\projects\\lego\\Scripting\\VBO\\lev2/../../../Audio/GfSoundTableDefine.h" 251:270
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -1010,7 +1010,7 @@ begin class "shrine_puzzle2"
 	end ; method
 
 	begin method "exit"
-		; address: 0x6bdf5
+		; address: 0x81f82
 		; source: 146 "C:\\projects\\lego\\Scripting\\VBO\\lev2/../../../Audio/GfSoundTableDefine.h" 276:276
 		MemberFunctionArgumentCheck 1
 		LineNumber                  55754, 4

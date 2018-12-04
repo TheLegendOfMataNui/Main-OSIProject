@@ -3,7 +3,7 @@ begin class "tablecopysound"
 	property "index"
 
 	begin method "tablecopysound"
-		; address: 0x81d27
+		; address: 0x52062
 		; source: 68 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_TableCopySound.vbo" 25:28
 		MemberFunctionArgumentCheck   2
 		LineNumber                    27777, 4
@@ -41,7 +41,7 @@ begin class "tablecopysound"
 	end ; method
 
 	begin method "synctocharacter"
-		; address: 0x81d8a
+		; address: 0x520c5
 		; source: 68 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_TableCopySound.vbo" 36:37
 		MemberFunctionArgumentCheck   2
 		LineNumber                    27788, 4
@@ -65,7 +65,7 @@ begin class "tablecopysound"
 	end ; method
 
 	begin method "synctoobject"
-		; address: 0x81db8
+		; address: 0x520f3
 		; source: 68 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_TableCopySound.vbo" 43:44
 		MemberFunctionArgumentCheck   2
 		LineNumber                    27795, 4
@@ -89,7 +89,7 @@ begin class "tablecopysound"
 	end ; method
 
 	begin method "synctoprojectile"
-		; address: 0x81de6
+		; address: 0x52121
 		; source: 68 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_TableCopySound.vbo" 50:51
 		MemberFunctionArgumentCheck   2
 		LineNumber                    27802, 4
@@ -113,7 +113,7 @@ begin class "tablecopysound"
 	end ; method
 
 	begin method "play"
-		; address: 0x81e14
+		; address: 0x5214f
 		; source: 68 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_TableCopySound.vbo" 57:65
 		MemberFunctionArgumentCheck   2
 		LineNumber                    27809, 4
@@ -171,7 +171,7 @@ begin class "tablecopysound"
 	end ; method
 
 	begin method "stop"
-		; address: 0x81e94
+		; address: 0x521cf
 		; source: 68 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_TableCopySound.vbo" 72:73
 		MemberFunctionArgumentCheck   2
 		LineNumber                    27824, 4
@@ -194,7 +194,7 @@ begin class "tablecopysound"
 	end ; method
 
 	begin method "stopreset"
-		; address: 0x81ebf
+		; address: 0x521fa
 		; source: 68 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_TableCopySound.vbo" 79:80
 		MemberFunctionArgumentCheck   2
 		LineNumber                    27831, 4
@@ -217,7 +217,7 @@ begin class "tablecopysound"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x81eea
+		; address: 0x52225
 		; source: 68 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_TableCopySound.vbo" 86:89
 		MemberFunctionArgumentCheck   1
 		LineNumber                    27838, 4
@@ -250,7 +250,7 @@ begin class "tablecopysound"
 	end ; method
 
 	begin method "setplayoffset"
-		; address: 0x81f36
+		; address: 0x52271
 		; source: 68 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_TableCopySound.vbo" 98:99
 		MemberFunctionArgumentCheck   2
 		LineNumber                    27850, 4
@@ -274,7 +274,7 @@ begin class "tablecopysound"
 	end ; method
 
 	begin method "setvolume"
-		; address: 0x81f64
+		; address: 0x5229f
 		; source: 68 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_TableCopySound.vbo" 105:106
 		MemberFunctionArgumentCheck   2
 		LineNumber                    27857, 4
@@ -298,7 +298,7 @@ begin class "tablecopysound"
 	end ; method
 
 	begin method "setpan"
-		; address: 0x81f92
+		; address: 0x522cd
 		; source: 68 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_TableCopySound.vbo" 112:113
 		MemberFunctionArgumentCheck   2
 		LineNumber                    27864, 4
@@ -322,7 +322,7 @@ begin class "tablecopysound"
 	end ; method
 
 	begin method "setfrequency"
-		; address: 0x81fc0
+		; address: 0x522fb
 		; source: 68 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_TableCopySound.vbo" 119:120
 		MemberFunctionArgumentCheck   2
 		LineNumber                    27871, 4
@@ -346,7 +346,7 @@ begin class "tablecopysound"
 	end ; method
 
 	begin method "getfrequency"
-		; address: 0x81fee
+		; address: 0x52329
 		; source: 68 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_TableCopySound.vbo" 127:128
 		MemberFunctionArgumentCheck   1
 		LineNumber                    27879, 4
@@ -371,7 +371,7 @@ begin class "tablecopysound"
 	end ; method
 
 	begin method "setposition"
-		; address: 0x82023
+		; address: 0x523fa
 		; source: 68 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_TableCopySound.vbo" 155:156
 		MemberFunctionArgumentCheck   4
 		LineNumber                    27907, 4
@@ -397,7 +397,7 @@ begin class "tablecopysound"
 	end ; method
 
 	begin method "setmindistance"
-		; address: 0x82057
+		; address: 0x5242e
 		; source: 68 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_TableCopySound.vbo" 162:163
 		MemberFunctionArgumentCheck   2
 		LineNumber                    27914, 4
@@ -421,7 +421,7 @@ begin class "tablecopysound"
 	end ; method
 
 	begin method "setmaxdistance"
-		; address: 0x82085
+		; address: 0x5245c
 		; source: 68 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_TableCopySound.vbo" 170:171
 		MemberFunctionArgumentCheck   2
 		LineNumber                    27922, 4
@@ -445,7 +445,7 @@ begin class "tablecopysound"
 	end ; method
 
 	begin method "setconeorientation"
-		; address: 0x820b3
+		; address: 0x5248a
 		; source: 68 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_TableCopySound.vbo" 177:178
 		MemberFunctionArgumentCheck   4
 		LineNumber                    27929, 4
@@ -471,7 +471,7 @@ begin class "tablecopysound"
 	end ; method
 
 	begin method "setconeangles"
-		; address: 0x820e7
+		; address: 0x524be
 		; source: 68 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_TableCopySound.vbo" 184:185
 		MemberFunctionArgumentCheck   3
 		LineNumber                    27936, 4
@@ -496,7 +496,7 @@ begin class "tablecopysound"
 	end ; method
 
 	begin method "setconeoutsidevolume"
-		; address: 0x82118
+		; address: 0x524ef
 		; source: 68 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_TableCopySound.vbo" 191:192
 		MemberFunctionArgumentCheck   2
 		LineNumber                    27943, 4
@@ -520,7 +520,7 @@ begin class "tablecopysound"
 	end ; method
 
 	begin method "setlistenerrollofffactor"
-		; address: 0x82146
+		; address: 0x5251d
 		; source: 68 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_TableCopySound.vbo" 198:199
 		MemberFunctionArgumentCheck   2
 		LineNumber                    27950, 4
@@ -543,7 +543,7 @@ begin class "tablecopysound"
 	end ; method
 
 	begin method "drifttovolume"
-		; address: 0x82171
+		; address: 0x52548
 		; source: 68 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_TableCopySound.vbo" 205:206
 		MemberFunctionArgumentCheck   3
 		LineNumber                    27957, 4

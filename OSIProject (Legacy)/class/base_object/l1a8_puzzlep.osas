@@ -8,7 +8,7 @@ begin class "l1a8_puzzlep", "base_object"
 	property "toggle"
 
 	begin method "l1a8_puzzlep"
-		; address: 0x91815
+		; address: 0x6e698
 		; source: 121 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\slosi/slosi_fileio.vbo" 97:97
 		MemberFunctionArgumentCheck 2
 		LineNumber                  46799, 4
@@ -20,7 +20,7 @@ begin class "l1a8_puzzlep", "base_object"
 	end ; method
 
 	begin method "initfull"
-		; address: 0x91829
+		; address: 0x6e6ac
 		; source: 121 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\slosi/slosi_fileio.vbo" 103:232
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          4
@@ -1161,7 +1161,7 @@ begin class "l1a8_puzzlep", "base_object"
 	end ; method
 
 	begin method "onevent"
-		; address: 0x92625
+		; address: 0x6f4a8
 		; source: 121 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\slosi/slosi_fileio.vbo" 241:282
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
@@ -1448,7 +1448,7 @@ begin class "l1a8_puzzlep", "base_object"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0x928f0
+		; address: 0x6f773
 		; source: 121 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\slosi/slosi_fileio.vbo" 291:319
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          2
@@ -1643,7 +1643,7 @@ begin class "l1a8_puzzlep", "base_object"
 	end ; method
 
 	begin method "cleanupshort"
-		; address: 0x92ab5
+		; address: 0x6f938
 		; source: 121 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\slosi/slosi_fileio.vbo" 325:325
 		MemberFunctionArgumentCheck 1
 		LineNumber                  47027, 4
@@ -1657,7 +1657,7 @@ begin class "l1a8_puzzlep", "base_object"
 	end ; method
 
 	begin method "exit"
-		; address: 0x92acc
+		; address: 0x6f94f
 		; source: 121 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\slosi/slosi_fileio.vbo" 330:330
 		MemberFunctionArgumentCheck 1
 		LineNumber                  47032, 4
@@ -1669,7 +1669,7 @@ begin class "l1a8_puzzlep", "base_object"
 	end ; method
 
 	begin method "resetallplats"
-		; address: 0x92ade
+		; address: 0x6f961
 		; source: 121 "C:\\projects\\lego\\Scripting\\VBO\\c:\\projects\\lego\\slib\\sageparts\\scripting\\vbo\\slosi/slosi_fileio.vbo" 335:338
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1

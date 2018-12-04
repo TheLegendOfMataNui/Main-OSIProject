@@ -2,7 +2,7 @@ begin class "lego_area_hive5", "gs_lego_area"
 	property "puzzle"
 
 	begin method "lego_area_hive5"
-		; address: 0xa1976
+		; address: 0xa8b2e
 		; source: 201 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_fvil.vbo" 28:29
 		MemberFunctionArgumentCheck 2
 		LineNumber                  9835, 4
@@ -32,7 +32,7 @@ begin class "lego_area_hive5", "gs_lego_area"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xa19bb
+		; address: 0xa8b73
 		; source: 201 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_fvil.vbo" 36:40
 		; source: 209 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta09.vbo" 124:125
 		MemberFunctionArgumentCheck  1
@@ -93,7 +93,7 @@ begin class "lego_area_hive5", "gs_lego_area"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xa1a69
+		; address: 0xa8c21
 		; source: 201 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_fvil.vbo" 45:45
 		MemberFunctionArgumentCheck 1
 		LineNumber                  9852, 4
@@ -108,7 +108,7 @@ begin class "lego_area_hive5", "gs_lego_area"
 	end ; method
 
 	begin method "exit"
-		; address: 0xa1a81
+		; address: 0xa8c39
 		; source: 201 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_fvil.vbo" 50:50
 		MemberFunctionArgumentCheck 1
 		LineNumber                  9857, 4
@@ -123,14 +123,14 @@ begin class "lego_area_hive5", "gs_lego_area"
 	end ; method
 
 	begin method "process"
-		; address: 0xa1a99
+		; address: 0xa8c51
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "onevent"
-		; address: 0xa1a9d
+		; address: 0xa8c55
 		; source: 201 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_fvil.vbo" 60:60
 		MemberFunctionArgumentCheck 2
 		LineNumber                  9867, 4
@@ -146,7 +146,7 @@ begin class "lego_area_hive5", "gs_lego_area"
 	end ; method
 
 	begin method "input"
-		; address: 0xa1ab9
+		; address: 0xa8c71
 		; source: 201 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_fvil.vbo" 65:65
 		MemberFunctionArgumentCheck 2
 		LineNumber                  9872, 4
