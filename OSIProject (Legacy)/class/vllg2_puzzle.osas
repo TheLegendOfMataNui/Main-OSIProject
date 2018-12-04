@@ -46,14 +46,6 @@ begin class "vllg2_puzzle"
 		; source: 95 "C:\\projects\\lego\\Scripting\\VBO\\lev1/Lev1_vllg.vbo" 143:185
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          5
-		LineNumber                    18071, 4
-		LineNumberAlt1                58, 230
-		GetVariableValueGlobalString  "globalclass"
-		GetMemberValueString          "player"
-		GetMemberValueString          "actor"
-		GetMemberValueString          "toahandle"
-		CallGameFunctionString        "gctoa", "deactivatedragger", 1
-		Pop
 		LineNumber                    53304, 4
 		LineNumberAlt1                137, 137
 		PushConstant0
@@ -654,6 +646,13 @@ begin class "vllg2_puzzle"
 		Pop
 		; <-
 		BranchTarget                  4
+        GetVariableValueGlobalString  "globalclass"
+        GetMemberValueString          "player"
+        PushConstanti8                50
+        Pull                          2
+        GetMemberFunctionString       "setgrapplinghookdistance"
+        JumpAbsolute                  2
+        Pop
 		PushNothing
 		Return
 	end ; method
