@@ -6,8 +6,8 @@ begin class "shrn6_puzzle"
 	property "portalactive"
 
 	begin method "shrn6_puzzle"
-		; address: 0xb6eec
-		; source: 222 "C:\\projects\\lego\\Scripting\\VBO\\lev7/level_7.vbo" 78:78
+		; address: 0xbe093
+		; source: 222 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_shrn.vbo" 78:78
 		MemberFunctionArgumentCheck 2
 		LineNumber                  16710, 4
 		LineNumberAlt1              78, 222
@@ -18,8 +18,8 @@ begin class "shrn6_puzzle"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xb6f00
-		; source: 222 "C:\\projects\\lego\\Scripting\\VBO\\lev7/level_7.vbo" 89:144
+		; address: 0xbe0a7
+		; source: 222 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_shrn.vbo" 89:144
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          3
 		LineNumber                    16721, 4
@@ -298,23 +298,9 @@ begin class "shrn6_puzzle"
 		Return
 	end ; method
 
-	begin method "initshort"
-		; address: 0xb7239
-		MemberFunctionArgumentCheck 1
-		PushNothing
-		Return
-	end ; method
-
-	begin method "cleanupshort"
-		; address: 0xb723d
-		MemberFunctionArgumentCheck 1
-		PushNothing
-		Return
-	end ; method
-
 	begin method "cleanupfull"
-		; address: 0xb7241
-		; source: 222 "C:\\projects\\lego\\Scripting\\VBO\\lev7/level_7.vbo" 163:168
+		; address: 0xbe3e8
+		; source: 222 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_shrn.vbo" 163:168
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
 		LineNumber                    16795, 4
@@ -366,8 +352,8 @@ begin class "shrn6_puzzle"
 	end ; method
 
 	begin method "exit"
-		; address: 0xb72b1
-		; source: 222 "C:\\projects\\lego\\Scripting\\VBO\\lev7/level_7.vbo" 175:175
+		; address: 0xbe458
+		; source: 222 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_shrn.vbo" 175:175
 		MemberFunctionArgumentCheck 1
 		LineNumber                  16807, 4
 		LineNumberAlt1              175, 222
@@ -378,16 +364,16 @@ begin class "shrn6_puzzle"
 	end ; method
 
 	begin method "process"
-		; address: 0xb72c3
+		; address: 0xbe46a
 		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
 
 	begin method "onevent"
-		; address: 0xb72c7
-		; source: 222 "C:\\projects\\lego\\Scripting\\VBO\\lev7/level_7.vbo" 186:242
-		; source: 162 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_xrod.vbo" 165:165
+		; address: 0xbe46e
+		; source: 222 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_shrn.vbo" 186:242
+		; source: 162 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_mtup.vbo" 165:165
 		MemberFunctionArgumentCheck   2
 		CreateStackVariables          1
 		LineNumber                    16818, 4
@@ -484,12 +470,6 @@ begin class "shrn6_puzzle"
 		PushConstantf32               1.2000000476837158
 		CallGameFunctionString        "gccollisionphysicsgroup", "spinmask", 1
 		Pop
-		LineNumber                    16841, 4
-		LineNumberAlt1                209, 222
-		GetVariableValue              0                                                  ; local
-		GetThisMemberFunctionString   "cleanupshort"
-		JumpAbsolute                  1
-		Pop
 		BranchAlwaysTarget            10, 0
 		; ->
 		; <-
@@ -499,12 +479,6 @@ begin class "shrn6_puzzle"
 		EqualTo
 		CompareAndBranchIfFalseTarget 4, 0
 		; ->
-		LineNumber                    16846, 4
-		LineNumberAlt1                214, 222
-		GetVariableValue              0                                                  ; local
-		GetThisMemberFunctionString   "initshort"
-		JumpAbsolute                  1
-		Pop
 		LineNumber                    16847, 4
 		LineNumberAlt1                215, 222
 		GetVariableValueGlobalString  "globalclass"
@@ -706,14 +680,15 @@ begin class "shrn6_puzzle"
 	end ; method
 
 	begin method "input"
-		; address: 0xb7606
-		; source: 162 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_xrod.vbo" 138:138
-		; source: 135 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_hk01.vbo" 60:63
+		; address: 0xbe7ad
+		; source: 162 "C:\\projects\\lego\\Scripting\\VBO\\lev3/lev3_mtup.vbo" 138:138
+		; source: 135 "C:\\projects\\lego\\Scripting\\VBO\\lev2/Lev2_mtup.vbo" 60:63
 		MemberFunctionArgumentCheck   2
 		LineNumber                    63438, 4
 		LineNumberAlt1                138, 162
 		GetVariableValue              1                           ; local
 		GetMemberValueString          "event"
+		PushConstanti8                2
 		PushConstanti8                2
 		EqualTo
 		CompareAndBranchIfFalseTarget 1, 0

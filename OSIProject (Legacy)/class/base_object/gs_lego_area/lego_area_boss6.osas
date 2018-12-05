@@ -2,8 +2,8 @@ begin class "lego_area_boss6", "gs_lego_area"
 	property "puzzle"
 
 	begin method "lego_area_boss6"
-		; address: 0xb7d43
-		; source: 224 "C:\\projects\\lego\\Scripting\\VBO\\lev7/Lev7_gali.vbo" 29:30
+		; address: 0xbeeec
+		; source: 224 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_boss.vbo" 29:30
 		MemberFunctionArgumentCheck 2
 		LineNumber                  17078, 4
 		LineNumberAlt1              29, 224
@@ -38,8 +38,8 @@ begin class "lego_area_boss6", "gs_lego_area"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xb7d88
-		; source: 224 "C:\\projects\\lego\\Scripting\\VBO\\lev7/Lev7_gali.vbo" 37:38
+		; address: 0xbef31
+		; source: 224 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_boss.vbo" 37:38
 		MemberFunctionArgumentCheck 1
 		LineNumber                  17086, 4
 		LineNumberAlt1              37, 224
@@ -65,8 +65,8 @@ begin class "lego_area_boss6", "gs_lego_area"
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xb7dc6
-		; source: 224 "C:\\projects\\lego\\Scripting\\VBO\\lev7/Lev7_gali.vbo" 43:44
+		; address: 0xbef6f
+		; source: 224 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_boss.vbo" 43:44
 		MemberFunctionArgumentCheck 1
 		LineNumber                  17092, 4
 		LineNumberAlt1              43, 224
@@ -85,25 +85,9 @@ begin class "lego_area_boss6", "gs_lego_area"
 		Return
 	end ; method
 
-	begin method "process"
-		; address: 0xb7df1
-		; source: 224 "C:\\projects\\lego\\Scripting\\VBO\\lev7/Lev7_gali.vbo" 49:49
-		MemberFunctionArgumentCheck 2
-		LineNumber                  17098, 4
-		LineNumberAlt1              49, 224
-		GetThisMemberValueString    "puzzle"
-		GetVariableValue            1         ; local
-		Pull                        2
-		GetMemberFunctionString     "process"
-		JumpAbsolute                2
-		Pop
-		PushNothing
-		Return
-	end ; method
-
 	begin method "onevent"
-		; address: 0xb7e0d
-		; source: 224 "C:\\projects\\lego\\Scripting\\VBO\\lev7/Lev7_gali.vbo" 54:54
+		; address: 0xbefb6
+		; source: 224 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_boss.vbo" 54:54
 		MemberFunctionArgumentCheck 2
 		LineNumber                  17103, 4
 		LineNumberAlt1              54, 224
@@ -118,8 +102,8 @@ begin class "lego_area_boss6", "gs_lego_area"
 	end ; method
 
 	begin method "input"
-		; address: 0xb7e29
-		; source: 224 "C:\\projects\\lego\\Scripting\\VBO\\lev7/Lev7_gali.vbo" 59:59
+		; address: 0xbefd2
+		; source: 224 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_boss.vbo" 59:59
 		MemberFunctionArgumentCheck 2
 		LineNumber                  17108, 4
 		LineNumberAlt1              59, 224
@@ -134,8 +118,8 @@ begin class "lego_area_boss6", "gs_lego_area"
 	end ; method
 
 	begin method "exit"
-		; address: 0xb7e45
-		; source: 224 "C:\\projects\\lego\\Scripting\\VBO\\lev7/Lev7_gali.vbo" 64:64
+		; address: 0xbefee
+		; source: 224 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_boss.vbo" 64:64
 		MemberFunctionArgumentCheck 1
 		LineNumber                  17113, 4
 		LineNumberAlt1              64, 224

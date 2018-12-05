@@ -6,8 +6,8 @@ begin class "boss6_puzzle"
 	property "isdead"
 
 	begin method "boss6_puzzle"
-		; address: 0xb7e5c
-		; source: 224 "C:\\projects\\lego\\Scripting\\VBO\\lev7/Lev7_gali.vbo" 88:88
+		; address: 0xbf005
+		; source: 224 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_boss.vbo" 88:88
 		MemberFunctionArgumentCheck 2
 		LineNumber                  17137, 4
 		LineNumberAlt1              88, 224
@@ -18,10 +18,29 @@ begin class "boss6_puzzle"
 	end ; method
 
 	begin method "initfull"
-		; address: 0xb7e70
-		; source: 224 "C:\\projects\\lego\\Scripting\\VBO\\lev7/Lev7_gali.vbo" 102:117
+		; address: 0xbf019
+		; source: 224 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_boss.vbo" 102:115
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          2
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		PushConstantStringString      "Root/Data/sounds/Musiclowandcreepyambience"
+		Pull                          2
+		GetMemberFunctionString       "changefilename"
+		JumpAbsolute                  2
+		Pop
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "bgmusic"
+		PushConstanti8                1
+		Pull                          2
+		GetMemberFunctionString       "play"
+		JumpAbsolute                  2
+		Pop
+		LineNumber                    16721, 4
+		LineNumberAlt1                89, 222
+		PushConstanti8                50
+		CallGameFunctionString        "gcareadirector", "setnearestmax", 1
+		Pop
 		LineNumber                    17151, 4
 		LineNumberAlt1                102, 224
 		PushConstantStringString      "ston"
@@ -110,23 +129,13 @@ begin class "boss6_puzzle"
 		LineNumberAlt1                115, 224
 		PushConstant0
 		SetThisMemberValueString      "isdead"
-		LineNumber                    17166, 4
-		LineNumberAlt1                117, 224
-		GetVariableValueGlobalString  "globalclass"
-		GetMemberValueString          "player"
-		GetMemberValueString          "maskcontrol"
-		PushConstant0
-		Pull                          2
-		GetMemberFunctionString       "usemasks"
-		JumpAbsolute                  2
-		Pop
 		PushNothing
 		Return
 	end ; method
 
 	begin method "cleanupfull"
-		; address: 0xb7fc2
-		; source: 224 "C:\\projects\\lego\\Scripting\\VBO\\lev7/Lev7_gali.vbo" 124:136
+		; address: 0xbf14f
+		; source: 224 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_boss.vbo" 124:136
 		MemberFunctionArgumentCheck   1
 		CreateStackVariables          1
 		LineNumber                    17173, 4
@@ -195,8 +204,8 @@ begin class "boss6_puzzle"
 	end ; method
 
 	begin method "reset"
-		; address: 0xb807d
-		; source: 224 "C:\\projects\\lego\\Scripting\\VBO\\lev7/Lev7_gali.vbo" 142:148
+		; address: 0xbf20a
+		; source: 224 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_boss.vbo" 142:148
 		MemberFunctionArgumentCheck  1
 		LineNumber                   17191, 4
 		LineNumberAlt1               142, 224
@@ -246,16 +255,9 @@ begin class "boss6_puzzle"
 		Return
 	end ; method
 
-	begin method "process"
-		; address: 0xb810a
-		MemberFunctionArgumentCheck 2
-		PushNothing
-		Return
-	end ; method
-
 	begin method "onevent"
-		; address: 0xb810e
-		; source: 224 "C:\\projects\\lego\\Scripting\\VBO\\lev7/Lev7_gali.vbo" 159:191
+		; address: 0xbf29b
+		; source: 224 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_boss.vbo" 159:191
 		MemberFunctionArgumentCheck   2
 		LineNumber                    17208, 4
 		LineNumberAlt1                159, 224
@@ -458,8 +460,8 @@ begin class "boss6_puzzle"
 	end ; method
 
 	begin method "input"
-		; address: 0xb830b
-		; source: 224 "C:\\projects\\lego\\Scripting\\VBO\\lev7/Lev7_gali.vbo" 198:198
+		; address: 0xbf498
+		; source: 224 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_boss.vbo" 198:198
 		MemberFunctionArgumentCheck   2
 		LineNumber                    17247, 4
 		LineNumberAlt1                198, 224
