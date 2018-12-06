@@ -512,7 +512,7 @@ begin class "lego_level_5", "gs_lego_level"
 		GetMemberValueString          "player"
 		Dup
 		GetMemberFunctionString       "setupgrapplinghook"
-		JumpAbsolute                  2
+		JumpAbsolute                  1
 		Pop
 		GetVariableValueGlobalString  "globalclass"
 		GetMemberValueString          "player"
