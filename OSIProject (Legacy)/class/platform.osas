@@ -1263,6 +1263,14 @@ begin class "platform"
 		GetMemberFunctionString       "setorientation"
 		JumpAbsolute                  4
 		Pop
+		GetThisMemberValueString      "obj"
+		PushConstantf32               0
+		PushConstantf32               0
+		PushConstantf32               0
+		Pull                          4
+		GetMemberFunctionString       "setvelocity"
+		JumpAbsolute                  4
+		Pop
 		LineNumber                    21035, 4
 		LineNumberAlt1                419, 55
 		PushConstant0

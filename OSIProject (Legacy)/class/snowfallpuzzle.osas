@@ -1049,32 +1049,6 @@ begin class "snowfallpuzzle"
 		Return
 	end ; method
 
-	begin method "show"
-		; address: 0x9efd3
-		; source: 183 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_le01.vbo" 334:334
-		MemberFunctionArgumentCheck 1
-		LineNumber                  5439, 4
-		LineNumberAlt1              334, 183
-		PushConstantStringString    "Calling empty show function"
-		CallGameFunctionString      "debug", "print", 1
-		Pop
-		PushNothing
-		Return
-	end ; method
-
-	begin method "hide"
-		; address: 0x9efeb
-		; source: 183 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_le01.vbo" 339:339
-		MemberFunctionArgumentCheck 1
-		LineNumber                  5444, 4
-		LineNumberAlt1              339, 183
-		PushConstantStringString    "Calling empty hide function"
-		CallGameFunctionString      "debug", "print", 1
-		Pop
-		PushNothing
-		Return
-	end ; method
-
 	begin method "process"
 		; address: 0x9f003
 		; source: 183 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_le01.vbo" 344:349

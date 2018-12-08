@@ -23,6 +23,19 @@ begin subroutine
 end ; subroutine
 
 begin subroutine
+	; address: 0x434c3
+	; source: 52 "C:\\projects\\lego\\Scripting\\VBO\\legobase/lego_moveableObj.vbo" 898:898
+	MemberFunctionArgumentCheck 1
+	LineNumber                  19534, 4
+	LineNumberAlt1              898, 52
+	GetThisMemberValueString    "handle"
+	CallGameFunctionString      "gcmoveableobj", "shaketouch", 1
+	Pop
+	PushNothing
+	Return
+end ; subroutine
+
+begin subroutine
 	; address: 0x5235e
 	; source: 68 "C:\\projects\\lego\\Scripting\\VBO\\LegoBase/lego_TableCopySound.vbo" 134:135
 	MemberFunctionArgumentCheck   5
@@ -101,7 +114,7 @@ begin subroutine
 end ; subroutine
 
 begin subroutine
-	; address: 0xb144a
+	; address: 0xb144d
 	; source: 212 "C:\\projects\\lego\\Scripting\\VBO\\lev6/Lev6_ta12.vbo" 801:803
 	MemberFunctionArgumentCheck 1
 	LineNumber                  14014, 4
@@ -119,3 +132,4 @@ begin subroutine
 	PushNothing
 	Return
 end ; subroutine
+
