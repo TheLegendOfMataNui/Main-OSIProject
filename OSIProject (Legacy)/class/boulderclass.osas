@@ -4,9 +4,6 @@ begin class "boulderclass"
 	property "parent"
 	property "scale"
 	property "id"
-	property "bigsound"
-	property "medsound"
-	property "smlsound"
 	property "rockhitsound"
 
 	begin method "boulderclass"
@@ -193,18 +190,6 @@ begin class "boulderclass"
 		LineNumberAlt1              774, 164
 		PushNothing
 		SetThisMemberValueString    "scale"
-		LineNumber                  64571, 4
-		LineNumberAlt1              775, 164
-		PushNothing
-		SetThisMemberValueString    "bigsound"
-		LineNumber                  64572, 4
-		LineNumberAlt1              776, 164
-		PushNothing
-		SetThisMemberValueString    "medsound"
-		LineNumber                  64573, 4
-		LineNumberAlt1              777, 164
-		PushNothing
-		SetThisMemberValueString    "smlsound"
 		LineNumber                  64574, 4
 		LineNumberAlt1              778, 164
 		GetThisMemberValueString    "rockhitsound"
@@ -401,36 +386,9 @@ begin class "boulderclass"
 		GetVariableValue              1                                            ; local
 		GetMemberValueString          "eventid"
 		Dup
-		PushConstanti8                1
-		EqualTo
-		CompareAndBranchIfFalseTarget 0, 0
-		; ->
-		BranchAlwaysTarget            4, 0
-		; ->
-		; <-
-		BranchTarget                  0
-		Dup
-		PushConstanti8                17
-		EqualTo
-		CompareAndBranchIfFalseTarget 1, 0
-		; ->
-		BranchAlwaysTarget            4, 0
-		; ->
-		; <-
-		BranchTarget                  1
-		Dup
-		PushConstanti8                8
-		EqualTo
-		CompareAndBranchIfFalseTarget 2, 0
-		; ->
-		BranchAlwaysTarget            4, 0
-		; ->
-		; <-
-		BranchTarget                  2
-		Dup
 		PushConstanti8                19
 		EqualTo
-		CompareAndBranchIfFalseTarget 4, 0
+		CompareAndBranchIfFalseTarget 0, 0
 		; ->
 		LineNumber                    64632, 4
 		LineNumberAlt1                836, 164
@@ -453,12 +411,12 @@ begin class "boulderclass"
 		LineNumberAlt1                836, 164
 		EqualTo
 		Or
-		CompareAndBranchIfFalseTarget 3, 0
+		CompareAndBranchIfFalseTarget 1, 0
 		; ->
-		BranchAlwaysTarget            4, 0
+		BranchAlwaysTarget            0, 0
 		; ->
 		; <-
-		BranchTarget                  3
+		BranchTarget                  1
 		LineNumber                    64635, 4
 		LineNumberAlt1                839, 164
 		GetVariableValue              1                                            ; local
@@ -468,7 +426,7 @@ begin class "boulderclass"
 		GetThisMemberValueString      "obj"
 		GetMemberValueString          "id"
 		EqualTo
-		CompareAndBranchIfFalseTarget 4, 0
+		CompareAndBranchIfFalseTarget 0, 0
 		; ->
 		LineNumber                    64636, 4
 		LineNumberAlt1                840, 164
@@ -477,7 +435,7 @@ begin class "boulderclass"
 		JumpAbsolute                  1
 		Pop
 		; <-
-		BranchTarget                  4
+		BranchTarget                  0
 		Pop
 		PushNothing
 		Return

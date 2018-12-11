@@ -515,6 +515,8 @@ begin class "bugpitpuzzle_class"
 		PushNothing
 		SetThisMemberValueString      "hive4handle"
 		PushNothing
+		SetThisMemberValueString      "deadhives"
+		PushNothing
 		Return
 	end ; method
 

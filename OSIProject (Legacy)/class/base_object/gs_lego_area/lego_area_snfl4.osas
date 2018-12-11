@@ -136,14 +136,6 @@ begin class "lego_area_snfl4", "gs_lego_area"
 		; address: 0x9e42f
 		; source: 183 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_le01.vbo" 63:67
 		MemberFunctionArgumentCheck   1
-		LineNumber                    5168, 4
-		LineNumberAlt1                63, 183
-		GetThisMemberValueString      "puzzle"
-		PushNothing
-		EqualTo
-		Not
-		CompareAndBranchIfFalseTarget 0, 0
-		; ->
 		LineNumber                    5169, 4
 		LineNumberAlt1                64, 183
 		GetThisMemberValueString      "puzzle"
@@ -151,16 +143,6 @@ begin class "lego_area_snfl4", "gs_lego_area"
 		GetMemberFunctionString       "exit"
 		JumpAbsolute                  1
 		Pop
-		LineNumber                    5170, 4
-		LineNumberAlt1                65, 183
-		PushNothing
-		SetThisMemberValueString      "puzzle"
-		; <-
-		BranchTarget                  0
-		LineNumber                    5172, 4
-		LineNumberAlt1                67, 183
-		PushNothing
-		SetThisMemberValueString      "parent"
 		PushNothing
 		Return
 	end ; method

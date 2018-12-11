@@ -3,17 +3,6 @@ begin class "snowfallpuzzle"
 	property "snowbrgpartarray"
 	property "parent"
 	property "areaid"
-	property "savecam"
-	property "platform1"
-	property "platform2"
-	property "platform3"
-	property "platform4"
-	property "platform5"
-	property "platform6"
-	property "platform7"
-	property "platform8"
-	property "platform9"
-	property "platform10"
 	property "entrancedoora"
 	property "entrancedoorb"
 	property "exitdoora"
@@ -432,6 +421,16 @@ begin class "snowfallpuzzle"
 		GetMemberFunctionString       "initfull"
 		JumpAbsolute                  1
 		Pop
+		GetThisMemberValueString      "snowbrgpartarray"
+		GetVariableValue              1                                         ; local
+		GetArrayValue
+		GetMemberValueString          "obj"
+		GetMemberValueString          "obj"
+		PushConstant0
+		Pull                          2
+		GetMemberFunctionString       "setignoreallcollisions"
+		JumpAbsolute                  2
+		Pop
 		IncrementVariable             1
 		BranchAlwaysTarget            0, 0
 		; ->
@@ -444,27 +443,35 @@ begin class "snowfallpuzzle"
 		Dup
 		CreateObjectString            "snowballclass"
 		Dup
-		PushConstantStringString      "bllf"
-		PushConstantStringString      "ssb0"
-		PushConstantStringString      "ssb1"
-		GetVariableValue              0                                         ; local
-		Pull                          5
+		PushConstantStringString      "blle"
+		GetThisMemberValueString      "parent"
+		Pull                          3
 		GetMemberFunctionString       "snowballclass"
-		JumpAbsolute                  5
+		JumpAbsolute                  3
 		Pop
-		LineNumber                    5314, 4
-		LineNumberAlt1                209, 183
+		LineNumber                    64006, 4
+		LineNumberAlt1                210, 164
+		AppendToArray
+		Dup
+		CreateObjectString            "snowballclass"
+		Dup
+		PushConstantStringString      "bllf"
+		GetThisMemberValueString      "parent"
+		Pull                          3
+		GetMemberFunctionString       "snowballclass"
+		JumpAbsolute                  3
+		Pop
+		LineNumber                    64007, 4
+		LineNumberAlt1                211, 164
 		AppendToArray
 		Dup
 		CreateObjectString            "snowballclass"
 		Dup
 		PushConstantStringString      "bllg"
-		PushConstantStringString      "ssb2"
-		PushConstantStringString      "ssb3"
-		GetVariableValue              0                                         ; local
-		Pull                          5
+		GetThisMemberValueString      "parent"
+		Pull                          3
 		GetMemberFunctionString       "snowballclass"
-		JumpAbsolute                  5
+		JumpAbsolute                  3
 		Pop
 		LineNumber                    5315, 4
 		LineNumberAlt1                210, 183
@@ -494,16 +501,20 @@ begin class "snowfallpuzzle"
 		GetMemberFunctionString       "initfull"
 		JumpAbsolute                  1
 		Pop
+		GetThisMemberValueString      "snowballarray"
+		GetVariableValue              1                                         ; local
+		GetArrayValue
+		GetMemberValueString          "obj"
+		PushConstant0
+		Pull                          2
+		GetMemberFunctionString       "setignoreallcollisions"
+		JumpAbsolute                  2
+		Pop
 		IncrementVariable             1
 		BranchAlwaysTarget            2, 0
 		; ->
 		; <-
 		BranchTarget                  3
-		Pop
-		LineNumber                    5323, 4
-		LineNumberAlt1                218, 183
-		PushConstantStringString      "camera stuff"
-		CallGameFunctionString        "debug", "print", 1
 		Pop
 		LineNumber                    5324, 4
 		LineNumberAlt1                219, 183
@@ -598,7 +609,7 @@ begin class "snowfallpuzzle"
 		LineNumberAlt1                236, 183
 		GetVariableValueGlobalString  "globalclass"
 		GetMemberValueString          "bgmusic"
-		PushConstantStringString      "Root/Data/Sounds/MUSICKopakaTheme"
+		PushConstantStringString      "Root/Data/sounds/MusicMakutaTheme"
 		Pull                          2
 		GetMemberFunctionString       "changefilename"
 		JumpAbsolute                  2
@@ -854,6 +865,10 @@ begin class "snowfallpuzzle"
 		LineNumberAlt1                279, 183
 		PushNothing
 		SetThisMemberValueString      "snowballarray"
+		LineNumber                    64082, 4
+		LineNumberAlt1                286, 164
+		PushNothing
+		SetThisMemberValueString      "areaid"
 		LineNumber                    5387, 4
 		LineNumberAlt1                282, 183
 		GetThisMemberValueString      "entrancedoora"
@@ -920,25 +935,6 @@ begin class "snowfallpuzzle"
 		LineNumberAlt1                293, 183
 		PushNothing
 		SetThisMemberValueString      "thering"
-		LineNumber                    5400, 4
-		LineNumberAlt1                295, 183
-		GetVariableValueGlobalString  "globalclass"
-		GetMemberValueString          "bgmusic"
-		PushNothing
-		EqualTo
-		Not
-		CompareAndBranchIfFalseTarget 4, 0
-		; ->
-		LineNumber                    5401, 4
-		LineNumberAlt1                296, 183
-		GetVariableValueGlobalString  "globalclass"
-		GetMemberValueString          "bgmusic"
-		Dup
-		GetMemberFunctionString       "stop"
-		JumpAbsolute                  1
-		Pop
-		; <-
-		BranchTarget                  4
 		LineNumber                    5404, 4
 		LineNumberAlt1                299, 183
 		PushNothing
@@ -1037,6 +1033,14 @@ begin class "snowfallpuzzle"
 		LineNumberAlt1                326, 183
 		PushNothing
 		SetThisMemberValueString      "currentboulder"
+		LineNumber                    64101, 4
+		LineNumberAlt1                305, 164
+		PushNothing
+		SetThisMemberValueString      "started"
+		LineNumber                    64102, 4
+		LineNumberAlt1                306, 164
+		PushNothing
+		SetThisMemberValueString      "numofplatformshit"
 		LineNumber                    5432, 4
 		LineNumberAlt1                327, 183
 		PushNothing
@@ -1406,6 +1410,12 @@ begin class "snowfallpuzzle"
 		EqualTo
 		CompareAndBranchIfFalseTarget 5, 0
 		; ->
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "hud"
+		Dup
+		GetMemberFunctionString       "hide"
+		JumpAbsolute                  1
+		Pop
 		LineNumber                    5522, 4
 		LineNumberAlt1                417, 183
 		GetThisMemberValueString      "parent"
@@ -1428,7 +1438,7 @@ begin class "snowfallpuzzle"
 		LineNumber                    5526, 4
 		LineNumberAlt1                421, 183
 		GetThisMemberValueString      "currentboulder"
-		PushConstanti8                1
+		PushConstanti8                2
 		LessOrEqual
 		CompareAndBranchIfFalseTarget 6, 0
 		; ->
@@ -1473,7 +1483,7 @@ begin class "snowfallpuzzle"
 		; <-
 		BranchTarget                  6
 		Pop
-		BranchAlwaysTarget            15, 0
+		BranchAlwaysTarget            14, 0
 		; ->
 		; <-
 		BranchTarget                  7
@@ -1528,7 +1538,7 @@ begin class "snowfallpuzzle"
 		Return
 		; <-
 		BranchTarget                  8
-		BranchAlwaysTarget            15, 0
+		BranchAlwaysTarget            14, 0
 		; ->
 		; <-
 		BranchTarget                  9
@@ -1562,14 +1572,28 @@ begin class "snowfallpuzzle"
 		Pop
 		; <-
 		BranchTarget                  10
-		BranchAlwaysTarget            15, 0
+		BranchAlwaysTarget            14, 0
 		; ->
 		; <-
 		BranchTarget                  11
 		Dup
-		PushConstanti8                27
+		PushConstanti8                46
 		EqualTo
 		CompareAndBranchIfFalseTarget 12, 0
+		; ->
+		LineNumber                    64287, 4
+		LineNumberAlt1                491, 164
+		PushConstantf32               1.2000000476837158
+		CallGameFunctionString        "gccollisionphysicsgroup", "spinmask", 1
+		Pop
+		BranchAlwaysTarget            14, 0
+		; ->
+		; <-
+		BranchTarget                  12
+		Dup
+		PushConstanti8                27
+		EqualTo
+		CompareAndBranchIfFalseTarget 13, 0
 		; ->
 		LineNumber                    5567, 4
 		LineNumberAlt1                462, 183
@@ -1577,14 +1601,14 @@ begin class "snowfallpuzzle"
 		GetThisMemberFunctionString   "resetb"
 		JumpAbsolute                  1
 		Pop
-		BranchAlwaysTarget            15, 0
+		BranchAlwaysTarget            14, 0
 		; ->
 		; <-
-		BranchTarget                  12
+		BranchTarget                  13
 		Dup
 		PushConstanti8                6
 		EqualTo
-		CompareAndBranchIfFalseTarget 13, 0
+		CompareAndBranchIfFalseTarget 14, 0
 		; ->
 		LineNumber                    5572, 4
 		LineNumberAlt1                467, 183
@@ -1596,10 +1620,6 @@ begin class "snowfallpuzzle"
 		GetMemberFunctionString       "setorientation"
 		JumpAbsolute                  2
 		Pop
-		LineNumber                    5574, 4
-		LineNumberAlt1                469, 183
-		PushConstanti8                1
-		SetThisMemberValueString      "started"
 		LineNumber                    5576, 4
 		LineNumberAlt1                471, 183
 		GetThisMemberValueString      "parent"
@@ -1618,47 +1638,15 @@ begin class "snowfallpuzzle"
 		GetMemberFunctionString       "show"
 		JumpAbsolute                  1
 		Pop
-		LineNumber                    5579, 4
-		LineNumberAlt1                474, 183
-		GetThisMemberValueString      "swtch"
-		Dup
-		GetMemberFunctionString       "hide"
-		JumpAbsolute                  1
-		Pop
-		LineNumber                    5580, 4
-		LineNumberAlt1                475, 183
-		GetThisMemberValueString      "swtch"
-		PushConstant0
-		PushConstantf32               337
-		Subtract
-		PushConstantf32               3
-		PushConstant0
-		PushConstantf32               185
-		Subtract
-		Pull                          4
-		GetMemberFunctionString       "setpos"
-		JumpAbsolute                  4
-		Pop
-		LineNumber                    5582, 4
-		LineNumberAlt1                477, 183
-		GetThisMemberValueString      "thering"
-		Dup
-		GetMemberFunctionString       "hide"
-		JumpAbsolute                  1
-		Pop
-		LineNumber                    5583, 4
-		LineNumberAlt1                478, 183
-		GetThisMemberValueString      "thering"
-		PushConstant0
-		PushConstantf32               337
-		Subtract
-		PushConstantf32               3
-		PushConstant0
-		PushConstantf32               185
-		Subtract
-		Pull                          4
-		GetMemberFunctionString       "setpos"
-		JumpAbsolute                  4
+		LineNumber                    64302, 4
+		LineNumberAlt1                506, 164
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "player"
+		GetMemberValueString          "actor"
+		PushConstantStringString      "ninp"
+		Pull                          2
+		GetMemberFunctionString       "setinputstate"
+		JumpAbsolute                  2
 		Pop
 		LineNumber                    5585, 4
 		LineNumberAlt1                480, 183
@@ -1675,54 +1663,12 @@ begin class "snowfallpuzzle"
 		GetMemberFunctionString       "start"
 		JumpAbsolute                  1
 		Pop
-		BranchAlwaysTarget            15, 0
-		; ->
-		; <-
-		BranchTarget                  13
-		Dup
-		PushConstanti8                14
-		EqualTo
-		CompareAndBranchIfFalseTarget 14, 0
-		; ->
-		LineNumber                    5592, 4
-		LineNumberAlt1                487, 183
-		GetThisMemberValueString      "parent"
-		GetMemberValueString          "parent"
-		GetMemberValueString          "cam"
-		PushConstanti8                3
-		Pull                          2
-		GetMemberFunctionString       "setaimode"
-		JumpAbsolute                  2
-		Pop
-		BranchAlwaysTarget            15, 0
-		; ->
+		LineNumber                    5574, 4
+		LineNumberAlt1                469, 183
+		PushConstanti8                1
+		SetThisMemberValueString      "started"
 		; <-
 		BranchTarget                  14
-		Dup
-		PushConstanti8                7
-		EqualTo
-		CompareAndBranchIfFalseTarget 15, 0
-		; ->
-		LineNumber                    5595, 4
-		LineNumberAlt1                490, 183
-		GetVariableValue              1                                             ; local
-		GetMemberValueString          "args"
-		PushConstanti8                2
-		GetArrayValue
-		PushConstantStringString      "Ecut"
-		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
-		LineNumber                    5595, 4
-		LineNumberAlt1                490, 183
-		EqualTo
-		CompareAndBranchIfFalseTarget 15, 0
-		; ->
-		LineNumber                    5597, 4
-		LineNumberAlt1                492, 183
-		PushConstanti16               149
-		CallGameFunctionString        "gcstaticsoundsptrarray", "playtablesound", 1
-		Pop
-		; <-
-		BranchTarget                  15
 		Pop
 		PushNothing
 		Return
@@ -1732,11 +1678,6 @@ begin class "snowfallpuzzle"
 		; address: 0x9f655
 		; source: 183 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_le01.vbo" 503:509
 		MemberFunctionArgumentCheck 1
-		LineNumber                  5608, 4
-		LineNumberAlt1              503, 183
-		PushConstantStringString    "resetA"
-		CallGameFunctionString      "debug", "print", 1
-		Pop
 		LineNumber                  5609, 4
 		LineNumberAlt1              504, 183
 		GetThisMemberValueString    "parent"
@@ -1760,11 +1701,6 @@ begin class "snowfallpuzzle"
 		GetMemberFunctionString     "settargetspline"
 		JumpAbsolute                3
 		Pop
-		LineNumber                  5612, 4
-		LineNumberAlt1              507, 183
-		PushConstantStringString    "RESET A"
-		CallGameFunctionString      "debug", "print", 1
-		Pop
 		LineNumber                  5613, 4
 		LineNumberAlt1              508, 183
 		GetThisMemberValueString    "parent"
@@ -1775,10 +1711,14 @@ begin class "snowfallpuzzle"
 		GetMemberFunctionString     "setaimode"
 		JumpAbsolute                2
 		Pop
-		LineNumber                  5614, 4
-		LineNumberAlt1              509, 183
-		PushConstanti8              1
-		CallGameFunctionString      "gccollisionphysicsgroup", "spinmask", 1
+		GetVariableValueGlobalString "globalclass"
+		GetMemberValueString         "player"
+		Dup
+		GetMemberFunctionString      "kill"
+		JumpAbsolute                 1
+		Pop
+		PushConstanti16               1048
+		CallGameFunctionString        "gcstaticsoundsptrarray", "playtablesound", 1
 		Pop
 		PushNothing
 		Return
@@ -1824,6 +1764,27 @@ begin class "snowfallpuzzle"
 		Pull                         4
 		GetMemberFunctionString      "setpos"
 		JumpAbsolute                 4
+		Pop
+		LineNumber                   64361, 4
+		LineNumberAlt1               565, 164
+		GetVariableValueGlobalString "globalclass"
+		GetMemberValueString         "player"
+		GetMemberValueString         "actor"
+		PushConstantStringString     "k000"
+		CallGameFunctionString       "scslosifoundation", "stringtoidentifier", 1
+		LineNumber                   64361, 4
+		LineNumberAlt1               565, 164
+		Pull                         2
+		GetMemberFunctionString      "switchanimation"
+		JumpAbsolute                 2
+		Pop
+		LineNumber                   64362, 4
+		LineNumberAlt1               566, 164
+		GetVariableValueGlobalString "globalclass"
+		GetMemberValueString         "player"
+		Dup
+		GetMemberFunctionString      "unkill"
+		JumpAbsolute                 1
 		Pop
 		LineNumber                   5626, 4
 		LineNumberAlt1               521, 183
@@ -1881,6 +1842,27 @@ begin class "snowfallpuzzle"
 		GetThisMemberValueString      "hitswitchonce"
 		CompareAndBranchIfFalseTarget 0, 0
 		; ->
+		LineNumber                    64378, 4
+		LineNumberAlt1                582, 164
+		GetVariableValueGlobalString  "globalclass"
+		GetMemberValueString          "player"
+		GetMemberValueString          "actor"
+		PushConstantStringString      "none"
+		Pull                          2
+		GetMemberFunctionString       "setinputstate"
+		JumpAbsolute                  2
+		Pop
+		GetVariableValueGlobalString "globalclass"
+		GetMemberValueString         "player"
+		GetMemberValueString         "actor"
+		PushConstantStringString     "k000"
+		CallGameFunctionString       "scslosifoundation", "stringtoidentifier", 1
+		LineNumber                   39919, 4
+		LineNumberAlt1               329, 101
+		Pull                         2
+		GetMemberFunctionString      "switchanimation"
+		JumpAbsolute                 2
+		Pop
 		LineNumber                    5641, 4
 		LineNumberAlt1                536, 183
 		PushConstant0
@@ -2272,78 +2254,6 @@ begin class "snowfallpuzzle"
 		; ->
 		; <-
 		BranchTarget                  4
-		Pop
-		PushNothing
-		Return
-	end ; method
-
-	begin method "startcam"
-		; address: 0x9fbee
-		; source: 183 "C:\\projects\\lego\\Scripting\\VBO\\lev5/Lev5_le01.vbo" 615:619
-		MemberFunctionArgumentCheck  1
-		LineNumber                   5720, 4
-		LineNumberAlt1               615, 183
-		GetVariableValueGlobalString "globalclass"
-		GetMemberValueString         "hud"
-		Dup
-		GetMemberFunctionString      "hide"
-		JumpAbsolute                 1
-		Pop
-		LineNumber                   5722, 4
-		LineNumberAlt1               617, 183
-		CreateArray
-		Dup
-		GetThisMemberValueString     "parent"
-		GetMemberValueString         "parent"
-		GetMemberValueString         "cam"
-		GetMemberValueString         "x1"
-		AppendToArray
-		Dup
-		GetThisMemberValueString     "parent"
-		GetMemberValueString         "parent"
-		GetMemberValueString         "cam"
-		GetMemberValueString         "y1"
-		AppendToArray
-		Dup
-		GetThisMemberValueString     "parent"
-		GetMemberValueString         "parent"
-		GetMemberValueString         "cam"
-		GetMemberValueString         "z"
-		AppendToArray
-		Dup
-		GetThisMemberValueString     "parent"
-		GetMemberValueString         "parent"
-		GetMemberValueString         "cam"
-		GetMemberValueString         "tx"
-		AppendToArray
-		Dup
-		GetThisMemberValueString     "parent"
-		GetMemberValueString         "parent"
-		GetMemberValueString         "cam"
-		GetMemberValueString         "ty"
-		AppendToArray
-		Dup
-		GetThisMemberValueString     "parent"
-		GetMemberValueString         "parent"
-		GetMemberValueString         "cam"
-		GetMemberValueString         "tz"
-		AppendToArray
-		SetThisMemberValueString     "savecam"
-		LineNumber                   5724, 4
-		LineNumberAlt1               619, 183
-		GetThisMemberValueString     "parent"
-		GetMemberValueString         "parent"
-		GetMemberValueString         "cam"
-		PushConstanti16              -142
-		PushConstantf32              6.14900016784668
-		PushConstanti16              -209
-		PushConstanti16              -142
-		PushConstantf32              6.14900016784668
-		PushConstanti16              -209
-		PushConstantf32              2
-		Pull                         8
-		GetMemberFunctionString      "interpolate"
-		JumpAbsolute                 8
 		Pop
 		PushNothing
 		Return
