@@ -13,7 +13,6 @@ begin class "cliff1_puzzle", "base_object"
 	property "cutscenetimer"
 	property "splineon"
 	property "puzzledone"
-	property "initialpuzzlestate"
 
 	begin method "cliff1_puzzle"
 		; address: 0x62e74
@@ -371,10 +370,6 @@ begin class "cliff1_puzzle", "base_object"
 		SetThisMemberValueString      "buttonpressed"
 		; <-
 		BranchTarget                  0
-		LineNumber                  39753, 4
-		LineNumberAlt1              163, 101
-		GetThisMemberValueString    "puzzledone"
-		SetThisMemberValueString    "initialpuzzlestate"
 		PushNothing
 		Return
 	end ; method

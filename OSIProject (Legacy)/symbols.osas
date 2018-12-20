@@ -3584,7 +3584,6 @@ begin symbols
 	symbol "openvtnldoor"
 	symbol "call_ev_safe_time_once"
 	symbol "deadhives"
-	symbol "initialpuzzlestate"
 	symbol "killedahive"
 	symbol "resetorientation"
 	symbol "sinker"
