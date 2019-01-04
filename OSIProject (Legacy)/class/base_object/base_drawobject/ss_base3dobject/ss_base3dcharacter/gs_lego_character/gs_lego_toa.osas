@@ -758,45 +758,6 @@ begin class "gs_lego_toa", "gs_lego_character"
 		Return
 	end ; method
 
-	begin method "recordhakasequence"
-		; address: 0x4a27a
-		; source: 57 "C:\\projects\\lego\\Scripting\\VBO\\Toa/lego_Toa.vbo" 301:301
-		MemberFunctionArgumentCheck 1
-		LineNumber                  22981, 4
-		LineNumberAlt1              301, 57
-		GetThisMemberValueString    "toahandle"
-		CallGameFunctionString      "gctoa", "recordhakasequence", 1
-		Pop
-		PushNothing
-		Return
-	end ; method
-
-	begin method "stoprecordinghaka"
-		; address: 0x4a292
-		; source: 57 "C:\\projects\\lego\\Scripting\\VBO\\Toa/lego_Toa.vbo" 305:305
-		MemberFunctionArgumentCheck 1
-		LineNumber                  22985, 4
-		LineNumberAlt1              305, 57
-		GetThisMemberValueString    "toahandle"
-		CallGameFunctionString      "gctoa", "stoprecordinghaka", 1
-		Pop
-		PushNothing
-		Return
-	end ; method
-
-	begin method "ishakarecording"
-		; address: 0x4a2aa
-		; source: 57 "C:\\projects\\lego\\Scripting\\VBO\\Toa/lego_Toa.vbo" 309:309
-		MemberFunctionArgumentCheck 1
-		LineNumber                  22989, 4
-		LineNumberAlt1              309, 57
-		GetThisMemberValueString    "toahandle"
-		CallGameFunctionString      "gctoa", "ishakarecording", 1
-		LineNumber                  22989, 4
-		LineNumberAlt1              309, 57
-		Return
-	end ; method
-
 	begin method "compareagainstsequence"
 		; address: 0x4a2ca
 		; source: 57 "C:\\projects\\lego\\Scripting\\VBO\\Toa/lego_Toa.vbo" 313:313
