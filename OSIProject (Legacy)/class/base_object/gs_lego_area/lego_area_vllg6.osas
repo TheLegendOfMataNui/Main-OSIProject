@@ -298,6 +298,21 @@ begin class "lego_area_vllg6", "gs_lego_area"
 		LineNumberAlt1                62, 223
 		CallGameFunctionString        "gccharacter", "settohunga", 4
 		Pop
+        GetVariableValue              1                                            ; local
+        PushConstantStringString      "none"
+        CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+        CallGameFunctionString        "gccharacter", "setinputstate", 2
+        Pop
+        GetVariableValue              1                                            ; local
+        PushConstantStringString      "d000"
+        CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
+        PushConstanti8                -1
+        CallGameFunctionString        "gccharacter", "switchanimation", 3
+        Pop
+		GetVariableValue              1                                            ; local
+		PushConstanti16               -49
+		CallGameFunctionString        "gccharacter", "setorientation", 2
+		Pop
 		LineNumber                    16969, 4
 		LineNumberAlt1                64, 223
 		PushConstantStringString      "vl05"
@@ -492,40 +507,6 @@ begin class "lego_area_vllg6", "gs_lego_area"
 		Return
 	end ; method
 
-	begin method "initshort"
-		; address: 0xb7c5c
-		; source: 223 "C:\\projects\\lego\\Scripting\\VBO\\lev7/Lev7_onua.vbo" 85:86
-		MemberFunctionArgumentCheck  1
-		LineNumber                   16990, 4
-		LineNumberAlt1               85, 223
-		GetVariableValueGlobalString "globalclass"
-		GetMemberValueString         "player"
-		GetMemberValueString         "actor"
-		GetThisMemberValueString     "enterstartid"
-		GetThisMemberValueString     "enterlookid"
-		Pull                         3
-		GetMemberFunctionString      "gotopos"
-		JumpAbsolute                 3
-		Pop
-		LineNumber                   16991, 4
-		LineNumberAlt1               86, 223
-		GetVariableValueGlobalString "globalclass"
-		GetMemberValueString         "player"
-		Dup
-		GetMemberFunctionString      "unkill"
-		JumpAbsolute                 1
-		Pop
-		PushNothing
-		Return
-	end ; method
-
-	begin method "cleanupshort"
-		; address: 0xb7c98
-		MemberFunctionArgumentCheck 1
-		PushNothing
-		Return
-	end ; method
-
 	begin method "cleanupfull"
 		; address: 0xb7c9c
 		; source: 223 "C:\\projects\\lego\\Scripting\\VBO\\lev7/Lev7_onua.vbo" 97:99
@@ -555,13 +536,6 @@ begin class "lego_area_vllg6", "gs_lego_area"
 		Return
 	end ; method
 
-	begin method "process"
-		; address: 0xb7cd5
-		MemberFunctionArgumentCheck 2
-		PushNothing
-		Return
-	end ; method
-
 	begin method "onevent"
 		; address: 0xb7cd9
 		; source: 223 "C:\\projects\\lego\\Scripting\\VBO\\lev7/Lev7_onua.vbo" 111:121
@@ -580,12 +554,6 @@ begin class "lego_area_vllg6", "gs_lego_area"
 		PushConstantf32               1.2000000476837158
 		CallGameFunctionString        "gccollisionphysicsgroup", "spinmask", 1
 		Pop
-		LineNumber                    17021, 4
-		LineNumberAlt1                116, 223
-		GetVariableValue              0                                        ; local
-		GetThisMemberFunctionString   "cleanupshort"
-		JumpAbsolute                  1
-		Pop
 		BranchAlwaysTarget            1, 0
 		; ->
 		; <-
@@ -595,22 +563,28 @@ begin class "lego_area_vllg6", "gs_lego_area"
 		EqualTo
 		CompareAndBranchIfFalseTarget 1, 0
 		; ->
-		LineNumber                    17026, 4
-		LineNumberAlt1                121, 223
-		GetVariableValue              0                                        ; local
-		GetThisMemberFunctionString   "initshort"
-		JumpAbsolute                  1
+		LineNumber                   16990, 4
+		LineNumberAlt1               85, 223
+		GetVariableValueGlobalString "globalclass"
+		GetMemberValueString         "player"
+		GetMemberValueString         "actor"
+		GetThisMemberValueString     "enterstartid"
+		GetThisMemberValueString     "enterlookid"
+		Pull                         3
+		GetMemberFunctionString      "gotopos"
+		JumpAbsolute                 3
+		Pop
+		LineNumber                   16991, 4
+		LineNumberAlt1               86, 223
+		GetVariableValueGlobalString "globalclass"
+		GetMemberValueString         "player"
+		Dup
+		GetMemberFunctionString      "unkill"
+		JumpAbsolute                 1
 		Pop
 		; <-
 		BranchTarget                  1
 		Pop
-		PushNothing
-		Return
-	end ; method
-
-	begin method "input"
-		; address: 0xb7d3b
-		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method

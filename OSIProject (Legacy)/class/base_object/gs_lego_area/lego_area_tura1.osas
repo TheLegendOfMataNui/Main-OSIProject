@@ -1,6 +1,4 @@
 begin class "lego_area_tura1", "gs_lego_area"
-	property "when"
-
 	begin method "lego_area_tura1"
 		; address: 0x6f9d3
 		; source: 123 "C:\\projects\\lego\\Scripting\\VBO\\eventeditor/shoefittersounds.h" 29:30
@@ -62,15 +60,6 @@ begin class "lego_area_tura1", "gs_lego_area"
 		LineNumberAlt1                40, 123
 		PushConstanti8                3
 		CallGameFunctionString        "gcmodeldirector", "setnearestmax", 1
-		Pop
-		LineNumber                    47231, 4
-		LineNumberAlt1                43, 123
-		PushConstantStringString      "when"
-		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
-		LineNumber                    47231, 4
-		LineNumberAlt1                43, 123
-		PushConstant0
-		CallGameFunctionString        "gcmodeldirector", "getcharacter", 2
 		Pop
 		LineNumber                    47236, 4
 		LineNumberAlt1                48, 123
@@ -142,10 +131,6 @@ begin class "lego_area_tura1", "gs_lego_area"
 		GetThisMemberFunctionString "lego_area_hide"
 		JumpAbsolute                1
 		Pop
-		LineNumber                  47251, 4
-		LineNumberAlt1              63, 123
-		PushNothing
-		SetThisMemberValueString    "when"
 		PushNothing
 		Return
 	end ; method

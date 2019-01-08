@@ -41,15 +41,6 @@ begin class "lego_area_tura6", "gs_lego_area"
 		GetThisMemberFunctionString   "lego_area_initfull"
 		JumpAbsolute                  1
 		Pop
-		LineNumber                    17525, 4
-		LineNumberAlt1                39, 227
-		PushConstantStringString      "vaka"
-		CallGameFunctionString        "scslosifoundation", "stringtoidentifier", 1
-		LineNumber                    17525, 4
-		LineNumberAlt1                39, 227
-		PushConstant0
-		CallGameFunctionString        "gcmodeldirector", "getcharacter", 2
-		Pop
 		LineNumber                    17530, 4
 		LineNumberAlt1                44, 227
 		PushConstantStringString      "tps9"
@@ -126,27 +117,6 @@ begin class "lego_area_tura6", "gs_lego_area"
 		GetThisMemberFunctionString "lego_area_cleanupfull"
 		JumpAbsolute                1
 		Pop
-		PushNothing
-		Return
-	end ; method
-
-	begin method "process"
-		; address: 0xb8678
-		MemberFunctionArgumentCheck 2
-		PushNothing
-		Return
-	end ; method
-
-	begin method "onevent"
-		; address: 0xb867c
-		MemberFunctionArgumentCheck 2
-		PushNothing
-		Return
-	end ; method
-
-	begin method "input"
-		; address: 0xb8680
-		MemberFunctionArgumentCheck 2
 		PushNothing
 		Return
 	end ; method
