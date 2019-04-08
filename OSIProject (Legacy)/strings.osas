@@ -2760,4 +2760,7 @@ begin strings
 	string "getbooleanvalue"
 	string "setbooleanvalue"
 	string "Cave Lighting"
+	string "Editors"
+	string "Thomas \"VoidSlicerLP\""
+	string "Nina \"Eve\""
 end ; strings

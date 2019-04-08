@@ -979,6 +979,30 @@ begin class "creditsscreen"
 		PushConstant0
 		AppendToArray
 		Dup
+		PushConstantStringString    "Editors"
+		AppendToArray
+		Dup
+		PushConstanti8              2
+		AppendToArray
+		Dup
+		PushConstantStringString    "German Localization"
+		AppendToArray
+		Dup
+		PushConstanti8              1
+		AppendToArray
+		Dup
+		PushConstantStringString    "Thomas \"VoidSlicerLP\""
+		AppendToArray
+		Dup
+		PushConstant0
+		AppendToArray
+		Dup
+		PushConstantStringString    "Nina \"Eve\""
+		AppendToArray
+		Dup
+		PushConstant0
+		AppendToArray
+		Dup
 		PushConstantStringString    "Special Thanks"
 		AppendToArray
 		Dup
