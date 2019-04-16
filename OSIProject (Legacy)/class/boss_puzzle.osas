@@ -1514,7 +1514,7 @@ begin class "boss_puzzle"
 		LineNumber                    61282, 4
 		LineNumberAlt1                413, 158
 		GetThisMemberValueString      "rocker"
-		GetMemberValueString          "rockman"
+		GetMemberValueString          "rocky"
 		GetVariableValue              1                                             ; local
 		GetMemberValueString          "args"
 		PushConstanti8                4
@@ -1543,7 +1543,7 @@ begin class "boss_puzzle"
 		LineNumber                    61286, 4
 		LineNumberAlt1                417, 158
 		GetThisMemberValueString      "rocker"
-		GetMemberValueString          "rockman"
+		GetMemberValueString          "rocky"
 		GetVariableValue              1                                             ; local
 		GetMemberValueString          "args"
 		PushConstanti8                4
